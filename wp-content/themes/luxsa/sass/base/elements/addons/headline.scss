@@ -1,0 +1,91 @@
+@import "../../../mixins";
+
+.lastudio-headline {
+	margin-bottom: 0;
+	&,
+	& .lastudio-headline__link {
+		@include display;
+		@include flex-flow(row wrap);
+		@include justify-content(flex-start);
+		@include align-items(center);
+	}
+
+	& .lastudio-headline__link {
+		.rtl & {
+			@include flex-direction(row-reverse);
+		}
+	}
+
+	&--direction-horizontal {
+		&,
+		& .lastudio-headline__link {
+			@include flex-flow(row wrap);
+			@include justify-content(center);
+			@include align-items(center);
+		}
+
+		& .lastudio-headline__link {
+			flex-grow: 1;
+			max-width: 100%;
+		}
+	}
+
+	&--direction-vertical {
+		&,
+		& .lastudio-headline__link {
+			@include flex-flow(column nowrap);
+			@include justify-content(center);
+			@include align-items(center);
+		}
+
+		& .lastudio-headline__link {
+			align-self: stretch;
+		}
+
+		.lastudio-headline__divider {
+			width: 100%;
+		}
+	}
+
+	&__second,
+	&__first {
+		@include display;
+		@include flex-flow(row nowrap);
+		@include justify-content(flex-start);
+		@include align-items(center);
+	}
+
+
+	&__divider {
+		@include flex(1 1 auto);
+	}
+
+	&__deco {
+		&-icon {
+			@include display;
+			@include flex-flow(column nowrap);
+		}
+
+		&-image {
+			position: relative;
+			width: 50px;
+			height: 50px;
+			line-height: 0;
+
+			img {
+				width: 100% !important;
+				height: 100% !important;
+				object-fit: cover;
+			}
+		}
+	}
+	.headline__part--image-text {
+		.lastudio-headline__label {
+			-webkit-background-clip: text;
+			background-clip: text;
+			color: transparent !important;
+			background-position: center;
+			background-size: cover;
+		}
+	}
+}

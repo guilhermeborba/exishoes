@@ -1,0 +1,45 @@
+.lahb-logo{
+  @at-root img#{&}{
+    z-index: 2;
+    width: 100px;
+    @media(max-width: 767px){
+      width: 80px;
+    }
+  }
+  &.logo--transparency{
+    display: none;
+  }
+  .la-site-name {
+    font-size: 23px;
+    color: #444;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 100%;
+    transition: all .3s ease-in-out;
+  }
+  .la-site-desc {
+    color: #9a9a9a;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: none;
+    width: 100%;
+    align-self: flex-start;
+    transition: all .3s ease-in-out;
+  }
+}
+
+.enable-header-transparency {
+  .lahb-wrap {
+    &:not(.is-sticky) {
+      .logo--transparency {
+        display: inline-block;
+      }
+      .logo--normal {
+        display: none;
+      }
+      .lahb-search .search-field {
+        border-color: inherit;
+      }
+    }
+  }
+}

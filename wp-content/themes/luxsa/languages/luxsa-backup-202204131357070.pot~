@@ -1,0 +1,1819 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxsa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-13 13:46+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: luxsa"
+
+#: framework/woocommerce/woocommerce-wishlist.php:91
+#, php-format
+msgid "\"%1$s\" has been added to your cart."
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:75
+#, php-format
+msgid "\"%1$s\" has been removed from list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:77
+#, php-format
+msgid "\"%1$s\" has been removed from wishlist"
+msgstr ""
+
+#: framework/functions/helpers.php:957
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:466
+#, php-format
+msgid "%s Sold"
+msgstr ""
+
+#: framework/functions/helpers.php:938
+msgid "(Edit)"
+msgstr ""
+
+#: partials/entry/meta-author-i-date.php:23 partials/entry/meta-single.php:22
+#: partials/entry/meta.php:22
+#: partials/elementor/lastudio-posts/global/loop-item.php:117
+msgid "0 comment"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:507
+msgid "01"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:508
+msgid "02"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:509
+msgid "03"
+msgstr ""
+
+#: partials/entry/meta-author-i-date.php:23 partials/entry/meta-single.php:22
+#: partials/entry/meta.php:22
+#: partials/elementor/lastudio-posts/global/loop-item.php:117
+msgid "1 comment"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:300
+msgid "404 Not Found"
+msgstr ""
+
+#: framework/functions/helpers.php:2103
+msgid "404: Page Not Found"
+msgstr ""
+
+#: framework/classes/class-admin.php:65
+#, php-format
+msgid ""
+"<strong>%1$s</strong> widget area has been created. You can create more "
+"areas, once you finish update the page to see all the areas."
+msgstr ""
+
+#: framework/classes/class-admin.php:81
+#, php-format
+msgid "<strong>%1$s</strong> widget area has been deleted."
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:665
+msgid "[icon]Congratulations! You've got free shipping!"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:664
+msgid "[icon]Spend [amount] to get Free Shipping"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:127
+msgid "Add to cart"
+msgstr ""
+
+#: framework/classes/class-options.php:36
+msgctxt "admin-view"
+msgid "1 column"
+msgstr ""
+
+#: framework/configs/metaboxes.php:243
+msgctxt "admin-view"
+msgid "100% Main Width"
+msgstr ""
+
+#: framework/classes/class-options.php:37
+msgctxt "admin-view"
+msgid "2 columns left (3-9)"
+msgstr ""
+
+#: framework/classes/class-options.php:38
+msgctxt "admin-view"
+msgid "2 columns right (9-3)"
+msgstr ""
+
+#: framework/configs/metaboxes.php:312
+msgctxt "admin-view"
+msgid "Activate when scroll up"
+msgstr ""
+
+#: framework/configs/metaboxes.php:313
+msgctxt "admin-view"
+msgid "Activate when scroll up & down"
+msgstr ""
+
+#: framework/configs/metaboxes.php:179
+#: framework/woocommerce/woocommerce-helpers.php:746
+msgctxt "admin-view"
+msgid "Add Badge"
+msgstr ""
+
+#: framework/functions/helpers.php:1590
+msgctxt "admin-view"
+msgid "Archive Portfolio"
+msgstr ""
+
+#: framework/configs/metaboxes.php:186
+#: framework/woocommerce/woocommerce-helpers.php:754
+msgctxt "admin-view"
+msgid "Badge Text"
+msgstr ""
+
+#: framework/functions/helpers.php:1584
+msgctxt "admin-view"
+msgid "Blog Post"
+msgstr ""
+
+#: framework/functions/helpers.php:1688
+msgctxt "admin-view"
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:93
+msgctxt "admin-view"
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/configs/metaboxes.php:291
+msgctxt "admin-view"
+msgid "Controls the layout of the header."
+msgstr ""
+
+#: framework/configs/metaboxes.php:192
+#: framework/woocommerce/woocommerce-helpers.php:760
+msgctxt "admin-view"
+msgid "Custom Badge Background Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:198
+#: framework/woocommerce/woocommerce-helpers.php:766
+msgctxt "admin-view"
+msgid "Custom Badge Text Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:178
+#: framework/woocommerce/woocommerce-helpers.php:745
+msgctxt "admin-view"
+msgid "Custom Badges"
+msgstr ""
+
+#: framework/configs/metaboxes.php:267
+msgctxt "admin-view"
+msgid "Custom Body CSS Class"
+msgstr ""
+
+#: framework/configs/metaboxes.php:63
+msgctxt "admin-view"
+msgid "Custom Link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:250
+msgctxt "admin-view"
+msgid "Custom Main Space"
+msgstr ""
+
+#: framework/configs/metaboxes.php:351
+msgctxt "admin-view"
+msgid "Custom Text"
+msgstr ""
+
+#: framework/configs/metaboxes.php:73
+msgctxt "admin-view"
+msgid "Custom Video Link"
+msgstr ""
+
+#: framework/functions/helpers.php:1180 framework/functions/helpers.php:1227
+#: framework/functions/helpers.php:1327 framework/functions/helpers.php:1441
+#: framework/functions/helpers.php:1535
+msgctxt "admin-view"
+msgid "Desktop"
+msgstr ""
+
+#: framework/configs/metaboxes.php:311
+msgctxt "admin-view"
+msgid "Disable"
+msgstr ""
+
+#: framework/functions/helpers.php:1618 framework/functions/helpers.php:1623
+msgctxt "admin-view"
+msgid "Do not display"
+msgstr ""
+
+#: framework/configs/metaboxes.php:147
+msgctxt "admin-view"
+msgid "Dribbble url"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:63
+msgctxt "admin-view"
+msgid "Elementor"
+msgstr ""
+
+#: framework/configs/metaboxes.php:157
+msgctxt "admin-view"
+msgid "Email Address"
+msgstr ""
+
+#: framework/configs/metaboxes.php:86
+msgctxt "admin-view"
+msgid "Embed aspect ration"
+msgstr ""
+
+#: framework/configs/metaboxes.php:79
+msgctxt "admin-view"
+msgid "Embed Code"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:735
+msgctxt "admin-view"
+msgid "Enable Custom Badges"
+msgstr ""
+
+#: framework/configs/metaboxes.php:334
+msgctxt "admin-view"
+msgid "Enable Custom Style"
+msgstr ""
+
+#: framework/configs/metaboxes.php:308
+msgctxt "admin-view"
+msgid "Enable Header Sticky"
+msgstr ""
+
+#: framework/configs/metaboxes.php:300
+msgctxt "admin-view"
+msgid "Enable Header Transparency"
+msgstr ""
+
+#: framework/functions/helpers.php:1739
+msgctxt "admin-view"
+msgid "Enable Override"
+msgstr ""
+
+#: framework/configs/metaboxes.php:231
+msgctxt "admin-view"
+msgid "Enable Small Layout"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:85
+msgctxt "admin-view"
+msgid "Envato Market"
+msgstr ""
+
+#: framework/configs/metaboxes.php:204
+#: framework/woocommerce/woocommerce-helpers.php:772
+msgctxt "admin-view"
+msgid "Extra CSS class for badge"
+msgstr ""
+
+#: framework/configs/metaboxes.php:127
+msgctxt "admin-view"
+msgid "Facebook url"
+msgstr ""
+
+#: framework/configs/metaboxes.php:392
+msgctxt "admin-view"
+msgid "Footer"
+msgstr ""
+
+#: framework/configs/metaboxes.php:406
+msgctxt "admin-view"
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/functions/helpers.php:1557
+msgctxt "admin-view"
+msgid "For page header bar"
+msgstr ""
+
+#: framework/configs/metaboxes.php:96
+msgctxt "admin-view"
+msgid "For post format Gallery"
+msgstr ""
+
+#: framework/configs/metaboxes.php:58
+msgctxt "admin-view"
+msgid "For post format Link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:31
+msgctxt "admin-view"
+msgid "For post format Quote"
+msgstr ""
+
+#: framework/configs/metaboxes.php:68
+msgctxt "admin-view"
+msgid "For post format Video & Audio"
+msgstr ""
+
+#: framework/configs/metaboxes.php:101
+msgctxt "admin-view"
+msgid "Gallery Images"
+msgstr ""
+
+#: framework/configs/metaboxes.php:277
+msgctxt "admin-view"
+msgid "Header"
+msgstr ""
+
+#: framework/configs/metaboxes.php:290
+msgctxt "admin-view"
+msgid "Header Layout"
+msgstr ""
+
+#: framework/classes/class-options.php:52
+msgctxt "admin-view"
+msgid "Header Layout 01 ( Logo + Menu + Access Icon )"
+msgstr ""
+
+#: framework/functions/helpers.php:1701
+msgctxt "admin-view"
+msgid "Heading Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1676
+msgctxt "admin-view"
+msgid "Heading Fonts"
+msgstr ""
+
+#: framework/functions/helpers.php:1751
+msgctxt "admin-view"
+msgid "Heading Tag"
+msgstr ""
+
+#: framework/classes/class-options.php:99
+msgctxt "admin-view"
+msgid "Hidden"
+msgstr ""
+
+#: framework/configs/metaboxes.php:343
+msgctxt "admin-view"
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: framework/configs/metaboxes.php:399
+msgctxt "admin-view"
+msgid "Hide Footer"
+msgstr ""
+
+#: framework/configs/metaboxes.php:284
+msgctxt "admin-view"
+msgid "Hide header"
+msgstr ""
+
+#: framework/configs/metaboxes.php:368
+msgctxt "admin-view"
+msgid "Hide Page Title"
+msgstr ""
+
+#: framework/classes/class-options.php:42
+#: framework/classes/class-options.php:61
+#: framework/classes/class-options.php:71
+#: framework/classes/class-options.php:81
+#: framework/classes/class-options.php:98 framework/configs/metaboxes.php:234
+#: framework/configs/metaboxes.php:310 framework/functions/helpers.php:1622
+msgctxt "admin-view"
+msgid "Inherit"
+msgstr ""
+
+#: framework/configs/metaboxes.php:74
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo embed link"
+msgstr ""
+
+#: framework/configs/metaboxes.php:80
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo or Audio embed code."
+msgstr ""
+
+#: framework/functions/helpers.php:1166 framework/functions/helpers.php:1215
+#: framework/functions/helpers.php:1308 framework/functions/helpers.php:1420
+#: framework/functions/helpers.php:1522
+msgctxt "admin-view"
+msgid "Laptop"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:47
+msgctxt "admin-view"
+msgid "LaStudio Core"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:55
+msgctxt "admin-view"
+msgid "LaStudio Header Builder"
+msgstr ""
+
+#: framework/configs/metaboxes.php:216 framework/configs/metaboxes.php:222
+msgctxt "admin-view"
+msgid "Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:251
+msgctxt "admin-view"
+msgid "Leave empty if you not need"
+msgstr ""
+
+#: functions.php:279
+msgctxt "admin-view"
+msgid "light grayish magenta"
+msgstr ""
+
+#: framework/functions/helpers.php:1719
+msgctxt "admin-view"
+msgid "Link Color"
+msgstr ""
+
+#: framework/functions/helpers.php:1728
+msgctxt "admin-view"
+msgid "Link Hover Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:142
+msgctxt "admin-view"
+msgid "LinkedIn url"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:77
+msgctxt "admin-view"
+msgid "Luxsa Package Demo Data"
+msgstr ""
+
+#: functions.php:204
+msgctxt "admin-view"
+msgid "Main Navigation"
+msgstr ""
+
+#: framework/configs/metaboxes.php:110
+msgctxt "admin-view"
+msgid "Member Information"
+msgstr ""
+
+#: framework/configs/metaboxes.php:11 framework/configs/metaboxes.php:17
+msgctxt "admin-view"
+msgid "Meta Options"
+msgstr ""
+
+#: framework/functions/helpers.php:1125 framework/functions/helpers.php:1251
+#: framework/functions/helpers.php:1357 framework/functions/helpers.php:1480
+msgctxt "admin-view"
+msgid "Mobile"
+msgstr ""
+
+#: framework/functions/helpers.php:1139 framework/functions/helpers.php:1270
+#: framework/functions/helpers.php:1378 framework/functions/helpers.php:1494
+msgctxt "admin-view"
+msgid "Mobile Landscape"
+msgstr ""
+
+#: framework/classes/class-options.php:74
+msgctxt "admin-view"
+msgid "No"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:737
+msgctxt "admin-view"
+msgid "No Change"
+msgstr ""
+
+#: framework/configs/metaboxes.php:260
+msgctxt "admin-view"
+msgid "None"
+msgstr ""
+
+#: framework/classes/class-options.php:84 framework/configs/metaboxes.php:236
+msgctxt "admin-view"
+msgid "Off"
+msgstr ""
+
+#: framework/classes/class-options.php:83 framework/configs/metaboxes.php:235
+msgctxt "admin-view"
+msgid "On"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:738
+msgctxt "admin-view"
+msgid "Override"
+msgstr ""
+
+#: framework/configs/metaboxes.php:257
+msgctxt "admin-view"
+msgid "Override Sidebar"
+msgstr ""
+
+#: framework/functions/helpers.php:1651
+msgctxt "admin-view"
+msgid "Page Header Background"
+msgstr ""
+
+#: framework/functions/helpers.php:1643
+msgctxt "admin-view"
+msgid "Page Header Border"
+msgstr ""
+
+#: framework/functions/helpers.php:1668
+msgctxt "admin-view"
+msgid "Page Header Spacing"
+msgstr ""
+
+#: framework/configs/metaboxes.php:376 framework/configs/metaboxes.php:382
+msgctxt "admin-view"
+msgid "Page Title Bar"
+msgstr ""
+
+#: functions.php:256
+msgctxt "admin-view"
+msgid "pale pink"
+msgstr ""
+
+#: framework/configs/metaboxes.php:122
+msgctxt "admin-view"
+msgid "Phone"
+msgstr ""
+
+#: framework/configs/metaboxes.php:137
+msgctxt "admin-view"
+msgid "Pinterest url"
+msgstr ""
+
+#: framework/configs/metaboxes.php:25
+msgctxt "admin-view"
+msgid "Post"
+msgstr ""
+
+#: framework/configs/metaboxes.php:166
+msgctxt "admin-view"
+msgid "Product"
+msgstr ""
+
+#: framework/configs/metaboxes.php:173
+msgctxt "admin-view"
+msgid "Product Video url"
+msgstr ""
+
+#: framework/configs/metaboxes.php:41
+msgctxt "admin-view"
+msgid "Quote Author"
+msgstr ""
+
+#: framework/configs/metaboxes.php:46
+msgctxt "admin-view"
+msgid "Quote Background Color"
+msgstr ""
+
+#: framework/configs/metaboxes.php:36
+msgctxt "admin-view"
+msgid "Quote Content"
+msgstr ""
+
+#: framework/configs/metaboxes.php:52
+msgctxt "admin-view"
+msgid "Quote Text Color"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:739
+msgctxt "admin-view"
+msgid "Remove Existing Data"
+msgstr ""
+
+#: framework/configs/metaboxes.php:359
+msgctxt "admin-view"
+msgid "Replace breadcrumb by custom text"
+msgstr ""
+
+#: framework/configs/metaboxes.php:117
+msgctxt "admin-view"
+msgid "Role"
+msgstr ""
+
+#: framework/configs/metaboxes.php:407
+msgctxt "admin-view"
+msgid "Select a layout"
+msgstr ""
+
+#: framework/functions/helpers.php:1634
+msgctxt "admin-view"
+msgid "Select Layout"
+msgstr ""
+
+#: framework/configs/metaboxes.php:223
+msgctxt "admin-view"
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: framework/configs/metaboxes.php:258
+msgctxt "admin-view"
+msgid "Select sidebar that will display on this page."
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:221
+msgctxt "admin-view"
+msgid "Shop Sidebar Filter"
+msgstr ""
+
+#: framework/functions/helpers.php:1596
+msgctxt "admin-view"
+msgid "Single Portfolio"
+msgstr ""
+
+#: framework/functions/helpers.php:1578
+msgctxt "admin-view"
+msgid "Single Post"
+msgstr ""
+
+#: framework/functions/helpers.php:1572
+msgctxt "admin-view"
+msgid "Single Product"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:99
+msgctxt "admin-view"
+msgid "Slider Revolution"
+msgstr ""
+
+#: functions.php:274
+msgctxt "admin-view"
+msgid "strong magenta"
+msgstr ""
+
+#: framework/functions/helpers.php:1152 framework/functions/helpers.php:1203
+#: framework/functions/helpers.php:1289 framework/functions/helpers.php:1399
+#: framework/functions/helpers.php:1508
+msgctxt "admin-view"
+msgid "Tablet"
+msgstr ""
+
+#: framework/functions/helpers.php:1710
+msgctxt "admin-view"
+msgid "Text Color"
+msgstr ""
+
+#: functions.php:262
+msgctxt "admin-view"
+msgid "theme primary"
+msgstr ""
+
+#: functions.php:268
+msgctxt "admin-view"
+msgid "theme secondary"
+msgstr ""
+
+#: framework/functions/helpers.php:1568 framework/functions/helpers.php:1574
+#: framework/functions/helpers.php:1580 framework/functions/helpers.php:1586
+#: framework/functions/helpers.php:1592 framework/functions/helpers.php:1598
+msgctxt "admin-view"
+msgid "This option will not work with these pages were overwritten"
+msgstr ""
+
+#: framework/classes/class-options.php:90
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs Centered"
+msgstr ""
+
+#: framework/classes/class-options.php:91
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Left"
+msgstr ""
+
+#: framework/classes/class-options.php:92
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Right"
+msgstr ""
+
+#: framework/classes/class-options.php:93
+msgctxt "admin-view"
+msgid "Title Left & Breadcrumbs Right"
+msgstr ""
+
+#: framework/classes/class-options.php:94
+msgctxt "admin-view"
+msgid "Title Right & Breadcrumbs Left"
+msgstr ""
+
+#: framework/configs/metaboxes.php:244
+msgctxt "admin-view"
+msgid ""
+"Turn on to have the main area display at 100% width according to the window "
+"size. Turn off to follow site width."
+msgstr ""
+
+#: framework/functions/helpers.php:1591
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Archive Portfolio"
+msgstr ""
+
+#: framework/functions/helpers.php:1585
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of Blog/Tag/Category pages"
+msgstr ""
+
+#: framework/functions/helpers.php:1579
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Post pages"
+msgstr ""
+
+#: framework/functions/helpers.php:1597
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Portfolio"
+msgstr ""
+
+#: framework/functions/helpers.php:1573
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Product"
+msgstr ""
+
+#: framework/functions/helpers.php:1567
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of WooCommerce Settings ( "
+"Shop page / Product Category / Product Tags and Search page )"
+msgstr ""
+
+#: framework/configs/metaboxes.php:132
+msgctxt "admin-view"
+msgid "Twitter url"
+msgstr ""
+
+#: functions.php:289
+msgctxt "admin-view"
+msgid "very dark gray"
+msgstr ""
+
+#: functions.php:284
+msgctxt "admin-view"
+msgid "very light gray"
+msgstr ""
+
+#: tgm/tgm-plugin-activation.php:70 framework/functions/helpers.php:1566
+msgctxt "admin-view"
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/classes/class-options.php:73
+msgctxt "admin-view"
+msgid "Yes"
+msgstr ""
+
+#: framework/configs/metaboxes.php:152
+msgctxt "admin-view"
+msgid "Youtube url"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:301
+msgid "Archives"
+msgstr ""
+
+#: framework/classes/class-admin.php:130
+msgid "Are you sure?"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:131
+msgid "Availability"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:469
+msgid "Available"
+msgstr ""
+
+#: woocommerce/single-product/product-image.php:71
+msgid "Awaiting product image"
+msgstr ""
+
+#: framework/functions/helpers.php:2122
+msgid "Blog"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:298
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: partials/entry/meta-author-i-date.php:8 partials/entry/meta-cat-author.php:9
+#: partials/entry/meta-date-author.php:14
+#: partials/entry/meta-date-author2.php:14 partials/entry/meta-single.php:8
+#: partials/entry/meta.php:8
+#: partials/elementor/lastudio-posts/global/loop-item.php:58
+#: partials/elementor/lastudio-posts/global/loop-item.php:107
+msgid "by "
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:508
+msgid "Check out"
+msgstr ""
+
+#: comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: partials/entry/layout.php:74
+msgid "Continue Reading"
+msgstr ""
+
+#: framework/classes/class-admin.php:128
+msgid "Create"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:26
+msgid "Custom Icon"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:951 framework/classes/breadcrumbs.php:1383
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: framework/functions/helpers.php:2071
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:449
+msgid "Days"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:220
+#: framework/woocommerce/woocommerce-helpers.php:24
+msgid "Default"
+msgstr ""
+
+#: functions.php:755
+msgid "Default Sidebar"
+msgstr ""
+
+#: framework/classes/class-admin.php:131
+msgid "Delete"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:130
+msgid "Description"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:133
+msgid "Dimensions"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:489
+msgid "Discount code"
+msgstr ""
+
+#: framework/functions/helpers.php:975
+msgid "edit"
+msgstr ""
+
+#: framework/functions/helpers.php:1002
+msgid "Email"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:490
+msgid "Enter your coupon if you have one"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:485
+msgid "Enter your destination to get shipping"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:484
+msgid "Estimate Shipping"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:196
+msgid "Extra Settings"
+msgstr ""
+
+#: partials/entry/meta-cat-sticky.php:7
+msgid "Featured"
+msgstr ""
+
+#. Name of the template
+msgid "Footer Empty"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:50
+msgid "Force Full Width"
+msgstr ""
+
+#: 404.php:58
+msgctxt "front-end"
+msgid "404"
+msgstr ""
+
+#: framework/third/lastudio.php:295
+msgctxt "front-end"
+msgid "Next"
+msgstr ""
+
+#: 404.php:60
+msgctxt "front-end"
+msgid "Page Cannot Be Found!"
+msgstr ""
+
+#: framework/third/lastudio.php:278
+msgctxt "front-end"
+msgid "Prev"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:727
+msgctxt "front-end"
+msgid "Share:"
+msgstr ""
+
+#: partials/footer/searchform-overlay.php:21
+msgctxt "front-end"
+msgid "Ver mais"
+msgstr ""
+
+#: author-bio.php:38
+msgctxt "front-end"
+msgid "View all posts"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:756
+#, php-format
+msgctxt "front-view"
+msgid "%s items"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:524
+#: framework/woocommerce/woocommerce-config.php:527
+#: framework/woocommerce/woocommerce-config.php:533
+msgctxt "front-view"
+msgid "Add to compare"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:566
+msgctxt "front-view"
+msgid "Add to Wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:593
+#: framework/woocommerce/woocommerce-config.php:616
+msgctxt "front-view"
+msgid "Add to wishlist"
+msgstr ""
+
+#: functions.php:627 functions.php:640
+msgctxt "front-view"
+msgid "An error occurred ,Please try again !"
+msgstr ""
+
+#: functions.php:632 functions.php:637
+msgctxt "front-view"
+msgid "An error occurred, Please try again !"
+msgstr ""
+
+#: functions.php:623
+msgctxt "front-view"
+msgid "Back"
+msgstr ""
+
+#: 404.php:61
+msgctxt "front-view"
+msgid "Back to home"
+msgstr ""
+
+#: partials/footer/cart-overlay.php:10
+msgctxt "front-view"
+msgid "Carrinho de compras"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:217
+msgctxt "front-view"
+msgid "Choose an option"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:97
+msgctxt "front-view"
+msgid "Clear All Filter"
+msgstr ""
+
+#: functions.php:645
+msgctxt "front-view"
+msgid "Continue Shopping"
+msgstr ""
+
+#: partials/footer/searchform-overlay.php:8
+msgctxt "front-view"
+msgid "Digite aqui o que você procura"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:53
+msgctxt "Filtros"
+msgid "Filters"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:71
+msgctxt "front-view"
+msgid "Grid view"
+msgstr ""
+
+#: functions.php:626
+msgctxt "front-view"
+msgid "has been added to comparison list."
+msgstr ""
+
+#: functions.php:636
+msgctxt "front-view"
+msgid "has been added to your cart"
+msgstr ""
+
+#: functions.php:631
+msgctxt "front-view"
+msgid "has been added to your wishlist."
+msgstr ""
+
+#: partials/none.php:9
+msgctxt "front-view"
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:66
+msgctxt "front-view"
+msgid "List view"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:37
+msgctxt "front-view"
+msgid "Next"
+msgstr ""
+
+#: functions.php:644
+msgctxt "front-view"
+msgid "Please enter Comment !"
+msgstr ""
+
+#: functions.php:642
+msgctxt "front-view"
+msgid "Please enter Email Address !"
+msgstr ""
+
+#: functions.php:641
+msgctxt "front-view"
+msgid "Please enter Name !"
+msgstr ""
+
+#: functions.php:643
+msgctxt "front-view"
+msgid "Please select a rating !"
+msgstr ""
+
+#: framework/functions/helpers.php:1097
+msgctxt "front-view"
+msgid "Posted in"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:36
+msgctxt "front-view"
+msgid "Prev"
+msgstr ""
+
+#: woocommerce/la_compare.php:83
+msgctxt "front-view"
+msgid "Product Info"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:490
+#: framework/woocommerce/woocommerce-config.php:491
+msgctxt "front-view"
+msgid "Quick View"
+msgstr ""
+
+#: woocommerce/single-product/related.php:74
+msgctxt "front-view"
+msgid "Related Products"
+msgstr ""
+
+#: woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search entire store&hellip;"
+msgstr ""
+
+#: searchform.php:6 woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:6
+msgctxt "front-view"
+msgid "Search here&hellip;"
+msgstr ""
+
+#: partials/singular/layout-post.php:69
+#: partials/singular/layout-mphb_room_type.php:61
+msgctxt "front-view"
+msgid "Share with"
+msgstr ""
+
+#: functions.php:648
+msgctxt "front-view"
+msgid "Show Less"
+msgstr ""
+
+#: functions.php:647
+msgctxt "front-view"
+msgid "Show More +"
+msgstr ""
+
+#: woocommerce/loop/orderby.php:35
+msgctxt "front-view"
+msgid "Sort by"
+msgstr ""
+
+#: partials/singular/layout-post.php:65
+msgctxt "front-view"
+msgid "Tags:"
+msgstr ""
+
+#: functions.php:635
+msgctxt "front-view"
+msgid "View Cart"
+msgstr ""
+
+#: functions.php:625
+msgctxt "front-view"
+msgid "View List Compare"
+msgstr ""
+
+#: functions.php:630
+msgctxt "front-view"
+msgid "View List Wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:561
+#: framework/woocommerce/woocommerce-config.php:588
+#: framework/woocommerce/woocommerce-config.php:611
+msgctxt "front-view"
+msgid "View Wishlist"
+msgstr ""
+
+#: functions.php:646
+msgctxt "front-view"
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled on "
+"your browser"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:71
+msgctxt "front-view"
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:79
+msgctxt "front-view"
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: framework/functions/helpers.php:1052
+msgid "Full"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:84
+msgid "Grid 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:85
+msgid "Grid 2"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:86
+msgid "Grid 3"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:87
+msgid "Grid 4"
+msgstr ""
+
+#: framework/functions/helpers.php:2332
+msgid "Guest"
+msgstr ""
+
+#: framework/configs/metaboxes.php:390
+msgid "here"
+msgstr ""
+
+#: framework/classes/class-admin.php:126
+msgid "Here you can create new widget areas for use in the Sidebar module"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:299
+msgid "Home"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:933
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:452
+msgid "Hours"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themeforest.net/user/LaStudio/portfolio?ref=LaStudio"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/LaStudio?ref=LaStudio"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:44
+msgid "If value is Mega, all the sub menu items will be hidden on desktop"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:125
+msgid "Image"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:99
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/la_compare.php:132
+msgid "In stock"
+msgstr ""
+
+#: functions.php:678
+msgid "Internal error. Please, try again later"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:113
+#: framework/woocommerce/woocommerce-compare.php:121
+#: framework/woocommerce/woocommerce-compare.php:127
+#: framework/woocommerce/woocommerce-wishlist.php:129
+#: framework/woocommerce/woocommerce-wishlist.php:137
+#: framework/woocommerce/woocommerce-wishlist.php:143
+msgid "Invalid Product ID"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:139
+#: framework/woocommerce/woocommerce-wishlist.php:155
+msgid "Invalid security key"
+msgstr ""
+
+#. Author of the theme
+msgid "LA Studio"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:18 framework/third/lastudio.php:208
+msgid "LaStudio Icons"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:458
+msgid "left"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:88
+msgid "List 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:89
+msgid "List 2"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:90
+msgid "List 3"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:91
+msgid "List 4"
+msgstr ""
+
+#: framework/functions/helpers.php:605
+msgid "Load More"
+msgstr ""
+
+#: comments.php:81
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:81
+msgid "Log out of this account"
+msgstr ""
+
+#: comments.php:81
+msgid "Logged in as"
+msgstr ""
+
+#. Name of the theme
+msgid "Luxsa"
+msgstr ""
+
+#. Description of the theme
+msgid "LUXSA - Fashion WooCommerce Theme"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:41
+msgid "Mega"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:38
+msgid "Menu Type"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:43
+msgid "Minimalist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:455
+msgid "Mins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: framework/classes/breadcrumbs.php:307
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:899
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:916
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:950 framework/classes/breadcrumbs.php:1006
+#: framework/classes/breadcrumbs.php:1379
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: framework/functions/helpers.php:2076
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: woocommerce/la_compare.php:40
+msgid "N/A"
+msgstr ""
+
+#: framework/functions/helpers.php:1000
+msgid "Name (required)"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:40
+msgid "Narrow"
+msgstr ""
+
+#: comments.php:64 partials/singular/layout-post.php:84
+#: partials/singular/layout-mphb_room_type.php:71
+msgid "Next"
+msgstr ""
+
+#: woocommerce/la_compare.php:176
+msgid "No products were added to the list"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:133
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:34
+msgid "None"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:509
+msgid "Order completed"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:96
+msgid "Out of Stock"
+msgstr ""
+
+#: woocommerce/la_compare.php:135
+msgid "Out of stock"
+msgstr ""
+
+#. %s is the page number.
+#: framework/classes/breadcrumbs.php:305
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/functions/helpers.php:2076
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: framework/functions/helpers.php:2081
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: partials/page/article.php:20 partials/singular/layout-post.php:54
+#: partials/singular/layout-mphb_room_type.php:48
+#: partials/singular/layout.php:21
+msgid "Pages:"
+msgstr ""
+
+#: framework/functions/helpers.php:938
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:676
+msgid "Please, provide valid mail"
+msgstr ""
+
+#: functions.php:677
+msgid "Please, set up MailChimp API key and List ID"
+msgstr ""
+
+#: functions.php:774
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:57
+msgid "Popup Max Width"
+msgstr ""
+
+#: comments.php:86
+msgid "Post Comment"
+msgstr ""
+
+#: partials/singular/layout-post.php:85
+#: partials/singular/layout-mphb_room_type.php:72
+msgid "Prev"
+msgstr ""
+
+#: comments.php:63
+msgid "Previous"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:53 woocommerce/la_wishlist.php:103
+#: framework/woocommerce/woocommerce-helpers.php:128
+msgid "Price"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:51 woocommerce/la_wishlist.php:91
+msgid "Product"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:153
+#: framework/woocommerce/woocommerce-wishlist.php:169
+msgid "Product added"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:149
+msgid "Product already in list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:165
+msgid "Product already in wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:176
+msgid "Product does not exist in list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:192
+msgid "Product does not exist in wishlist"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-compare.php:169
+msgid "Product has been removed from list"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-wishlist.php:185
+msgid "Product has been removed from wishlist"
+msgstr ""
+
+#: partials/portfolio/loop-item.php:22
+#: partials/elementor/lastudio-portfolio/global/loop-item.php:16
+msgid "Read More"
+msgstr ""
+
+#: framework/functions/helpers.php:2036
+msgid "Recent Posts"
+msgstr ""
+
+#: partials/singular/related-posts.php:84
+msgid "Related Posts"
+msgstr ""
+
+#: woocommerce/la_compare.php:103
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:82
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: dokan/store-custom-header.php:95
+msgid "Search in this shop"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: framework/classes/breadcrumbs.php:303
+msgid "Search results for"
+msgstr ""
+
+#: framework/functions/helpers.php:2049
+msgid "Search Results Found"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:458
+msgid "Secs"
+msgstr ""
+
+#: functions.php:679
+msgid "Server error. Please, try again later"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:51
+msgid "Set 100% window width for popup"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:35
+msgid "Shadow"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:200
+msgctxt "shapes"
+msgid "Rectangles 2"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:507
+msgid "Shopping Cart"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:43 woocommerce/loop/toolbar.php:46
+#, php-format
+msgid "Show %s"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:32
+msgid "Show Only Icon"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:129
+msgid "Sku"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-config.php:470
+msgid "Sold"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:406
+msgid "Sort by Default"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:409
+msgid "Sort by Latest"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:407
+msgid "Sort by Popularity"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:410
+#: framework/woocommerce/woocommerce-helpers.php:411
+#, php-format
+msgid "Sort by Price: %s"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:408
+msgid "Sort by Rated"
+msgstr ""
+
+#: woocommerce/la_wishlist.php:52 woocommerce/la_wishlist.php:94
+msgid "Stock Status"
+msgstr ""
+
+#: framework/third/dokan.php:87
+msgid "Store Banner height"
+msgstr ""
+
+#: framework/third/dokan.php:81
+msgid "Store Banner width"
+msgstr ""
+
+#: dokan/store-custom-header.php:18
+msgid "Store Closed"
+msgstr ""
+
+#: framework/third/dokan.php:93
+msgid "Store Header Template"
+msgstr ""
+
+#: dokan/store-custom-header.php:17
+msgid "Store Open"
+msgstr ""
+
+#: functions.php:680
+msgid "Success"
+msgstr ""
+
+#: dokan/store-toc.php:25
+msgid "Terms And Conditions"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid "This post has %s comments"
+msgstr ""
+
+#: comments.php:40
+msgid "This post has one comment"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:77
+msgid "Tip Background"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:71
+msgid "Tip Color"
+msgstr ""
+
+#: framework/classes/class-megamenu-init.php:65
+msgid "Tip Label"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:126
+msgid "Title"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:44
+#: framework/third/lastudio-elementor.php:58
+#: framework/third/lastudio-elementor.php:68
+#: framework/third/lastudio-elementor.php:100
+#: framework/third/lastudio-elementor.php:221
+#: framework/woocommerce/woocommerce-helpers.php:34
+#: framework/woocommerce/woocommerce-helpers.php:52
+msgid "Type 1"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:45
+#: framework/third/lastudio-elementor.php:59
+#: framework/third/lastudio-elementor.php:69
+#: framework/third/lastudio-elementor.php:101
+#: framework/third/lastudio-elementor.php:222
+#: framework/woocommerce/woocommerce-helpers.php:35
+#: framework/woocommerce/woocommerce-helpers.php:53
+msgid "Type 2"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:46
+#: framework/third/lastudio-elementor.php:70
+#: framework/third/lastudio-elementor.php:102
+#: framework/third/lastudio-elementor.php:223
+#: framework/woocommerce/woocommerce-helpers.php:36
+#: framework/woocommerce/woocommerce-helpers.php:54
+msgid "Type 3"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:47
+#: framework/third/lastudio-elementor.php:71
+#: framework/third/lastudio-elementor.php:103
+#: framework/woocommerce/woocommerce-helpers.php:37
+#: framework/woocommerce/woocommerce-helpers.php:55
+msgid "Type 4"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:48
+#: framework/third/lastudio-elementor.php:72
+#: framework/third/lastudio-elementor.php:104
+#: framework/woocommerce/woocommerce-helpers.php:38
+#: framework/woocommerce/woocommerce-helpers.php:56
+msgid "Type 5"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:49
+#: framework/third/lastudio-elementor.php:73
+#: framework/third/lastudio-elementor.php:105
+#: framework/woocommerce/woocommerce-helpers.php:39
+#: framework/woocommerce/woocommerce-helpers.php:57
+msgid "Type 6"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:74
+#: framework/third/lastudio-elementor.php:106
+#: framework/woocommerce/woocommerce-helpers.php:40
+#: framework/woocommerce/woocommerce-helpers.php:58
+msgid "Type 7"
+msgstr ""
+
+#: framework/third/lastudio-elementor.php:75
+#: framework/woocommerce/woocommerce-helpers.php:41
+#: framework/woocommerce/woocommerce-helpers.php:59
+msgid "Type 8"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:42
+#: framework/woocommerce/woocommerce-helpers.php:60
+msgid "Type 9"
+msgstr ""
+
+#: framework/third/dokan.php:94
+msgid "Use Store Header Template from the theme"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:34
+msgid "View"
+msgstr ""
+
+#: woocommerce/loop/toolbar.php:36
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: framework/third/lastudio.php:262
+msgid "View All"
+msgstr ""
+
+#: framework/functions/helpers.php:1004
+msgid "Website"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: framework/classes/breadcrumbs.php:309
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:979
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: framework/woocommerce/woocommerce-helpers.php:132
+msgid "Weight"
+msgstr ""
+
+#: framework/classes/class-admin.php:127
+msgid "Widget Name"
+msgstr ""
+
+#: functions.php:757
+msgid ""
+"Widgets in this area will be displayed in the left or right sidebar area if "
+"you choose the Left or Right Sidebar layout."
+msgstr ""
+
+#: framework/classes/breadcrumbs.php:949 framework/classes/breadcrumbs.php:978
+#: framework/classes/breadcrumbs.php:1005
+#: framework/classes/breadcrumbs.php:1032
+#: framework/classes/breadcrumbs.php:1375
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: framework/functions/helpers.php:2081
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: framework/configs/metaboxes.php:408
+#, php-format
+msgid "You can manage footer layout on %s"
+msgstr ""
+
+#: comments.php:80
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: comments.php:84
+msgid "Your Comment Here..."
+msgstr ""
+
+#: framework/functions/helpers.php:965
+msgid "Your comment is awaiting moderation."
+msgstr ""

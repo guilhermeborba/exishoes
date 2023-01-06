@@ -1,0 +1,219 @@
+.job_listings.grid-items{
+  margin: 0 -15px;
+  list-style: none;
+  border: none;
+}
+li.no_job_listings_found {
+  padding: 20px;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+.listing__content-metaitem {
+  display: inline-block;
+  margin-right: 30px;
+  &:last-child{
+    margin-right: 0 !important;
+  }
+  @media(max-width: 1300px){
+    margin-right: 15px;
+  }
+}
+
+.listing__content-price{
+  color: $primary-color;
+}
+
+.listing__image{
+  img{
+    width:100%;
+  }
+}
+
+.listing__content{
+  position: relative;
+  background-color: #212121;
+  color: #fff;
+  padding: 30px;
+  i[class*="lastudioicon"]{
+    color: #EA622B;
+    padding-right: 5px;
+  }
+}
+
+.listing__content-types{
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  .job-type{
+    background-color: #3377FA;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 12px;
+    padding: 7px 15px 5px;
+    vertical-align: middle;
+    line-height: 20px;
+    &.for-sale{
+      background-color: #EA622B;
+    }
+  }
+}
+
+.job_listings{
+  &.listing-preset-type-2{
+    background-color: #fff;
+  }
+  h3{
+    color: inherit;
+  }
+  .job_listings{
+    .job_listing{
+      border: none;
+    }
+  }
+  .job_listing{
+    .listing__content-types{
+      .job-type{
+        color: inherit;
+      }
+    }
+    .listing__image{
+      a{
+        padding: 0;
+        display: block;
+        width: 100%;
+      }
+    }
+    .listing__content-title{
+      a{
+        padding: 0;
+        background: none !important;
+      }
+    }
+  }
+  .job_filters{
+    background: none;
+    .job_types{
+      display:none;
+    }
+    input[type="text"],
+    select{
+      border-color: #979797;
+      background-color: #fff;
+      color: #3E3E3E;
+      height: 80px;
+    }
+    .search_jobs{
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      padding: 0;
+      margin-left: -15px;
+      margin-right: -15px;
+      .search_price_range,
+      .search_bedroom,
+      .search_bathroom,
+      .search_size_range,
+      .search_categories,
+      .search_location,
+      .search_keywords{
+        width: 33%;
+        padding: 0 15px;
+        margin-bottom: 30px;
+      }
+      div[style*="clear"]{
+        display: none !important;
+      }
+    }
+    .lastudio-search-submit{
+      width: 33%;
+      padding: 0 15px;
+      .search-submit{
+        width: 100%;
+        height:80px;
+        font-size: 20px;
+        position: relative;
+        background-color: $primary-color;
+        i{
+          font-size: 2em;
+          position: absolute;
+          left: 1em;
+          top: 51%;
+          @include translateY(-50%);
+        }
+      }
+    }
+  }
+}
+.job_filters .search_jobs div label {
+  display: none;
+}
+
+.job_listings.listing-preset-type-2,
+.job_listings.listing-preset-type-1{
+  li.job_listing {
+    @include display;
+    @include flex-flow(column nowrap);
+    .listing__content{
+      height: 100%;
+    }
+  }
+}
+
+/**
+$LISTING PRESET 03
+ */
+.job_listings{
+  &.listing-preset-type-3{
+    .job_listing{
+      position: relative;
+      height: 80vh;
+      max-height: 890px;
+      @include display;
+      @include align-items(center);
+    }
+    .listing{
+      &__content-outer{
+        width: 1532px;
+        max-width: 90%;
+        margin: 0 auto;
+      }
+      &__image{
+        position: absolute;
+        left: 0;
+        width: 100%;
+        top: 0;
+        height: 100%;
+        a{
+          pointer-events: none;
+        }
+        figure,
+        a{
+          height: 100%;
+        }
+        img{
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          object-fit: cover;
+        }
+      }
+      &__content{
+        width: 725px;
+        max-width: 100%;
+        background-color: rgba(#212121, .9);
+      }
+      &__content-types{
+        top: 0;
+        bottom: auto;
+        left: auto;
+        right: 0;
+      }
+    }
+  }
+}

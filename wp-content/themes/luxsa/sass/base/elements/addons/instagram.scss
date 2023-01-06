@@ -1,0 +1,147 @@
+@import "../../../mixins";
+
+.lastudio-instagram-gallery {
+	&__instance {
+		&.layout-type-grid {
+			@include display;
+			@include flex-flow(row wrap);
+		}
+
+		&.layout-type-masonry {
+			@include display;
+			@include flex-flow(row nowrap);
+			@include justify-content(flex-start);
+
+			.salvattore-column {
+				@include display;
+				@include flex-flow(column nowrap);
+			}
+		}
+
+		&.show-overlay-on-hover {
+			.lastudio-instagram-gallery__inner {
+
+				.lastudio-instagram-gallery__content {
+					opacity: 0;
+					pointer-events: none;
+					transition: opacity 0.5s cubic-bezier(.21,.75,.27,.96);
+				}
+
+				&:hover {
+					.lastudio-instagram-gallery__content {
+						opacity: 1;
+						pointer-events: auto;
+					}
+				}
+			}
+		}
+
+	}
+
+	&__item {
+		position: relative;
+	}
+
+	&__inner {
+		position: relative;
+		overflow: hidden;
+	}
+
+	&__link {
+		display: block;
+		line-height: 0;
+	}
+
+	&__media {
+		padding-bottom: 100%;
+	}
+
+	&__image {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		vertical-align: top;
+		&.la-lazyload-image{
+			position: absolute;
+			left: 0;
+			top: 0;
+			height: 100%;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+	}
+
+	&__meta-item,
+	&__meta {
+		@include display;
+		@include flex-direction(row);
+		@include justify-content(center);
+		@include align-items(center);
+	}
+
+	&__content {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		@include display;
+		@include flex-direction(column);
+		@include justify-content(center);
+		@include align-items(center);
+
+		&:before {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			z-index: 0;
+			content:'';
+		}
+	}
+
+	&__caption {
+		max-width: 100%;
+	}
+}
+
+.lastudio-instagram-gallery__content {
+	padding: 20px;
+
+	&:before {
+		background-color: rgba(84, 89, 95, 0.6);
+	}
+}
+
+.lastudio-instagram-gallery__caption {
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	margin: 10px 0;
+	max-width: 100%;
+	z-index: 1;
+}
+
+.lastudio-instagram-gallery__meta {
+	z-index: 1;
+}
+
+.lastudio-instagram-gallery__meta-item {
+	color: white;
+	font-size: 14px;
+	margin: 5px;
+}
+
+.lastudio-instagram-gallery.playout-grid{
+	.grid-items {
+		margin-left: -2px;
+		margin-right: -2px;
+		.grid-item {
+			padding: 2px;
+		}
+	}
+}

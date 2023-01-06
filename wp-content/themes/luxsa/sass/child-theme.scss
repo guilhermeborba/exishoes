@@ -1,0 +1,154 @@
+/*
+Template:       luxsa
+Theme Name:     Luxsa Child
+Theme URI:      http://themeforest.net/user/LaStudio/portfolio?ref=LaStudio
+Author:         LA Studio
+Author URI:     http://themeforest.net/user/LaStudio?ref=LaStudio
+Description:    LUXSA - Fashion WooCommerce Theme
+Version:        1.0.0
+Requires at least: 4.4
+Requires PHP: 5.6
+Tags:           one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready, architecture, interior
+License: 		GNU General Public License
+License URI: 	licence/GPL.txt
+Text Domain:    luxsa-child
+Domain Path:    /languages/
+*/
+
+// Configuration
+@import "config";
+
+// Mixins
+@import "mixins";
+
+p > a{
+  .elementor &,
+  &{
+    color: $primary-color;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+.product_desc-desc h4 {
+  font-size: var(--theme-h2-font-size);
+  text-transform: capitalize;
+}
+
+
+.wc_tabs_at_bottom .wc-tabs-wrapper {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.single-post-article > .post-thumbnail .blog_item--thumbnail {
+  padding-bottom: 49%;
+}
+.single-post-article > .post-thumbnail .blog_item--thumbnail img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+
+.page-use-gutenberg .single-content-article > .entry br{
+  padding-top: 0.8em;
+}
+
+.la-hamburger-wrap.hm_style_02.open-menu {
+  z-index: 100
+}
+
+@media(max-width: 992px) {
+  .la-hamburger-wrap.hm_style_02 {
+    background-color:#000
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main {
+    text-align: inherit;
+    width: 100%
+  }
+
+  .la-hamburger-wrap.hm_style_02 .lahb-hamburger-top {
+    margin-bottom: 0;
+    width: 100%;
+    margin-top: 0
+  }
+
+  .la-hamburger-wrap .hamburger-main li.mm-menu-item>a {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li.mm-lv-0 {
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    padding-left: 40px;
+    padding-right: 40px
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li>a.top-level-link {
+    font-size: 18px;
+    padding: .5em 0;
+    margin: 0 auto
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li.active-sub>a.sub-level-link,
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li.active>a.sub-level-link,
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li.current>a.sub-level-link {
+    color: #fff
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main li a.sub-level-link {
+    color: rgba(255,255,255,.7);
+    font-size: 14px
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main ul.mm-sub-menu {
+    padding: 0 0 20px
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-main ul.mm-sub-menu ul.mm-sub-menu {
+    padding-left: 20px
+  }
+
+  .ltr .la-hamburger-wrap.hm_style_02 .lahb_icon--accordion {
+    margin-right: -1em;
+    padding: .5em 1em
+  }
+
+  .la-hamburger-wrap.hm_style_02 .lahb-hamburger-top .template-loaded {
+    width: 100%;
+    max-width: 100%
+  }
+
+  .la-hamburger-wrap.hm_style_02 .hamburger-nav {
+    width: 400px
+  }
+}
+
+@media(max-width: 500px) {
+  .la-hamburger-wrap.hm_style_02 .hamburger-nav {
+    max-width:100%
+  }
+
+  .la-hamburger-wrap.hm_style_02 .lahb-hamburger-top {
+    margin-top: 5vh;
+    margin-bottom: 5vh
+  }
+
+  .la-hamburger-wrap.hm_style_02 .btn-close-hamburger-menu-full {
+    top: 5vh;
+    font-size: 32px;
+    right: 40px
+  }
+}
+
+.single-post-article header.entry-header {
+  display: none;
+}

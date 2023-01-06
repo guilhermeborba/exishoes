@@ -1,0 +1,175 @@
+// Configuration
+@import "config";
+
+// Mixins
+@import "mixins";
+
+@import "woo/woocommerce";
+@import "woo/woo-category-product";
+@import "woo/woo-single";
+@import "woo/woo-myaccount";
+
+body .single-page-article .entry{
+	margin: 0 !important;
+}
+.woocommerce-account .single-page-article .entry{
+	.woocommerce{
+		.woocommerce-form,h2 {
+			width: 770px !important;
+		}
+
+		h2{
+		    color: #212121;
+		    font-size: 30px;
+		    font-weight: 500;
+		    line-height: 1.5em;
+		    text-transform: uppercase;
+		    margin-bottom: 30px !important;  
+		}
+		::before{
+			font-size: 22px;
+	    }
+
+	    .woocommerce-form{
+	    	padding: 65px 50px;
+    		background: #F9F9F9;
+
+    		p {
+			    color: #212121;
+			    font-size: 18px;
+			    font-weight: 400;
+			    line-height: 1.5em;
+
+			    .woocommerce-Input{
+			    	height: 60px;
+				    background: #FFFFFF;
+			    }
+
+			    .woocommerce-button{
+    				width: auto;
+				    margin-top: 12px;
+				    font-size: 20px;
+				    font-weight: 500;
+				    line-height: 30px;
+				    padding: 15px 65px;
+    			}
+			}
+	    }
+	} 
+}
+
+
+@import "woo/woo-cart";
+body .woocommerce{
+	.cart-empty{
+	    font-size: 16px;
+	    color: #212121;
+	    line-height: 1.5em;
+	    font-weight: 500;
+	    margin: 0;
+
+		&:before{
+			margin-bottom: 50px !important;
+		}
+	}
+
+	.return-to-shop{
+	    margin: 0;
+	    padding-top: 90px;
+
+	   a.wc-backward{
+	   		color: #FFFFFF;
+	   		background:#212121;
+			font-size: 16px;
+			font-weight: 500;
+			line-height: 26px;
+			padding: 21px 33px;
+			
+			&:hover{
+		    	background: #B87E3A;
+		    }
+	    }
+	}
+}
+
+@import "woo/woo-checkout";
+@import "woo/woo-quantity";
+@import "woo/woo-nav";
+.wp-embed-responsive .woocommerce-form {
+	p:first-child{
+		color: #212121;
+	    font-size: 17px;
+	    font-weight: 400;
+	    line-height: 1.5em;
+	    padding-bottom: 40px;
+	    margin-bottom: 30px;
+	    border-bottom: 1px solid #212121;
+	}
+
+	label{
+		color: #212121 !important;
+	    font-size: 18px;
+	    font-weight: 400 !important;
+	    line-height: 1.5em;
+	    margin-bottom: 10px;
+	}
+	.input-text{
+		color: #999999;
+	    font-size: 15px;
+	    line-height: 24px;
+	    padding: 10px 25px!important;
+	}
+	button{
+		color: #FFFFFF;
+		font-size: 22px;
+		font-weight: 500;
+		text-transform: capitalize !important;
+		line-height: 33px;
+		padding: 15px 20px;
+	}
+}
+body .woocommerce :before {
+    margin-bottom: 0 !important;
+}
+@import "woo/dokan";
+
+@import "woo/woo-responsive";
+
+@media (max-width: 767px){
+/* My Account */
+	.woocommerce-account .single-page-article .entry{
+		.woocommerce{
+
+			h2{
+			    font-size: 24px;
+			    margin-top: 0 !important;  
+			}
+			::before{
+				font-size: 18px;
+		    }
+
+		    .woocommerce-form{
+		    	padding: 40;
+	    		background: #F9F9F9;
+
+	    		p {
+				    color: #212121;
+				    font-size: 16px;
+				    font-weight: 400;
+				    line-height: 1.5em;
+
+				    .woocommerce-Input{
+				    	height: 60px;
+					    background: #FFFFFF;
+				    }
+
+				    .woocommerce-button{
+					    font-size: 16px;
+					    line-height: 20px;		
+					    padding: 15px 40px;
+	    			}
+				}
+		    }
+		} 
+	}
+}

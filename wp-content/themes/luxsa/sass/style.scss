@@ -1,0 +1,182 @@
+@charset "utf-8";
+/*
+Theme Name:     Luxsa
+Theme URI:      https://themeforest.net/user/LaStudio/portfolio?ref=LaStudio
+Author:         LA Studio
+Author URI:     https://themeforest.net/user/LaStudio?ref=LaStudio
+Description:    LUXSA - Fashion WooCommerce Theme
+Version:        1.0.0
+Requires at least: 4.4
+Requires PHP: 5.6
+Tags:           one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready
+License:        GNU General Public License
+License URI:    licence/GPL.txt
+Text Domain:    luxsa
+Domain Path:    /languages/
+*/
+
+// Configuration
+@import "config";
+
+// Mixins
+@import "mixins";
+
+/*------------------------------------*
+    $CONTENTS
+*------------------------------------*/
+/**
+ * BASE
+ * - MAIN
+ * - NORMALIZE
+ * - LAYOUTS
+ * - COMPONENTS
+ * - TYPOGRAPHY
+ * - FORMS
+ *
+ * COMPONENTS
+ * - HEADER
+ * - NAVIGATIONS
+ * - LINKS EFFECT
+ * - MEGA MENU
+ * - SEARCH ICON
+ * - PAGE HEADER
+ * - BLOG
+ * - SIDEBAR
+ * - CUSTOM SELECTS
+ * - PAGINATION
+ * - COMMENT
+ * - SEARCH
+ * - FOOTER
+ * - 404 PAGE
+ *
+ * PLUGINS
+ * - GENERAL
+ * - SLICK
+ * - LA-STUDIO ELEMENTS
+ *
+ * RESPONSIVE
+ */
+
+/*------------------------------------*
+	$MAIN
+*------------------------------------*/
+@import "base/main";
+
+/*------------------------------------*
+	$NORMALIZE
+*------------------------------------*/
+@import "base/normalize";
+
+/*------------------------------------*
+	$LAYOUTS
+*------------------------------------*/
+@import "layout";
+
+/*------------------------------------*
+	$COMPONENTS
+*------------------------------------*/
+@import "base/shared";
+
+/*------------------------------------*
+	$TYPOGRAPHY
+*------------------------------------*/
+@import "base/typography";
+
+/*------------------------------------*
+	$FORMS
+*------------------------------------*/
+@import "base/form";
+
+
+/*------------------------------------*
+	$HEADER
+*------------------------------------*/
+@import "components/header/header";
+@import "components/header/header_builder";
+
+/*------------------------------------*
+	$PAGE HEADER
+*------------------------------------*/
+@import "components/page-header";
+
+/*------------------------------------*
+	$BLOG
+*------------------------------------*/
+@import "components/blog/list-posts";
+
+/*------------------------------------*
+	$SINGLE
+*------------------------------------*/
+
+@import "components/blog/single-post";
+
+/*------------------------------------*
+	$SIDEBAR
+*------------------------------------*/
+@import "components/sidebar/sidebar";
+
+
+/*------------------------------------*
+	$PAGINATION
+*------------------------------------*/
+@import "components/pagination";
+
+/*------------------------------------*
+	$COMMENT
+*------------------------------------*/
+@import "components/comments";
+
+/*------------------------------------*
+	$SEARCH
+*------------------------------------*/
+@import "components/search";
+
+/*------------------------------------*
+	$FOOTER
+*------------------------------------*/
+@import "components/footer/scroll-top";
+
+/*------------------------------------*
+	$404 PAGE
+*------------------------------------*/
+@import "components/404";
+
+
+/*------------------------------------*
+	$GENERAL
+*------------------------------------*/
+@import "components/plugins/general";
+
+/*------------------------------------*
+	$LIGHTCASE
+*------------------------------------*/
+@import "components/plugins/lightcase";
+
+/*------------------------------------*
+	$SLICK
+*------------------------------------*/
+@import "components/plugins/slick";
+
+/*------------------------------------*
+	$NEXT & PREVIOUS
+*------------------------------------*/
+@import "components/next-prev";
+
+/*------------------------------------*
+	$LA-STUDIO ELEMENTS
+*------------------------------------*/
+@import "components/plugins/portfolio";
+
+@import "base/elements/addons/instagram";
+
+@import "base/elements/addons/subscribe-form";
+/*------------------------------------*
+	$RESPONSIVE
+*------------------------------------*/
+@import "base/demo";
+
+@import "base/theme-default";
+
+@import "components/responsive";
+
+@import "base/demo02";

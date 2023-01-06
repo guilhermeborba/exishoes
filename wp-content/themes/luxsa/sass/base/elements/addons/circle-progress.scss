@@ -1,0 +1,79 @@
+@import "../../../mixins";
+
+.circle-progress {
+	border-radius: 50%;
+
+	&-wrap {
+		@include display;
+		@include justify-content(center);
+		@include align-items(center);
+		@include flex-direction(column);
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		position: relative;
+	}
+
+	&-bar {
+		position: relative;
+		margin-left: auto;
+		margin-right: auto;
+
+		.position-in-circle {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			.circle-counter {
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				@include display;
+				@include justify-content(center);
+				@include align-items(center);
+				@include flex-direction(column);
+			}
+		}
+	}
+
+	transform: rotate(-90deg);
+
+	&__meter,
+	&__value {
+		transition-property: all;
+		transition-timing-function: cubic-bezier(.28,.77,.39,.95);
+		fill: none;
+		stroke-linecap: butt;
+	}
+}
+
+.circle-counter {
+	.circle-val {
+		@include display;
+		@include justify-content(center);
+		@include align-items(center);
+	}
+}
+
+.circle-counter {
+
+	.circle-val {
+		color: #6ec1e4;
+		font-size: 23px;
+
+		.circle-counter__prefix {
+			line-height: 1;
+		}
+
+		.circle-counter__suffix {
+			line-height: 1;
+		}
+	}
+
+	.circle-counter__title {
+		padding-top: 10px;
+	}
+
+}

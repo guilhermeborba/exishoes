@@ -1,0 +1,13 @@
+.enable-header-transparency {
+  #lastudio-header-builder {
+    position: absolute;
+  }
+}
+.enable-header-transparency .lahb-wrap:not(.is-sticky) .lahb-desktop-view .lahb-row1-area {
+  border: none;
+}
+
+.elementor-editor-active .lahb-wrap {
+  z-index: 2;
+  pointer-events: none;
+}

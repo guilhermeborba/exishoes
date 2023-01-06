@@ -1,0 +1,247 @@
+.lastudio-hor-timeline {
+  position: relative;
+}
+.lastudio-hor-timeline--arrows-nav .lastudio-hor-timeline-inner {
+  overflow: hidden;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  padding-bottom: 30px;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track::-webkit-scrollbar {
+  height: 8px;
+  background: #EFEFF1;
+  border-radius: 4px;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track::-webkit-scrollbar-thumb {
+  background-color: #34314B;
+  border: none;
+  border-radius: 4px;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track::-webkit-scrollbar-track {
+  border: none;
+  background: transparent;
+}
+.lastudio-hor-timeline--scroll-bar .lastudio-hor-timeline-track::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.lastudio-hor-timeline--arrows-nav .lastudio-hor-timeline-track {
+  transition: transform 500ms ease;
+}
+.lastudio-hor-timeline-list {
+  position: relative;
+  display: flex;
+  direction: ltr;
+}
+.lastudio-hor-timeline-list--top {
+  align-items: flex-end;
+}
+.lastudio-hor-timeline-list--middle {
+  align-items: flex-end;
+}
+.lastudio-hor-timeline-list--bottom {
+  align-items: flex-start;
+}
+.lastudio-hor-timeline-item {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+  transition: 0.2s;
+}
+.lastudio-hor-timeline-list--top .lastudio-hor-timeline-item {
+  padding-top: 15px;
+}
+.lastudio-hor-timeline-list--bottom .lastudio-hor-timeline-item {
+  padding-bottom: 15px;
+}
+.lastudio-hor-timeline-item__card {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  border-width: 1px;
+  transition: inherit;
+}
+.lastudio-hor-timeline-list--top .lastudio-hor-timeline-item__card {
+  margin-bottom: 30px;
+}
+.lastudio-hor-timeline-list--bottom .lastudio-hor-timeline-item__card {
+  margin-top: 30px;
+}
+.lastudio-hor-timeline-item__card-inner {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 30px;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #f8f8f8;
+  transition: inherit;
+}
+.lastudio-hor-timeline-item__card-img {
+  margin-bottom: 10px;
+}
+.lastudio-hor-timeline-item__card-img img {
+  vertical-align: top;
+}
+.lastudio-hor-timeline-item__card-title {
+  margin: 0 0 10px;
+  padding: 0;
+  transition: inherit;
+}
+.lastudio-hor-timeline-item__card-arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-width: 1px;
+  transition: inherit;
+}
+.lastudio-hor-timeline .lastudio-hor-timeline-item__card-arrow {
+  box-sizing: content-box;
+}
+.lastudio-hor-timeline-item__card-arrow:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f8f8;
+  transition: inherit;
+}
+.lastudio-hor-timeline-list--top .lastudio-hor-timeline-item__card-arrow {
+  top: 100%;
+  transform: translateY(-50%) rotate(45deg);
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+}
+.lastudio-hor-timeline-list--bottom .lastudio-hor-timeline-item__card-arrow {
+  bottom: 100%;
+  transform: translateY(50%) rotate(45deg);
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+}
+.lastudio-hor-timeline--align-left .lastudio-hor-timeline-item__card-arrow {
+  left: 20px;
+}
+.lastudio-hor-timeline--align-right .lastudio-hor-timeline-item__card-arrow {
+  right: 20px;
+}
+.lastudio-hor-timeline--align-center .lastudio-hor-timeline-item__card-arrow {
+  left: 50%;
+}
+.lastudio-hor-timeline--align-center .lastudio-hor-timeline-list--top .lastudio-hor-timeline-item__card-arrow {
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
+.lastudio-hor-timeline--align-center .lastudio-hor-timeline-list--bottom .lastudio-hor-timeline-item__card-arrow {
+  transform: translateX(-50%) translateY(50%) rotate(45deg);
+}
+.lastudio-hor-timeline-item__meta {
+  transition: inherit;
+}
+.lastudio-hor-timeline-list--top .lastudio-hor-timeline-item__meta {
+  margin-bottom: 15px;
+}
+.lastudio-hor-timeline-list--bottom .lastudio-hor-timeline-item__meta {
+  margin-top: 15px;
+}
+.lastudio-hor-timeline--align-left .lastudio-hor-timeline-item__meta {
+  text-align: left;
+  margin-right: auto;
+}
+.lastudio-hor-timeline--align-center .lastudio-hor-timeline-item__meta {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lastudio-hor-timeline--align-right .lastudio-hor-timeline-item__meta {
+  text-align: right;
+  margin-left: auto;
+}
+.lastudio-hor-timeline-item__point {
+  z-index: 1;
+  transition: inherit;
+}
+.lastudio-hor-timeline-item__point-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  min-width: 10px;
+  min-height: 10px;
+  font-size: 16px;
+  color: #34314B;
+  background-color: #EFEFF1;
+  border-radius: 50%;
+  transition: inherit;
+}
+.lastudio-hor-timeline--align-left .lastudio-hor-timeline-item__point-content {
+  margin-left: 10px;
+  margin-right: auto;
+}
+.lastudio-hor-timeline--align-center .lastudio-hor-timeline-item__point-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+.lastudio-hor-timeline--align-right .lastudio-hor-timeline-item__point-content {
+  margin-left: auto;
+  margin-right: 10px;
+}
+.lastudio-hor-timeline-item.is-active .lastudio-hor-timeline-item__point-content {
+  background-color: #55cdff;
+  color: #fff;
+}
+.lastudio-hor-timeline__line {
+  position: absolute;
+  top: 50%;
+  height: 2px;
+  transform: translateY(-50%);
+  overflow: hidden;
+  background-color: #EFEFF1;
+}
+.lastudio-hor-timeline__line-progress {
+  width: 0;
+  height: 100%;
+  background-color: #55cdff;
+  transition: 500ms ease;
+}
+.lastudio-hor-timeline .lastudio-arrow {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 999;
+  transition: all 200ms linear;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 30px;
+  line-height: 1;
+  background-color: #55cdff;
+  color: #fff;
+}
+.lastudio-hor-timeline .lastudio-arrow:before {
+  line-height: 0;
+}
+.lastudio-hor-timeline .lastudio-arrow.lastudio-prev-arrow {
+  left: 0;
+  transform: translateY(-50%);
+}
+.lastudio-hor-timeline .lastudio-arrow.lastudio-next-arrow {
+  right: 0;
+  transform: translateY(-50%) scale(-1, 1);
+}
+.lastudio-hor-timeline .lastudio-arrow.lastudio-arrow-disabled {
+  opacity: 0.5;
+  cursor: default;
+  pointer-events: none;
+}

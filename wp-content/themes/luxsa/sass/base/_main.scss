@@ -1,0 +1,396 @@
+:root{
+	--theme-body-bg-color: #{$color-1};
+	--theme-border-color: #{$color-7};
+	--theme-selection-bg-color: #{$color-7};
+	--theme-selection-font-color: #{$color-1};
+	--theme-primary-color: #{$color-5};
+	--theme-secondary-color: #{$color-2};
+	--theme-three-color: #{$color-17};
+	--theme-body-font-color: #{$color-14};
+	--theme-heading-font-color: #{$color-2};
+	--theme-link-color: #{$color-2};
+	--theme-link-hover-color: #{$color-5};
+	--header-height: 110px;
+	--footer-height: 0px;
+	--theme-body-font-size: 16px;
+	--theme-body-line-height: #{$base-line-height};
+	--theme-h1-font-size: 36px;
+	--theme-h2-font-size: 30px;
+	--theme-h3-font-size: 28px;
+	--theme-h4-font-size: 24px;
+	--theme-h5-font-size: 22px;
+	--theme-h6-font-size: 20px;
+	--theme-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Poppins, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	--theme-heading-font-family: "Poppins", sans-serif;
+	--theme-three-font-family: 'Poppins', cursive;
+	--theme-heading-font-weight: 600;
+	--theme-three-font-weight: 700;
+	--theme-header-vertical-width: 370px;
+	--theme-header-vertical-width-small: 370px;
+	--theme-container-width: 1170px;
+	--theme-sidebar-width: 300px;
+	--theme-sidebar-space: 70px;
+	--theme-wc-single-main-image-width: 50%;
+	--scrollbar-width: 0px;
+	--theme-boxed-width: 1230px;
+	--theme-newsletter-popup-width: 790px;
+	--theme-newsletter-popup-height: 430px;
+	--item_info: 100px;
+}
+
+@media(max-width: $screen-sm-max){
+	:root{
+		--theme-h1-font-size: 32px;
+		--theme-h2-font-size: 26px;
+		--theme-h3-font-size: 24px;
+		--theme-h4-font-size: 22px;
+	}
+}
+
+@media(max-width: $screen-xs-max){
+	:root{
+		--theme-h1-font-size: 26px;
+		--theme-h2-font-size: 22px;
+		--theme-h3-font-size: 20px;
+		--theme-h4-font-size: 18px;
+		--theme-h5-font-size: 16px;
+		--theme-h6-font-size: 16px;
+		--theme-container-width: 100%;
+	}
+}
+
+/**
+ * Selection Color.
+ */
+::selection {
+	color: #fff;
+	background-color: $primary-color;
+	text-shadow: none;
+}
+
+::-moz-selection {
+	color: #fff;
+	background-color: $primary-color;
+	text-shadow: none;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+*, *:before, *:after {
+	@include box-sizing(border-box);
+}
+
+article, aside, details, figcaption, figure, footer, header, main, nav, section {
+	display: block
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	font-weight: normal;
+	text-align: inherit;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+}
+
+blockquote, q {
+	quotes: none
+}
+
+a:focus {
+	outline: none
+}
+
+a:hover, a:active {
+	outline: 0
+}
+
+a img {
+	border: 0
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+select {
+	max-width: 100%
+}
+
+em {
+	font-style: italic;
+}
+
+.hidden {
+	display: none !important;
+}
+
+* html {
+	font-size: 100% * ( $font-size / $browser-font-size );
+}
+
+body {
+	font-family: $body-font-family;
+	font-size: var(--theme-body-font-size);
+	line-height: var(--theme-body-line-height);
+	color: $body-font-color;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-wrap: break-word;
+    word-wrap: break-word;
+	background-color: $body-bg-color;
+}
+
+.mejs-container {
+    margin-bottom: 20px;
+}
+
+.figure__object_fit {
+	position: relative;
+	overflow: hidden;
+	width: 100%;
+	img {
+		width: 100%;
+		object-fit: cover;
+		.active-object-fit & {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			object-position: center;
+		}
+	}
+	&.custom-object-fit {
+		background-size: cover;
+		background-position: top center;
+		img {
+			opacity: 0 !important;
+		}
+	}
+}
+
+/**
+ * Grid > Main Classes.
+ */
+
+.container {
+	@include container-fixed();
+	max-width: 96%;
+	width: var(--theme-container-width, 1170px);
+	@media(max-width: $screen-xs-max){
+		width: 100%;
+		max-width: calc( 100% - 40px );
+	}
+	&.la-container-full {
+		width: 100%;
+	}
+}
+
+.container-fluid {
+	@include container-fixed;
+}
+
+.row {
+	@include make-row;
+}
+
+@include make-grid-columns;
+
+@include make-grid(xs);
+
+@media (min-width: $screen-sm-min) {
+	@include make-grid(sm);
+}
+
+@media (min-width: $screen-md-min) {
+	@include make-grid(md);
+}
+
+@media (min-width: $screen-lg-min) {
+	@include make-grid(lg);
+}
+.grid-item{
+	max-width: 100%;
+}
+.grid-items{
+	&:not(.slick-slider){
+		@include display;
+		@include flex-flow(row wrap);
+		@include align-content(flex-start);
+		margin-left: -15px;
+		margin-right: -15px;
+	}
+	.grid-item{
+		display: inline-block;
+		zoom: 1;
+		letter-spacing: normal;
+		word-spacing: normal;
+		vertical-align: top;
+		text-rendering: auto;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 100%;
+	}
+}
+
+$bkp_lists : (
+	('laptop'   , $screen-lg-min),
+	('tablet'   , $screen-md-min),
+	('mobile'   , $screen-sm-min),
+	('xmobile'  , $screen-mb-min)
+);
+
+@for $i from 1 through 10 {
+	.block-grid-#{$i}{
+		.grid-item{
+			width: percentage(1/$i);
+		}
+	}
+}
+
+@each $bkp in $bkp_lists {
+	@media (max-width: nth($bkp, 2)){
+		$screen_name : nth($bkp, 1);
+		@for $i from 1 through 10 {
+			.#{$screen_name}-block-grid-#{$i}{
+				.grid-item{
+					width: percentage(1/$i);
+				}
+			}
+		}
+	}
+}
+
+/**
+ * Language Switches.
+ */
+.polylang-switcher-shortcode {
+	li {
+		float: left;
+		margin-right: 5px;
+	}
+
+	&.flags-and-names li {
+		margin-right: 15px;
+	}
+
+	li:last-child {
+		margin-right: 0;
+	}
+}
+
+.la-overlay-global {
+	position: fixed;
+	background: #232324;
+	z-index: 9;
+	visibility: hidden;
+	opacity: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	transition: all 250ms ease-out;
+}
+
+.star-rating {
+	overflow: hidden;
+	position: relative;
+	height: 1em;
+	line-height: 1;
+	font-size: 14px;
+	width: 6em;
+	font-family: "LaStudioIcons";
+	speak: none;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #B3BDBC;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: .2em;
+
+	&::before {
+		content: "\ea5e\ea5e\ea5e\ea5e\ea5e";
+		float: left;
+		top: 0;
+		left: 0;
+		position: absolute;
+	}
+
+	> span {
+		overflow: hidden;
+		float: left;
+		top: 0;
+		left: 0;
+		position: absolute;
+		padding-top: 1.5em;
+		color: #F5A623;
+		&:before {
+			content: "\ea5e\ea5e\ea5e\ea5e\ea5e";
+			top: 0;
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+
+
+.cursor{
+	position: fixed;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	pointer-events: none;;
+	//mix-blend-mode: difference;
+	z-index: 999;
+	transition: transform 0.2s;
+	display: flex;
+	.cursor__wr{
+		width: 100%;
+		border: 1px solid $primary-color;
+		border-radius: 50%;
+		transition: all .6s;
+	}
+	&.-active{
+		.cursor__wr{
+			border-width: 0;
+			background: $primary-color;
+			transform: scale(.6);
+			opacity: .6;
+		}
+	}
+	&.-enter{
+		.cursor__wr{
+			border-width: 0;
+			background: $primary-color;
+			transform: scale(2);
+			opacity: .6;
+		}
+	}
+	.elementor-editor-active & {
+		display: none;
+	}
+	.touchevents & {
+		display: none !important;
+	}
+	@media (max-width: 992px) {
+		display: none !important;
+	}
+}

@@ -1,0 +1,250 @@
+.container.la-no-padding {
+  max-width: 100%;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.content_el {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.p-r {
+  position: relative;
+}
+
+.lahb-screen-view {
+  display: none;
+  clear: both;
+}
+
+/* @media(min-width: #{$screen-md-min}) { }*/
+@media(min-width: $screen-md-min) {
+  .lahb-desktop-view {
+    display: block;
+  }
+}
+
+/* @media(min-width: #{$screen-sm-min}) and (max-width: #{$screen-sm-max}) { }*/
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+  .lahb-tablets-view {
+    display: block;
+  }
+}
+
+/* @media(max-width: #{$screen-xs-max}) { }*/
+@media (max-width: $screen-xs-max) {
+  .lahb-mobiles-view {
+    display: block;
+  }
+}
+
+.lahb-wrap {
+  position: relative;
+  width: 100%;
+  z-index: 4;
+}
+
+.lahb-area,
+.lahb-area:not(.lahb-vertical) > .container,
+.lahb-content-wrap,
+.lahb-col,
+.lahb-element {
+  @include display()
+}
+
+
+.lahb-row1-area {
+  height: 90px;
+  @media(min-width: $screen-md-min) {
+    height: 120px;
+  }
+}
+
+.lahb-content-wrap {
+  width: 100%;
+}
+
+.lahb-col {
+  @include display();
+  @include flex(1 0 auto);
+
+  &:empty {
+    display: none;
+  }
+
+  &.lahb-col__left {
+    @include justify-content(flex-start);
+  }
+
+  &.lahb-col__center {
+    @include justify-content(center);
+  }
+
+  &.lahb-col__right {
+    @include justify-content(flex-end)
+  }
+}
+
+.lahb-area {
+  @include align-items(stretch);
+  max-width: 100%;
+
+  .lahb-element {
+    max-width: 100%;
+    @include justify-content(center);
+  }
+
+  &.lahb-content-top {
+    .lahb-col {
+      @include align-items(flex-start)
+    }
+  }
+
+  &.lahb-content-middle .lahb-col,
+  .lahb-element {
+    @include align-items(center);
+  }
+
+  &.lahb-content-bottom {
+    .lahb-col {
+      @include align-items(flex-end);
+    }
+  }
+}
+
+.lahb-icon-wrap {
+  .lahb-icon-element {
+    display: inline-block;
+    line-height: 30px;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+
+    i {
+      display: inline-block;
+      font-size: 20px;
+      vertical-align: middle;
+    }
+  }
+
+  .hamburger-op-icon {
+    @include display();
+    @include justify-content(center);
+    @include align-items(center);
+
+    i {
+      font-size: inherit;
+    }
+
+    span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &.open-button {
+      font-family: 'LaStudioIcons';
+
+      i {
+        &:before {
+          content: "\ea3a";
+        }
+      }
+    }
+  }
+}
+
+body.logged-in:not(.lahb-frontend) .lahb-element.lahb-btn-register {
+  display: none;
+}
+
+.lahb-login .lahb-icon-element > i {
+  font-size: inherit;
+  margin: 0 5px 0;
+}
+
+.lahb-modal-target-link {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.lahb-tooltip[data-tooltip] {
+  position: relative;
+  cursor: pointer;
+}
+
+.lahb-tooltip[data-tooltip]:before,
+.lahb-tooltip[data-tooltip]:after {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.18s ease;
+}
+
+.lahb-tooltip[data-tooltip]:before {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  padding: 0 8px;
+  background-color: #010101;
+  border-radius: 0;
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  height: 23px;
+  line-height: 23px;
+  white-space: nowrap;
+  z-index: 88;
+  box-shadow: 0 1px 18px rgba(0, 0, 0, 0.23);
+  @include translate2d(-50%, 0);
+}
+
+.lahb-tooltip[data-tooltip]:after {
+  content: '';
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  @include transform(translate(-50%, 0) rotate(45deg));
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #010101;
+}
+
+.lahb-tooltip[data-tooltip]:hover:before,
+.lahb-tooltip[data-tooltip]:hover:after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lahb-tooltip.tooltip-on-top[data-tooltip]:before {
+  bottom: inherit;
+  top: -16px
+}
+
+.lahb-tooltip.tooltip-on-top[data-tooltip]:after {
+  bottom: inherit;
+  top: 2px
+}
+
+
+.lahb-tooltip.tooltip-on-top[data-tooltip]:before {
+  bottom: inherit;
+  top: -16px
+}
+
+.lahb-header-dropdown {
+  position: relative;
+}
+
+.lahb-icon-element i,
+.lahb-icon-element i:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,1838 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Luxsa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-13 13:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.7.2\n"
+"X-Domain: luxsa"
+
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:91
+#, php-format
+msgid "\"%1$s\" has been added to your cart."
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:75
+#, php-format
+msgid "\"%1$s\" has been removed from list"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:77
+#, php-format
+msgid "\"%1$s\" has been removed from wishlist"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:957
+#, php-format
+msgid "%s "
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:466
+#, php-format
+msgid "%s Sold"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:938
+msgid "(Edit)"
+msgstr ""
+
+#: ../luxsa/partials/entry/meta-author-i-date.php:23
+#: ../luxsa/partials/entry/meta-single.php:22
+#: ../luxsa/partials/entry/meta.php:22
+#: ../luxsa/partials/elementor/lastudio-posts/global/loop-item.php:117
+msgid "0 comment"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:507
+msgid "01"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:508
+msgid "02"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:509
+msgid "03"
+msgstr ""
+
+#: ../luxsa/partials/entry/meta-author-i-date.php:23
+#: ../luxsa/partials/entry/meta-single.php:22
+#: ../luxsa/partials/entry/meta.php:22
+#: ../luxsa/partials/elementor/lastudio-posts/global/loop-item.php:117
+msgid "1 comment"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:300
+msgid "404 Not Found"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2103
+msgid "404: Page Not Found"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:65
+#, php-format
+msgid ""
+"<strong>%1$s</strong> widget area has been created. You can create more "
+"areas, once you finish update the page to see all the areas."
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:81
+#, php-format
+msgid "<strong>%1$s</strong> widget area has been deleted."
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:665
+msgid "[icon]Congratulations! You've got free shipping!"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:664
+msgid "[icon]Spend [amount] to get Free Shipping"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:127
+msgid "Add to cart"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:36
+msgctxt "admin-view"
+msgid "1 column"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:243
+msgctxt "admin-view"
+msgid "100% Main Width"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:37
+msgctxt "admin-view"
+msgid "2 columns left (3-9)"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:38
+msgctxt "admin-view"
+msgid "2 columns right (9-3)"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:312
+msgctxt "admin-view"
+msgid "Activate when scroll up"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:313
+msgctxt "admin-view"
+msgid "Activate when scroll up & down"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:179
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:746
+msgctxt "admin-view"
+msgid "Add Badge"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1590
+msgctxt "admin-view"
+msgid "Archive Portfolio"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:186
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:754
+msgctxt "admin-view"
+msgid "Badge Text"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1584
+msgctxt "admin-view"
+msgid "Blog Post"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1688
+msgctxt "admin-view"
+msgid "Breadcrumb Fonts"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:93
+msgctxt "admin-view"
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:291
+msgctxt "admin-view"
+msgid "Controls the layout of the header."
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:192
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:760
+msgctxt "admin-view"
+msgid "Custom Badge Background Color"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:198
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:766
+msgctxt "admin-view"
+msgid "Custom Badge Text Color"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:178
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:745
+msgctxt "admin-view"
+msgid "Custom Badges"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:267
+msgctxt "admin-view"
+msgid "Custom Body CSS Class"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:63
+msgctxt "admin-view"
+msgid "Custom Link"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:250
+msgctxt "admin-view"
+msgid "Custom Main Space"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:351
+msgctxt "admin-view"
+msgid "Custom Text"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:73
+msgctxt "admin-view"
+msgid "Custom Video Link"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1180
+#: ../luxsa/framework/functions/helpers.php:1227
+#: ../luxsa/framework/functions/helpers.php:1327
+#: ../luxsa/framework/functions/helpers.php:1441
+#: ../luxsa/framework/functions/helpers.php:1535
+msgctxt "admin-view"
+msgid "Desktop"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:311
+msgctxt "admin-view"
+msgid "Disable"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1618
+#: ../luxsa/framework/functions/helpers.php:1623
+msgctxt "admin-view"
+msgid "Do not display"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:147
+msgctxt "admin-view"
+msgid "Dribbble url"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:63
+msgctxt "admin-view"
+msgid "Elementor"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:157
+msgctxt "admin-view"
+msgid "Email Address"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:86
+msgctxt "admin-view"
+msgid "Embed aspect ration"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:79
+msgctxt "admin-view"
+msgid "Embed Code"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:735
+msgctxt "admin-view"
+msgid "Enable Custom Badges"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:334
+msgctxt "admin-view"
+msgid "Enable Custom Style"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:308
+msgctxt "admin-view"
+msgid "Enable Header Sticky"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:300
+msgctxt "admin-view"
+msgid "Enable Header Transparency"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1739
+msgctxt "admin-view"
+msgid "Enable Override"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:231
+msgctxt "admin-view"
+msgid "Enable Small Layout"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:85
+msgctxt "admin-view"
+msgid "Envato Market"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:204
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:772
+msgctxt "admin-view"
+msgid "Extra CSS class for badge"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:127
+msgctxt "admin-view"
+msgid "Facebook url"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:392
+msgctxt "admin-view"
+msgid "Footer"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:406
+msgctxt "admin-view"
+msgid "Footer Layout"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1557
+msgctxt "admin-view"
+msgid "For page header bar"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:96
+msgctxt "admin-view"
+msgid "For post format Gallery"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:58
+msgctxt "admin-view"
+msgid "For post format Link"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:31
+msgctxt "admin-view"
+msgid "For post format Quote"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:68
+msgctxt "admin-view"
+msgid "For post format Video & Audio"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:101
+msgctxt "admin-view"
+msgid "Gallery Images"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:277
+msgctxt "admin-view"
+msgid "Header"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:290
+msgctxt "admin-view"
+msgid "Header Layout"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:52
+msgctxt "admin-view"
+msgid "Header Layout 01 ( Logo + Menu + Access Icon )"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1701
+msgctxt "admin-view"
+msgid "Heading Color"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1676
+msgctxt "admin-view"
+msgid "Heading Fonts"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1751
+msgctxt "admin-view"
+msgid "Heading Tag"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:99
+msgctxt "admin-view"
+msgid "Hidden"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:343
+msgctxt "admin-view"
+msgid "Hide Breadcrumbs"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:399
+msgctxt "admin-view"
+msgid "Hide Footer"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:284
+msgctxt "admin-view"
+msgid "Hide header"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:368
+msgctxt "admin-view"
+msgid "Hide Page Title"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:42
+#: ../luxsa/framework/classes/class-options.php:61
+#: ../luxsa/framework/classes/class-options.php:71
+#: ../luxsa/framework/classes/class-options.php:81
+#: ../luxsa/framework/classes/class-options.php:98
+#: ../luxsa/framework/configs/metaboxes.php:234
+#: ../luxsa/framework/configs/metaboxes.php:310
+#: ../luxsa/framework/functions/helpers.php:1622
+msgctxt "admin-view"
+msgid "Inherit"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:74
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo embed link"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:80
+msgctxt "admin-view"
+msgid "Insert Youtube or Vimeo or Audio embed code."
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1166
+#: ../luxsa/framework/functions/helpers.php:1215
+#: ../luxsa/framework/functions/helpers.php:1308
+#: ../luxsa/framework/functions/helpers.php:1420
+#: ../luxsa/framework/functions/helpers.php:1522
+msgctxt "admin-view"
+msgid "Laptop"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:47
+msgctxt "admin-view"
+msgid "LaStudio Core"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:55
+msgctxt "admin-view"
+msgid "LaStudio Header Builder"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:216
+#: ../luxsa/framework/configs/metaboxes.php:222
+msgctxt "admin-view"
+msgid "Layout"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:251
+msgctxt "admin-view"
+msgid "Leave empty if you not need"
+msgstr ""
+
+#: ../luxsa/functions.php:279
+msgctxt "admin-view"
+msgid "light grayish magenta"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1719
+msgctxt "admin-view"
+msgid "Link Color"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1728
+msgctxt "admin-view"
+msgid "Link Hover Color"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:142
+msgctxt "admin-view"
+msgid "LinkedIn url"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:77
+msgctxt "admin-view"
+msgid "Luxsa Package Demo Data"
+msgstr ""
+
+#: ../luxsa/functions.php:204
+msgctxt "admin-view"
+msgid "Main Navigation"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:110
+msgctxt "admin-view"
+msgid "Member Information"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:11
+#: ../luxsa/framework/configs/metaboxes.php:17
+msgctxt "admin-view"
+msgid "Meta Options"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1125
+#: ../luxsa/framework/functions/helpers.php:1251
+#: ../luxsa/framework/functions/helpers.php:1357
+#: ../luxsa/framework/functions/helpers.php:1480
+msgctxt "admin-view"
+msgid "Mobile"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1139
+#: ../luxsa/framework/functions/helpers.php:1270
+#: ../luxsa/framework/functions/helpers.php:1378
+#: ../luxsa/framework/functions/helpers.php:1494
+msgctxt "admin-view"
+msgid "Mobile Landscape"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:74
+msgctxt "admin-view"
+msgid "No"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:737
+msgctxt "admin-view"
+msgid "No Change"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:260
+msgctxt "admin-view"
+msgid "None"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:84
+#: ../luxsa/framework/configs/metaboxes.php:236
+msgctxt "admin-view"
+msgid "Off"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:83
+#: ../luxsa/framework/configs/metaboxes.php:235
+msgctxt "admin-view"
+msgid "On"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:738
+msgctxt "admin-view"
+msgid "Override"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:257
+msgctxt "admin-view"
+msgid "Override Sidebar"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1651
+msgctxt "admin-view"
+msgid "Page Header Background"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1643
+msgctxt "admin-view"
+msgid "Page Header Border"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1668
+msgctxt "admin-view"
+msgid "Page Header Spacing"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:376
+#: ../luxsa/framework/configs/metaboxes.php:382
+msgctxt "admin-view"
+msgid "Page Title Bar"
+msgstr ""
+
+#: ../luxsa/functions.php:256
+msgctxt "admin-view"
+msgid "pale pink"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:122
+msgctxt "admin-view"
+msgid "Phone"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:137
+msgctxt "admin-view"
+msgid "Pinterest url"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:25
+msgctxt "admin-view"
+msgid "Post"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:166
+msgctxt "admin-view"
+msgid "Product"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:173
+msgctxt "admin-view"
+msgid "Product Video url"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:41
+msgctxt "admin-view"
+msgid "Quote Author"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:46
+msgctxt "admin-view"
+msgid "Quote Background Color"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:36
+msgctxt "admin-view"
+msgid "Quote Content"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:52
+msgctxt "admin-view"
+msgid "Quote Text Color"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:739
+msgctxt "admin-view"
+msgid "Remove Existing Data"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:359
+msgctxt "admin-view"
+msgid "Replace breadcrumb by custom text"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:117
+msgctxt "admin-view"
+msgid "Role"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:407
+msgctxt "admin-view"
+msgid "Select a layout"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1634
+msgctxt "admin-view"
+msgid "Select Layout"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:223
+msgctxt "admin-view"
+msgid ""
+"Select main content and sidebar alignment. Choose between 1, 2 or 3 column "
+"layout."
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:258
+msgctxt "admin-view"
+msgid "Select sidebar that will display on this page."
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:221
+msgctxt "Filtros"
+msgid "Shop Sidebar Filter"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1596
+msgctxt "admin-view"
+msgid "Single Portfolio"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1578
+msgctxt "admin-view"
+msgid "Single Post"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1572
+msgctxt "admin-view"
+msgid "Single Product"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:99
+msgctxt "admin-view"
+msgid "Slider Revolution"
+msgstr ""
+
+#: ../luxsa/functions.php:274
+msgctxt "admin-view"
+msgid "strong magenta"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1152
+#: ../luxsa/framework/functions/helpers.php:1203
+#: ../luxsa/framework/functions/helpers.php:1289
+#: ../luxsa/framework/functions/helpers.php:1399
+#: ../luxsa/framework/functions/helpers.php:1508
+msgctxt "admin-view"
+msgid "Tablet"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1710
+msgctxt "admin-view"
+msgid "Text Color"
+msgstr ""
+
+#: ../luxsa/functions.php:262
+msgctxt "admin-view"
+msgid "theme primary"
+msgstr ""
+
+#: ../luxsa/functions.php:268
+msgctxt "admin-view"
+msgid "theme secondary"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1568
+#: ../luxsa/framework/functions/helpers.php:1574
+#: ../luxsa/framework/functions/helpers.php:1580
+#: ../luxsa/framework/functions/helpers.php:1586
+#: ../luxsa/framework/functions/helpers.php:1592
+#: ../luxsa/framework/functions/helpers.php:1598
+msgctxt "admin-view"
+msgid "This option will not work with these pages were overwritten"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:90
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs Centered"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:91
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Left"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:92
+msgctxt "admin-view"
+msgid "Title & Breadcrumbs In Right"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:93
+msgctxt "admin-view"
+msgid "Title Left & Breadcrumbs Right"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:94
+msgctxt "admin-view"
+msgid "Title Right & Breadcrumbs Left"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:244
+msgctxt "admin-view"
+msgid ""
+"Turn on to have the main area display at 100% width according to the window "
+"size. Turn off to follow site width."
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1591
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Archive Portfolio"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1585
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of Blog/Tag/Category pages"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1579
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Post pages"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1597
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Portfolio"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1573
+msgctxt "admin-view"
+msgid "Turn on to override all setting page header bar of Single Product"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1567
+msgctxt "admin-view"
+msgid ""
+"Turn on to override all setting page header bar of WooCommerce Settings ( "
+"Shop page / Product Category / Product Tags and Search page )"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:132
+msgctxt "admin-view"
+msgid "Twitter url"
+msgstr ""
+
+#: ../luxsa/functions.php:289
+msgctxt "admin-view"
+msgid "very dark gray"
+msgstr ""
+
+#: ../luxsa/functions.php:284
+msgctxt "admin-view"
+msgid "very light gray"
+msgstr ""
+
+#: ../luxsa/tgm/tgm-plugin-activation.php:70
+#: ../luxsa/framework/functions/helpers.php:1566
+msgctxt "admin-view"
+msgid "WooCommerce"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-options.php:73
+msgctxt "admin-view"
+msgid "Yes"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:152
+msgctxt "admin-view"
+msgid "Youtube url"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:301
+msgid "Archives"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:130
+msgid "Are you sure?"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:131
+msgid "Availability"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:469
+msgid "Available"
+msgstr ""
+
+#: ../luxsa/woocommerce/single-product/product-image.php:71
+msgid "Awaiting product image"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2122
+msgid "Blog"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:298
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../luxsa/partials/entry/meta-author-i-date.php:8
+#: ../luxsa/partials/entry/meta-cat-author.php:9
+#: ../luxsa/partials/entry/meta-date-author.php:14
+#: ../luxsa/partials/entry/meta-date-author2.php:14
+#: ../luxsa/partials/entry/meta-single.php:8 ../luxsa/partials/entry/meta.php:8
+#: ../luxsa/partials/elementor/lastudio-posts/global/loop-item.php:58
+#: ../luxsa/partials/elementor/lastudio-posts/global/loop-item.php:107
+msgid "by "
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:508
+msgid "Check out"
+msgstr ""
+
+#: ../luxsa/comments.php:72
+msgid "Comments are closed."
+msgstr ""
+
+#: ../luxsa/partials/entry/layout.php:74
+msgid "Continue Reading"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:128
+msgid "Create"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:26
+msgid "Custom Icon"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:951
+#: ../luxsa/framework/classes/breadcrumbs.php:1383
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2071
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:449
+msgid "Days"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:220
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:24
+msgid "Default"
+msgstr ""
+
+#: ../luxsa/functions.php:755
+msgid "Default Sidebar"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:131
+msgid "Delete"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:130
+msgid "Description"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:133
+msgid "Dimensions"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:489
+msgid "Discount code"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:975
+msgid "edit"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1002
+msgid "Email"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:490
+msgid "Enter your coupon if you have one"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:485
+msgid "Enter your destination to get shipping"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:484
+msgid "Estimate Shipping"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:196
+msgid "Extra Settings"
+msgstr ""
+
+#: ../luxsa/partials/entry/meta-cat-sticky.php:7
+msgid "Featured"
+msgstr ""
+
+#. Name of the template
+msgid "Footer Empty"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:50
+msgid "Force Full Width"
+msgstr ""
+
+#: ../luxsa/404.php:58
+msgctxt "front-end"
+msgid "404"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio.php:295
+msgctxt "front-end"
+msgid "Next"
+msgstr ""
+
+#: ../luxsa/404.php:60
+msgctxt "front-end"
+msgid "Page Cannot Be Found!"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio.php:278
+msgctxt "front-end"
+msgid "Prev"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:727
+msgctxt "front-end"
+msgid "Share:"
+msgstr ""
+
+#: ../luxsa/partials/footer/searchform-overlay.php:21
+msgctxt "front-end"
+msgid "Ver mais"
+msgstr ""
+
+#: ../luxsa/author-bio.php:38
+msgctxt "front-end"
+msgid "View all posts"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:756
+#, php-format
+msgctxt "front-view"
+msgid "%s items"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:524
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:527
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:533
+msgctxt "front-view"
+msgid "Add to compare"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:566
+msgctxt "front-view"
+msgid "Add to Wishlist"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:593
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:616
+msgctxt "front-view"
+msgid "Add to wishlist"
+msgstr ""
+
+#: ../luxsa/functions.php:627 ../luxsa/functions.php:640
+msgctxt "front-view"
+msgid "An error occurred ,Please try again !"
+msgstr ""
+
+#: ../luxsa/functions.php:632 ../luxsa/functions.php:637
+msgctxt "front-view"
+msgid "An error occurred, Please try again !"
+msgstr ""
+
+#: ../luxsa/functions.php:623
+msgctxt "front-view"
+msgid "Back"
+msgstr ""
+
+#: ../luxsa/404.php:61
+msgctxt "front-view"
+msgid "Back to home"
+msgstr ""
+
+#: ../luxsa/partials/footer/cart-overlay.php:10
+msgctxt "front-view"
+msgid "Carrinho de compras"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:217
+msgctxt "front-view"
+msgid "Choose an option"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:97
+msgctxt "Limpar filtros"
+msgid "Clear All Filter"
+msgstr ""
+
+#: ../luxsa/functions.php:645
+msgctxt "front-view"
+msgid "Continue Shopping"
+msgstr ""
+
+#: ../luxsa/partials/footer/searchform-overlay.php:8
+msgctxt "front-view"
+msgid "Digite aqui o que você procura"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:53
+msgctxt "Filtros"
+msgid "Filters"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:71
+msgctxt "front-view"
+msgid "Grid view"
+msgstr ""
+
+#: ../luxsa/functions.php:626
+msgctxt "front-view"
+msgid "has been added to comparison list."
+msgstr ""
+
+#: ../luxsa/functions.php:636
+msgctxt "front-view"
+msgid "has been added to your cart"
+msgstr ""
+
+#: ../luxsa/functions.php:631
+msgctxt "front-view"
+msgid "has been added to your wishlist."
+msgstr ""
+
+#: ../luxsa/partials/none.php:9
+msgctxt "front-view"
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:66
+msgctxt "front-view"
+msgid "List view"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:37
+msgctxt "front-view"
+msgid "Next"
+msgstr ""
+
+#: ../luxsa/functions.php:644
+msgctxt "front-view"
+msgid "Please enter Comment !"
+msgstr ""
+
+#: ../luxsa/functions.php:642
+msgctxt "front-view"
+msgid "Please enter Email Address !"
+msgstr ""
+
+#: ../luxsa/functions.php:641
+msgctxt "front-view"
+msgid "Please enter Name !"
+msgstr ""
+
+#: ../luxsa/functions.php:643
+msgctxt "front-view"
+msgid "Please select a rating !"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1097
+msgctxt "front-view"
+msgid "Posted in"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:36
+msgctxt "front-view"
+msgid "Prev"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:83
+msgctxt "front-view"
+msgid "Product Info"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:490
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:491
+msgctxt "front-view"
+msgid "Quick View"
+msgstr ""
+
+#: ../luxsa/woocommerce/single-product/related.php:74
+msgctxt "front-view"
+msgid "Related Products"
+msgstr ""
+
+#: ../luxsa/woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search entire store&hellip;"
+msgstr ""
+
+#: ../luxsa/searchform.php:6 ../luxsa/woocommerce/product-searchform.php:25
+msgctxt "front-view"
+msgid "Search for:"
+msgstr ""
+
+#: ../luxsa/searchform.php:6
+msgctxt "front-view"
+msgid "Search here&hellip;"
+msgstr ""
+
+#: ../luxsa/partials/singular/layout-post.php:69
+#: ../luxsa/partials/singular/layout-mphb_room_type.php:61
+msgctxt "front-view"
+msgid "Share with"
+msgstr ""
+
+#: ../luxsa/functions.php:648
+msgctxt "front-view"
+msgid "Show Less"
+msgstr ""
+
+#: ../luxsa/functions.php:647
+msgctxt "front-view"
+msgid "Show More +"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/orderby.php:35
+msgctxt "Ordenar por"
+msgid "Sort by"
+msgstr ""
+
+#: ../luxsa/partials/singular/layout-post.php:65
+msgctxt "front-view"
+msgid "Tags:"
+msgstr ""
+
+#: ../luxsa/functions.php:635
+msgctxt "front-view"
+msgid "View Cart"
+msgstr ""
+
+#: ../luxsa/functions.php:625
+msgctxt "front-view"
+msgid "View List Compare"
+msgstr ""
+
+#: ../luxsa/functions.php:630
+msgctxt "front-view"
+msgid "View List Wishlist"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:561
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:588
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:611
+msgctxt "front-view"
+msgid "View Wishlist"
+msgstr ""
+
+#: ../luxsa/functions.php:646
+msgctxt "front-view"
+msgid ""
+"We are sorry, but this feature is available only if cookies are enabled on "
+"your browser"
+msgstr ""
+
+#: ../luxsa/woocommerce/single-product/up-sells.php:71
+msgctxt "front-view"
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: ../luxsa/woocommerce/cart/cross-sells.php:79
+msgctxt "front-view"
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1052
+msgid "Full"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:84
+msgid "Grid 1"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:85
+msgid "Grid 2"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:86
+msgid "Grid 3"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:87
+msgid "Grid 4"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2332
+msgid "Guest"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:390
+msgid "here"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:126
+msgid "Here you can create new widget areas for use in the Sidebar module"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:299
+msgid "Home"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:933
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:452
+msgid "Hours"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:44
+msgid "If value is Mega, all the sub menu items will be hidden on desktop"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:125
+msgid "Image"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:99
+msgid "In Stock"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:132
+msgid "In stock"
+msgstr ""
+
+#: ../luxsa/functions.php:678
+msgid "Internal error. Please, try again later"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:113
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:121
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:127
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:129
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:137
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:143
+msgid "Invalid Product ID"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:139
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:155
+msgid "Invalid security key"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:18
+#: ../luxsa/framework/third/lastudio.php:208
+msgid "LaStudio Icons"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:458
+msgid "left"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:88
+msgid "List 1"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:89
+msgid "List 2"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:90
+msgid "List 3"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:91
+msgid "List 4"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:605
+msgid "Load More"
+msgstr ""
+
+#: ../luxsa/comments.php:81
+msgid "Log out &raquo;"
+msgstr ""
+
+#: ../luxsa/comments.php:81
+msgid "Log out of this account"
+msgstr ""
+
+#: ../luxsa/comments.php:81
+msgid "Logged in as"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:41
+msgid "Mega"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:38
+msgid "Menu Type"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:43
+msgid "Minimalist"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:455
+msgid "Mins"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: ../luxsa/framework/classes/breadcrumbs.php:307
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:899
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:916
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:950
+#: ../luxsa/framework/classes/breadcrumbs.php:1006
+#: ../luxsa/framework/classes/breadcrumbs.php:1379
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2076
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:40
+msgid "N/A"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1000
+msgid "Name (required)"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:40
+msgid "Narrow"
+msgstr ""
+
+#: ../luxsa/comments.php:64 ../luxsa/partials/singular/layout-post.php:84
+#: ../luxsa/partials/singular/layout-mphb_room_type.php:71
+msgid "Next"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:176
+msgid "No products were added to the list"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:133
+msgid "No products were added to the wishlist"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:34
+msgid "None"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:509
+msgid "Order completed"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:96
+msgid "Out of Stock"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:135
+msgid "Out of stock"
+msgstr ""
+
+#. %s is the page number.
+#: ../luxsa/framework/classes/breadcrumbs.php:305
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2076
+msgctxt "Page title monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2081
+msgctxt "Page title yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../luxsa/partials/page/article.php:20
+#: ../luxsa/partials/singular/layout-post.php:54
+#: ../luxsa/partials/singular/layout-mphb_room_type.php:48
+#: ../luxsa/partials/singular/layout.php:21
+msgid "Pages:"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:938
+msgid "Pingback:"
+msgstr ""
+
+#: ../luxsa/functions.php:676
+msgid "Please, provide valid mail"
+msgstr ""
+
+#: ../luxsa/functions.php:677
+msgid "Please, set up MailChimp API key and List ID"
+msgstr ""
+
+#: ../luxsa/functions.php:774
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:57
+msgid "Popup Max Width"
+msgstr ""
+
+#: ../luxsa/comments.php:86
+msgid "Post Comment"
+msgstr ""
+
+#: ../luxsa/partials/singular/layout-post.php:85
+#: ../luxsa/partials/singular/layout-mphb_room_type.php:72
+msgid "Prev"
+msgstr ""
+
+#: ../luxsa/comments.php:63
+msgid "Previous"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:53
+#: ../luxsa/woocommerce/la_wishlist.php:103
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:128
+msgid "Price"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:51
+#: ../luxsa/woocommerce/la_wishlist.php:91
+msgid "Product"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:153
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:169
+msgid "Product added"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:149
+msgid "Product already in list"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:165
+msgid "Product already in wishlist"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:176
+msgid "Product does not exist in list"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:192
+msgid "Product does not exist in wishlist"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-compare.php:169
+msgid "Product has been removed from list"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-wishlist.php:185
+msgid "Product has been removed from wishlist"
+msgstr ""
+
+#: ../luxsa/partials/portfolio/loop-item.php:22
+#: ../luxsa/partials/elementor/lastudio-portfolio/global/loop-item.php:16
+msgid "Read More"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2036
+msgid "Recent Posts"
+msgstr ""
+
+#: ../luxsa/partials/singular/related-posts.php:84
+msgid "Related Posts"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_compare.php:103
+msgid "Remove"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:82
+msgid "Remove this item"
+msgstr ""
+
+#: ../luxsa/woocommerce/single-product/sale-flash.php:28
+msgid "Sale!"
+msgstr ""
+
+#: ../luxsa/dokan/store-custom-header.php:95
+msgid "Search in this shop"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: ../luxsa/framework/classes/breadcrumbs.php:303
+msgid "Search results for"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2049
+msgid "Search Results Found"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:458
+msgid "Secs"
+msgstr ""
+
+#: ../luxsa/functions.php:679
+msgid "Server error. Please, try again later"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:51
+msgid "Set 100% window width for popup"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:35
+msgid "Shadow"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:200
+msgctxt "shapes"
+msgid "Rectangles 2"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:507
+msgid "Shopping Cart"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:43
+#: ../luxsa/woocommerce/loop/toolbar.php:46
+#, php-format
+msgid "Show %s"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:32
+msgid "Show Only Icon"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:129
+msgid "Sku"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-config.php:470
+msgid "Sold"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:406
+msgctxt "Ordenação padrão"
+msgid "Sort by Default"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:409
+msgctxt "Ordenar por data"
+msgid "Sort by Latest"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:407
+msgctxt "Ordenar por popularidade"
+msgid "Sort by Popularity"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:410
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:411
+#, php-format
+msgctxt "Ordenar por preço: %s"
+msgid "Sort by Price: %s"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:408
+msgctxt "Ordenar por avaliação"
+msgid "Sort by Rated"
+msgstr ""
+
+#: ../luxsa/woocommerce/la_wishlist.php:52
+#: ../luxsa/woocommerce/la_wishlist.php:94
+msgid "Stock Status"
+msgstr ""
+
+#: ../luxsa/framework/third/dokan.php:87
+msgid "Store Banner height"
+msgstr ""
+
+#: ../luxsa/framework/third/dokan.php:81
+msgid "Store Banner width"
+msgstr ""
+
+#: ../luxsa/dokan/store-custom-header.php:18
+msgid "Store Closed"
+msgstr ""
+
+#: ../luxsa/framework/third/dokan.php:93
+msgid "Store Header Template"
+msgstr ""
+
+#: ../luxsa/dokan/store-custom-header.php:17
+msgid "Store Open"
+msgstr ""
+
+#: ../luxsa/functions.php:680
+msgid "Success"
+msgstr ""
+
+#: ../luxsa/dokan/store-toc.php:25
+msgid "Terms And Conditions"
+msgstr ""
+
+#: ../luxsa/comments.php:42
+#, php-format
+msgid "This post has %s comments"
+msgstr ""
+
+#: ../luxsa/comments.php:40
+msgid "This post has one comment"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:77
+msgid "Tip Background"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:71
+msgid "Tip Color"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-megamenu-init.php:65
+msgid "Tip Label"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:126
+msgid "Title"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:44
+#: ../luxsa/framework/third/lastudio-elementor.php:58
+#: ../luxsa/framework/third/lastudio-elementor.php:68
+#: ../luxsa/framework/third/lastudio-elementor.php:100
+#: ../luxsa/framework/third/lastudio-elementor.php:221
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:34
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:52
+msgid "Type 1"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:45
+#: ../luxsa/framework/third/lastudio-elementor.php:59
+#: ../luxsa/framework/third/lastudio-elementor.php:69
+#: ../luxsa/framework/third/lastudio-elementor.php:101
+#: ../luxsa/framework/third/lastudio-elementor.php:222
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:35
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:53
+msgid "Type 2"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:46
+#: ../luxsa/framework/third/lastudio-elementor.php:70
+#: ../luxsa/framework/third/lastudio-elementor.php:102
+#: ../luxsa/framework/third/lastudio-elementor.php:223
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:36
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:54
+msgid "Type 3"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:47
+#: ../luxsa/framework/third/lastudio-elementor.php:71
+#: ../luxsa/framework/third/lastudio-elementor.php:103
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:37
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:55
+msgid "Type 4"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:48
+#: ../luxsa/framework/third/lastudio-elementor.php:72
+#: ../luxsa/framework/third/lastudio-elementor.php:104
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:38
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:56
+msgid "Type 5"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:49
+#: ../luxsa/framework/third/lastudio-elementor.php:73
+#: ../luxsa/framework/third/lastudio-elementor.php:105
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:39
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:57
+msgid "Type 6"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:74
+#: ../luxsa/framework/third/lastudio-elementor.php:106
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:40
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:58
+msgid "Type 7"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio-elementor.php:75
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:41
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:59
+msgid "Type 8"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:42
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:60
+msgid "Type 9"
+msgstr ""
+
+#: ../luxsa/framework/third/dokan.php:94
+msgid "Use Store Header Template from the theme"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:34
+msgid "View"
+msgstr ""
+
+#: ../luxsa/woocommerce/loop/toolbar.php:36
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../luxsa/framework/third/lastudio.php:262
+msgid "View All"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:1004
+msgid "Website"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: ../luxsa/framework/classes/breadcrumbs.php:309
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:979
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: ../luxsa/framework/woocommerce/woocommerce-helpers.php:132
+msgid "Weight"
+msgstr ""
+
+#: ../luxsa/framework/classes/class-admin.php:127
+msgid "Widget Name"
+msgstr ""
+
+#: ../luxsa/functions.php:757
+msgid ""
+"Widgets in this area will be displayed in the left or right sidebar area if "
+"you choose the Left or Right Sidebar layout."
+msgstr ""
+
+#: ../luxsa/framework/classes/breadcrumbs.php:949
+#: ../luxsa/framework/classes/breadcrumbs.php:978
+#: ../luxsa/framework/classes/breadcrumbs.php:1005
+#: ../luxsa/framework/classes/breadcrumbs.php:1032
+#: ../luxsa/framework/classes/breadcrumbs.php:1375
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:2081
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../luxsa/framework/configs/metaboxes.php:408
+#, php-format
+msgid "You can manage footer layout on %s"
+msgstr ""
+
+#: ../luxsa/comments.php:80
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: ../luxsa/comments.php:84
+msgid "Your Comment Here..."
+msgstr ""
+
+#: ../luxsa/framework/functions/helpers.php:965
+msgid "Your comment is awaiting moderation."
+msgstr ""

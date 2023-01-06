@@ -1,0 +1,162 @@
+/*
+Template:       luxsa
+Theme Name:     Luxsa Child
+Theme URI:      http://themeforest.net/user/LaStudio/portfolio?ref=LaStudio
+Author:         LA Studio
+Author URI:     http://themeforest.net/user/LaStudio?ref=LaStudio
+Description:    LUXSA - Fashion WooCommerce Theme
+Version:        1.0.0
+Requires at least: 4.4
+Requires PHP: 5.6
+Tags:           one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, post-formats, sticky-post, theme-options, translation-ready, architecture, interior
+License: 		GNU General Public License
+License URI: 	licence/GPL.txt
+Text Domain:    luxsa-child
+Domain Path:    /languages/
+*/
+
+@font-face {
+    font-family: "Futura Light";
+    src: url('fonts/futura-light.eot');
+    src: url('fonts/futura-light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/futura-light.woff') format('woff'),
+        url('fonts/futura-light.ttf') format('truetype'),
+        url('fonts/futura-light.svg#Futura Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Futura";
+    src: url('fonts/futura.eot');
+    src: url('fonts/futura.eot?#iefix') format('embedded-opentype'),
+        url('fonts/futura.woff') format('woff'),
+        url('fonts/futura.ttf') format('truetype'),
+        url('fonts/futura.svg#Futura') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Futura Bold";
+    src: url('fonts/futura-bold.eot');
+    src: url('fonts/futura-bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/futura-bold.woff') format('woff'),
+        url('fonts/futura-bold.ttf') format('truetype'),
+        url('fonts/futura-bold.svg#Futura Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{font-family:'Futura Light', sans-serif!important;}
+
+.hamburger-menu-wrap.hm-dark {background-color: #193321!important;}
+.hamburger-main a:hover{color:#CA9F6B!important;}
+
+div#cfpp div.calculo-de-frete div#calcular-frete{background-color: #ca9f6c!important}
+div#cfpp .calculo-de-frete input {width: 90px !important;font-size: 14px; height:50px!important; margin-top:-4px!important;}
+.wrap-cart-cta .quantity {width: 90px !important; font-size:13px !important;}
+.ltr .wrap-cart-cta .quantity {margin-right: 0 !important;}
+.wrap-cart-cta .quantity .qty {width: 40px; height: 48px;}
+.product--summary .single_add_to_cart_button {padding: 10px 30px; min-width:180px;}
+.elementor-106 .elementor-element.elementor-element-049de66 .lastudio-subscribe-form {width: 700px;}
+.elementor-106 .elementor-element.elementor-element-049de66 {width:410px; max-width:410px;}
+.elementor-106 .elementor-element.elementor-element-b804b24 .elementor-heading-title{font-size:38px !important;}
+.elementor-106 .elementor-element.elementor-element-e082449 {padding: 7% 4% 13% 4% !important;}
+form.woocommerce-checkout #order_review {width: 38%; padding: 30px 20px 0;}
+form.woocommerce-checkout #customer_details{width:60%;}
+.select2-container{width:100% !important;}
+.form-row label {height: 40px;}
+.place-order .button {margin-left: 0; margin-right: 0; width: calc(100% + 0px); margin-bottom: 25px;}
+.woocommerce #payment ul.payment_methods li #pagseguro-payment-methods label, .woocommerce-page #payment ul.payment_methods li #pagseguro-payment-methods label {font-weight: 500;  padding: 5px 7px;font-size: 12px;}
+#pagseguro-payment-methods .form-row .input-text, #pagseguro-payment-methods .form-row #pagseguro-card-installments {font-size: 12px !important;}
+div#cfpp .resultado-frete{margin:0;}
+div#cfpp table{width:70%;}
+div#cfpp td{font-size:12px;}
+table.variations th, table.variations td{padding:0; border:0;}
+.product--summary .variations select{height: 30px;width:50%;margin-right: 20px;border: 1px solid #666;border-radius: 5px;padding: 10px;padding-right: 15px;}
+.woocommerce-variation .single_variation{margin-top: -20px;position: relative;top: -40px;}
+.woocommerce-tabs .woocommerce-Tabs-panel{display:none;}
+.woocommerce-tabs #tab-description{display:block;}
+.woocommerce-tabs wc-tabs-wrapper{}
+.custom-product-wrap .block_heading--title{padding:70px 0 0 0;}
+.wc_tabs_at_bottom .wc-tabs li{margin-right:0; width:32.7%;}
+.wc_tabs_at_bottom .wc-tabs li a{padding:10px; font-size:14px;}
+.wc-tab .tab-content{font-size:14px;}
+.tab-content .shop_attributes{margin-bottom:30px;}
+.wc-tab .tab-content{padding-top:0; padding-bottom:0;}
+.wc_tabs_at_bottom .wc-tabs{margin-top:0; margin-bottom:20px;}
+.woocommerce-variation .single_variation{position:relative;}
+.woocommerce-variation-availability{position:relative; top:0;}
+
+.product--summary .variations{margin-bottom:0;}
+.woocommerce-variation-add-to-cart{padding:20px 0 0 0;}
+.summary-inner .stock{display:none;}
+table.variations th{width:95px;}
+.woocommerce-variation-availability p.stock{float: left; text-align: center; width: 290px;margin-bottom: 20px; display:block; position:absolute;}
+div#cfpp{margin:0!important;float:right;}
+
+.elementor-1543 .elementor-element.elementor-element-358d017 .wpcf7 div.wpcf7-response-output{text-align:center;}
+.elementor-1543 .elementor-element.elementor-element-358d017 .wpcf7 .wpcf7-form-control:not(.wpcf7-submit):not([type="checkbox"]):not([type="radio"]){text-transform:none;}
+.wpcf7 form.sent .wpcf7-response-output{background: #46b450;color: #fff;border: 0;padding: 10px 0;margin: 20px 0;}
+
+.product_item--title a{font-family: 'Futura Light', sans-serif;}
+.cart-flyout .cart-flyout__heading{font-family: 'Futura Light', sans-serif !important;}
+.woocommerce-cart .woocommerce .shop_table.woocommerce-cart-form__contents thead th, .section-page-header .page-title, .cart-flyout .widget_shopping_cart_content .button{font-family: 'Futura Light'!important;font-weight: 300!important;}
+
+.archive .variations{display:none!important;}
+
+.elementor-106 .elementor-element.elementor-element-229f6cf{position: relative; z-index: 9;}
+
+.home .wpcf7{
+	width: 450px;
+    margin: 0 auto;
+}
+.home .wpcf7 .wpcf7-form-control-wrap{
+	float:left;
+	width: 300px;    
+}
+.home .wpcf7 .wpcf7-form-control-wrap input{
+	padding: 1rem; 
+	height: 50px;
+    color: #fff;
+    font-size: 2rem;
+	background-color: #CA9F6B;
+}
+.home .wpcf7 .wpcf7-submit{
+	float:left;	  
+	background-color: #193321;
+}
+.home .wpcf7 form.sent .wpcf7-response-output {
+    border: 0;    
+    margin: 0;
+	color: #fff;
+	padding: 10px 0;
+	text-align:center;
+	background: #46b450;
+}
+@media (min-width: 300px) and (max-width: 500px) {
+	.home .wpcf7{
+		width: 90%;    	
+	}
+	.home .wpcf7 .wpcf7-form-control-wrap {   	 
+   		width: 55%;
+	}	
+}
+
+@media (min-width: 300px) and (max-width: 800px){
+	form.woocommerce-checkout #order_review,
+	form.woocommerce-checkout #customer_details{
+    	width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,830 @@
+@import "../../../mixins";
+@import "../../../config";
+
+.elementor-widget-lastudio-banner .lastudio-banner img {
+	width: 100%;
+}
+.lastudio-banner {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	background-size: cover;
+	transition: all .3s ease-in;
+
+	.lastudio-banner__link{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		text-indent: 200%;
+		white-space: nowrap;
+		font-size: 0;
+		opacity: 0;
+	}
+	&__content {
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		text-align: center;
+	}
+	&__content-wrap {
+		@include display();
+		@include flex-flow(column);
+	}
+	.lastudio-banner__title,
+	.lastudio-banner__text {
+		margin: 0;
+		padding: 0;
+	}
+	&__overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		opacity: 0;
+		background: #000;
+		-webkit-backface-visibility: hidden;
+		@include transition(opacity 0.35s);
+	}
+	&__img {
+		display: block;
+	}
+	&:hover {
+		.lastudio-banner__overlay {
+			opacity: .2;
+		}
+	}
+
+	&.lastudio-effect-none {
+		.lastudio-banner__content {
+			@include display();
+			@include justify-content(center);
+			@include align-items(center);
+			right: 0;
+			bottom: 0;
+			width: auto;
+			height: auto;
+		}
+		.lastudio-banner__img[data-element-loaded]{
+			@include transition(all 2s);
+		}
+	}
+
+	&.lastudio-effect-lily {
+		.lastudio-banner__img {
+			max-width: none;
+			width: calc(100% + 50px);
+			min-width: calc(100% + 50px);
+			@include transition(transform 0.35s);
+			@include translate3d(-40px,0,0);
+		}
+		.lastudio-banner__content {
+			text-align: left;
+		}
+		.lastudio-banner__content-wrap {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 2em;
+			width: 100%;
+			height: 50%;
+			z-index: 2;
+		}
+		.lastudio-banner__title,
+		.lastudio-banner__text {
+			@include translate3d(0,40px,0);
+		}
+		.lastudio-banner__title {
+			@include transition(transform 0.35s);
+		}
+
+		.lastudio-banner__text {
+			color: rgba(255,255,255,0.8);
+			opacity: 0;
+			@include transition(opacity 0.2s, transform 0.35s);
+		}
+		&:hover {
+			.lastudio-banner__text {
+				opacity: 1;
+			}
+
+			.lastudio-banner__img,
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__text {
+				transition-delay: 0.05s;
+				transition-duration: 0.35s;
+			}
+		}
+	}
+
+	&.lastudio-effect-sadie {
+
+		.lastudio-banner__title {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			@include transition(transform 0.35s, color 0.35s);
+			@include translate3d(0,-50%,0);
+		}
+
+		.lastudio-banner__text {
+			@include transition(transform 0.35s, color 0.35s);
+		}
+
+		.lastudio-banner__text {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			padding: 2em;
+			width: 100%;
+			opacity: 0;
+			@include translate3d(0,10px,0);
+		}
+
+		&:hover {
+			.lastudio-banner__title {
+				@include translate3d(0,-40px,0);
+			}
+
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+		}
+	}
+
+	&.lastudio-effect-layla {
+		.lastudio-banner__content {
+			padding: 3em;
+		}
+
+		.lastudio-banner__content::before,
+		.lastudio-banner__content::after {
+			position: absolute;
+			content: '';
+			opacity: 0;
+			z-index: 2;
+		}
+
+		.lastudio-banner__content::before {
+			top: var(--shape-pos-right, 40px);
+			right: calc(var(--shape-pos-right, 40px) / 2);
+			bottom: var(--shape-pos-right, 40px);
+			left: calc(var(--shape-pos-left, 40px) / 2);
+			border-top: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			border-bottom: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			transform: scale(0,1);
+			transform-origin: 0 0;
+		}
+
+		.lastudio-banner__content::after {
+			top: calc(var(--shape-pos-top, 40px) / 2);
+			right: var(--shape-pos-right, 40px);
+			bottom: calc(var(--shape-pos-bottom, 40px) / 2);
+			left: var(--shape-pos-left, 40px);
+			border-right: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			border-left: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			@include scale(1,0);
+			transform-origin: 100% 0;
+		}
+
+		.lastudio-banner__title {
+			padding-top: 26%;
+			@include transition(transform 0.35s);
+		}
+
+		.lastudio-banner__text {
+			padding: 0.5em 2em;
+			text-transform: none;
+			opacity: 0;
+			@include translate3d(0,-10px,0);
+		}
+
+		.lastudio-banner__title {
+			@include translate3d(0,-30px,0)
+		}
+
+		.lastudio-banner__content:before,
+		.lastudio-banner__content:after,
+		.lastudio-banner__text {
+			@include transition(opacity 0.35s, transform 0.35s);
+		}
+
+		&:hover {
+			.lastudio-banner__content::before,
+			.lastudio-banner__content::after {
+				opacity: 1;
+				@include scale(1);
+			}
+
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__content::after,
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				transition-delay: 0.15s;
+			}
+		}
+	}
+
+	&.lastudio-effect-oscar {
+
+		.lastudio-banner__content {
+			padding: 3em;
+		}
+
+		.lastudio-banner__content:before {
+			position: absolute;
+			top: var(--shape-pos-top, 30px);
+			right: var(--shape-pos-right, 30px);
+			bottom: var(--shape-pos-bottom, 30px);
+			left: var(--shape-pos-left, 30px);
+			border: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			content: '';
+		}
+
+		.lastudio-banner__title {
+			margin: 20% 0 10px 0;
+			@include transition(transform 0.35s);
+			@include translate3d(0,100%,0);
+		}
+
+		.lastudio-banner__content::before,
+		.lastudio-banner__text {
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include scale(0);
+		}
+
+		&:hover {
+			.lastudio-banner__title {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__content::before,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include scale(1);
+			}
+
+		}
+	}
+
+	&.lastudio-effect-marley {
+
+		.lastudio-banner__content {
+			text-align: right;
+		}
+
+		.lastudio-banner__title,
+		.lastudio-banner__text {
+			position: absolute;
+			right: 30px;
+			left: 30px;
+			padding: 10px 0;
+		}
+
+
+		.lastudio-banner__text {
+			bottom: 30px;
+			@include translate3d(0,100%,0);
+		}
+
+		.lastudio-banner__title {
+			top: 30px;
+			@include transition(transform 0.35s);
+			@include translate3d(0,20px,0);
+		}
+
+		.lastudio-banner__title::after {
+			position: absolute;
+			top: 100%;
+			left: 0;
+			width: 100%;
+			height: var(--shape-bd-width, 4px);
+			background: var(--shape-bd-color, #fff);
+			content: '';
+			@include translate3d(0,40px,0);
+		}
+
+		.lastudio-banner__title::after,
+		.lastudio-banner__text {
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+		}
+
+		&:hover {
+
+			.lastudio-banner__title {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__title::after,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+
+		}
+	}
+
+	&.lastudio-effect-ruby {
+
+		.lastudio-banner__content {
+			padding: 2em;
+		}
+
+		.lastudio-banner__img {
+			@include transition(transform 0.35s);
+			@include scale(1.15);
+		}
+
+		.lastudio-banner__title {
+			margin-top: 20%;
+			@include transition(transform 0.35s);
+			@include translate3d(0,20px,0);
+		}
+
+		.lastudio-banner__text {
+			margin: 1em 0 0;
+			padding: 1.5em;
+			border: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include transform(translate3d(0,20px,0) scale(1.1));
+		}
+
+		&:hover {
+			.lastudio-banner__img {
+				@include scale(1);
+			}
+
+			.lastudio-banner__title {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__text {
+				opacity: 1;
+				@include transform(translate3d(0,0,0) scale(1));
+			}
+		}
+	}
+
+	&.lastudio-effect-roxy {
+
+		.lastudio-banner__img {
+			max-width: none;
+			min-width: calc(100% + 60px);
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(-50px,0,0);
+		}
+
+		.lastudio-banner__content::before {
+			position: absolute;
+			top: var(--shape-pos-top, 30px);
+			right: var(--shape-pos-right, 30px);
+			bottom: var(--shape-pos-bottom, 30px);
+			left: var(--shape-pos-left, 30px);
+			border: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			content: '';
+			opacity: 0;
+			@include transition('opacity 0.35s, transform 0.35s');
+			@include translate3d(-20px,0,0);
+		}
+
+		.lastudio-banner__content {
+			padding: 3em;
+			text-align: left;
+		}
+
+		.lastudio-banner__title {
+			padding: 30% 0 10px 0;
+		}
+
+		.lastudio-banner__text {
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(-10px,0,0);
+		}
+
+		&:hover {
+
+			.lastudio-banner__img {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__content::before,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+
+		}
+	}
+
+	&.lastudio-effect-bubba {
+
+		.lastudio-banner__content::before,
+		.lastudio-banner__content::after {
+			position: absolute;
+			top: var(--shape-pos-top, 30px);
+			right: var(--shape-pos-right, 30px);
+			bottom: var(--shape-pos-bottom, 30px);
+			left: var(--shape-pos-left, 30px);
+			content: '';
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+		}
+
+		.lastudio-banner__content::before {
+			border-top: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			border-bottom: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			@include scale(0,1);
+		}
+
+		.lastudio-banner__content::after {
+			border-right: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			border-left: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			@include scale(1,0);
+		}
+
+		.lastudio-banner__title {
+			padding-top: 30%;
+			@include transition(transform 0.35s);
+			@include translate3d(0,-20px,0);
+		}
+
+		.lastudio-banner__text {
+			padding: 20px 2.5em;
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(0,20px,0);
+		}
+
+		&:hover {
+			.lastudio-banner__content::before,
+			.lastudio-banner__content::after {
+				opacity: 1;
+				@include scale(1);
+			}
+
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+		}
+	}
+
+	&.lastudio-effect-romeo {
+
+		-webkit-perspective: 1000px;
+		perspective: 1000px;
+
+		.lastudio-banner__img {
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(0,0,300px);
+		}
+
+		.lastudio-banner__content::before,
+		.lastudio-banner__content::after {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			width: 80%;
+			height: var(--shape-bd-width, 1px);
+			background: var(--shape-bd-color, #fff);
+			content: '';
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(-50%,-50%,0);
+		}
+
+		.lastudio-banner__title,
+		.lastudio-banner__text {
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			@include transition(transform 0.35s);
+		}
+
+		.lastudio-banner__title {
+			@include transform(translate3d(0,-50%,0) translate3d(0,-150%,0));
+		}
+
+		.lastudio-banner__text {
+			padding: 0.25em 2em;
+			@include transform(translate3d(0,-50%,0) translate3d(0,150%,0))
+		}
+
+		&:hover {
+
+			.lastudio-banner__content:before {
+				opacity: 0.5;
+				@include transform(translate3d(-50%,-50%,0) rotate(45deg));
+			}
+
+			.lastudio-banner__content:after {
+				opacity: 0.5;
+				@include transform(translate3d(-50%,-50%,0) rotate(-45deg));
+			}
+
+			.lastudio-banner__img {
+				opacity: 0.6;
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__title {
+				@include transform(translate3d(0,-50%,0) translate3d(0,-100%,0));
+			}
+
+			.lastudio-banner__text {
+				@include transition(translate3d(0,-50%,0) translate3d(0,100%,0));
+			}
+
+		}
+	}
+
+	&.lastudio-effect-sarah {
+
+		.lastudio-banner__img {
+			max-width: none;
+			min-width: calc(100% + 20px);
+			transition: opacity 0.35s, transform 0.35s;
+			@include translate3d(-10px,0,0);
+			backface-visibility: hidden;
+		}
+
+		.lastudio-banner__img {
+			transform: translate3d(0,0,0);
+		}
+
+		.lastudio-banner__content {
+			text-align: left;
+			padding: 2em;
+		}
+
+		.lastudio-banner__title {
+			position: relative;
+			overflow: hidden;
+			padding: 0.5em 0;
+		}
+
+		.lastudio-banner__title::after {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: var(--shape-bd-width, 3px);
+			background: var(--shape-bd-color, #fff);
+			content: '';
+			@include transition(transform 0.35s);
+			@include translate3d(-100%,0,0);
+		}
+
+		.lastudio-banner__text {
+			padding: 1em 0;
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s);
+			@include translate3d(100%,0,0);
+		}
+
+		&:hover {
+			.lastudio-banner__title::after {
+				@include translate3d(0,0,0);
+			}
+
+			.lastudio-banner__text {
+				opacity: 1;
+				@include translate3d(0,0,0);
+			}
+		}
+	}
+
+	&.lastudio-effect-chico {
+		.lastudio-banner__img {
+			@include transition(transform 0.35s);
+			@include scale(1.12);
+		}
+
+		.lastudio-banner__content {
+			padding: 3em;
+		}
+
+		.lastudio-banner__content::before {
+			position: absolute;
+			top: var(--shape-pos-top, 30px);
+			right: var(--shape-pos-right, 30px);
+			bottom: var(--shape-pos-bottom, 30px);
+			left: var(--shape-pos-left, 30px);
+			border: var(--shape-bd-width, 1px) solid var(--shape-bd-color, #fff);
+			content: '';
+			@include scale(1.1);
+		}
+
+		.lastudio-banner__content::before,
+		.lastudio-banner__text {
+			opacity: 0;
+			@include transition(opacity 0.35s, transform 0.35s)
+		}
+
+		.lastudio-banner__title {
+			padding: 20% 0 20px 0;
+		}
+
+		.lastudio-banner__text {
+			margin: 0 auto;
+			max-width: 70%;
+			@include scale(1.5);
+		}
+
+		&:hover {
+			.lastudio-banner__img {
+				@include scale(1);
+			}
+
+			.lastudio-banner__content::before,
+			.lastudio-banner__text {
+				opacity: 1;
+				@include scale(1);
+			}
+		}
+	}
+	&.lastudio-effect-type-1 {
+
+		.lastudio-banner__content {
+			@include display();
+			@include justify-content(center);
+			@include align-items(center);
+		}
+		.lastudio-banner__img[data-element-loaded]{
+			max-width: none;
+			min-width: calc(100% + 50px);
+			@include transition(transform 0.35s);
+			@include translate3d(-40px,0,0);
+		}
+
+		.lastudio-banner__title,
+		.lastudio-banner__text {
+			@include translate3d(0,40px,0);
+			opacity: 0;
+			@include transition(opacity 0.2s, transform 0.35s);
+		}
+		&:hover {
+			box-shadow: 20px 20px 0px 0px $secondary-color;
+			.lastudio-banner__text {
+				opacity: 1;
+			}
+			.lastudio-banner__img,
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				@include translate3d(0,0,0);
+			}
+			.lastudio-banner__title,
+			.lastudio-banner__text {
+				opacity: 1;
+			}
+			.lastudio-banner__text {
+				transition-delay: 0.05s;
+				transition-duration: 0.35s;
+			}
+		}
+	}
+}
+
+.lastudio-banner.image-custom-height img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	object-fit: cover;
+}
+
+.banner_content_hover{
+	.lastudio-banner{
+		.lastudio-banner__content-wrap{
+			opacity: 0;
+			@include translate2d(0,50px);
+			@include transition(opacity 0.35s, transform 0.35s)
+		}
+		&:hover{
+			.lastudio-banner__content-wrap{
+				opacity: 1;
+				@include translate2d(0,0);
+			}
+		}
+	}
+}
+
+.banner_content_hover2{
+	.lastudio-banner{
+		.lastudio-banner__title{
+			@include translate2d(0, -100%);
+			@include transition(transform .6s);
+		}
+		.lastudio-banner__content-wrap{
+			@include translate2d(0, 100%);
+			@include transition(transform 0.6s);
+		}
+		&:hover{
+			.lastudio-banner__title,
+			.lastudio-banner__content-wrap{
+				@include translate2d(0,0);
+			}
+		}
+	}
+}
+
+.banner_content_hover3{
+	.lastudio-banner{
+		.lastudio-banner__content-wrap{
+			opacity: 0;
+			@include translate2d(-50px, 0);
+			@include transition(opacity 0.35s, transform 0.35s)
+		}
+		button{
+			&:after{
+				content: '\ea6b';
+				font-family: LaStudioIcons;
+				margin: 0 .5em;
+			}
+		}
+		&:hover{
+			.lastudio-banner__content-wrap{
+				opacity: 1;
+				@include translate2d(0,0);
+			}
+		}
+	}
+}
+
+.lastudio-advance-carousel-layout-simple .lastudio-carousel__image .lastudio-carousel__item-img {
+	margin: auto;
+}
+.banner_transform_effect{
+	.lastudio-advance-carousel-layout-simple{
+		.lastudio-carousel__item-inner {
+			transition: all .5s;
+			&:hover{
+				transform: translate(0, -20px);
+			}
+		}
+	}
+}
+
+.furniture_banner_product{
+	.lastudio-banner{
+		.lastudio-banner__content{
+			&:before{
+				content: '';
+				background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='21' height='21' viewBox='0 0 21 21' fill='none'%3E%3Cpath d='M10.5 0.5V20.5' stroke='currentColor' stroke-miterlimit='10' stroke-linecap='square'/%3E%3Cpath d='M20.5 10.5H0.5' stroke='currentColor' stroke-miterlimit='10' stroke-linecap='square'/%3E%3C/svg%3E");
+				width: 3.5em;
+				height: 3.5em;
+				position: absolute;
+				border-radius: 50%;
+				background-repeat: no-repeat;
+				background-position: center;
+				background-color: #fff;
+				background-size: 36%;
+				top: 50%;
+				margin-top: -2em;
+				opacity: 0;
+				@include translate2d(0,-50px);
+				@include transition(opacity 0.35s, transform 0.35s)
+			}
+		}
+		.lastudio-banner__content-wrap{
+			opacity: 0;
+			@include translate2d(0,50px);
+			@include transition(opacity 0.35s, transform 0.35s)
+		}
+		&:hover{
+			.lastudio-banner__content:before,
+			.lastudio-banner__content-wrap{
+				opacity: 1;
+				@include translate2d(0,0);
+			}
+		}
+	}
+}

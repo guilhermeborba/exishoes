@@ -1,0 +1,28 @@
+@import "../../../mixins";
+
+.lastudio-countdown-timer {
+	@include display();
+	@include flex-flow(row wrap);
+	@include justify-content(center);
+	@include align-items(center);
+
+	&__item {
+		@include display;
+		@include flex-flow(column nowrap);
+		@include justify-content(center);
+		@include align-items(stretch);
+		text-align: center;
+		margin: 5px;
+	}
+
+	&__separator {
+		display: none;
+		* + & {
+			display: block;
+		}
+	}
+
+	&__digit {
+		display: inline-block;
+	}
+}

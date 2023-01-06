@@ -1,0 +1,143 @@
+@charset "UTF-8";
+.lastudio-audio > audio {
+  display: none;
+}
+.lastudio-audio .mejs-container,
+.lastudio-audio .mejs-container .mejs-controls {
+  background: none;
+}
+.lastudio-audio .mejs-container {
+  max-width: 100%;
+  height: auto !important;
+  font-family: inherit;
+}
+.lastudio-audio .mejs-controls {
+  position: relative;
+  height: auto;
+  padding: 0;
+  align-items: center;
+}
+.lastudio-audio .mejs-controls .mejs-button,
+.lastudio-audio .mejs-controls .mejs-time,
+.lastudio-audio .mejs-controls .mejs-time-rail {
+  width: auto;
+  height: auto;
+}
+.lastudio-audio .mejs-controls .mejs-button > button {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0;
+  letter-spacing: normal;
+  border: 1px none;
+  border-radius: 0;
+  background: none;
+  font: normal normal normal 12px/1 FontAwesome;
+  text-rendering: auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lastudio-audio .mejs-controls .mejs-button > button:before {
+  display: inline-block;
+  width: 1em;
+}
+.lastudio-audio .mejs-controls .mejs-playpause-button > button {
+  padding: 14px;
+  color: #303865;
+  background-color: #fff;
+}
+.lastudio-audio .mejs-controls .mejs-volume-button {
+  margin-left: 10px;
+}
+.lastudio-audio .mejs-controls .mejs-volume-button > button {
+  padding: 3px;
+  color: #fff;
+}
+.lastudio-audio .mejs-controls .mejs-playpause-button.mejs-play > button:before {
+  content: "";
+}
+.lastudio-audio .mejs-controls .mejs-playpause-button.mejs-pause > button:before {
+  content: "";
+}
+.lastudio-audio .mejs-controls .mejs-playpause-button.mejs-replay > button:before {
+  content: "";
+}
+.lastudio-audio .mejs-controls .mejs-volume-button.mejs-mute > button:before {
+  content: "";
+}
+.lastudio-audio .mejs-controls .mejs-volume-button.mejs-unmute > button:before {
+  content: "";
+}
+.lastudio-audio .mejs-controls .mejs-time {
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #fff;
+}
+.lastudio-audio .mejs-controls .mejs-currenttime,
+.lastudio-audio .mejs-controls .mejs-duration {
+  margin-left: 10px;
+}
+.lastudio-audio .mejs-controls .mejs-currenttime ~ .mejs-duration {
+  margin-left: 0;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-total {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background: #303865;
+  border-radius: 5px;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-current {
+  width: 0;
+  transform: scaleX(1) !important;
+  background: #fff;
+  border-radius: 0 5px 5px 0;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-buffering,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-current,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-hovered {
+  height: 100%;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-buffering,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  border-radius: 0;
+}
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-handle,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.lastudio-audio .mejs-controls .mejs-time-rail .mejs-time-hovered {
+  display: none;
+}
+.lastudio-audio .mejs-controls .mejs-horizontal-volume-slider {
+  width: auto;
+  height: auto;
+  margin-left: 7px;
+}
+.lastudio-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+  position: relative;
+  top: auto;
+  width: 60px;
+  height: 10px;
+  border-radius: 5px;
+  background: #303865;
+  overflow: hidden;
+}
+.lastudio-audio .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  border-radius: 0 5px 5px 0;
+  background: #fff;
+}
+.lastudio-audio .mejs-controls .mejs-volume-slider .mejs-volume-total {
+  width: 4px;
+}
+
+.elementor-widget-lastudio-audio .elementor-widget-container {
+  padding: 10px;
+  background: #00B4FF;
+}

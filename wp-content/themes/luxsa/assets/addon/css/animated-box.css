@@ -1,0 +1,304 @@
+.lastudio-animated-box {
+  position: relative;
+}
+.lastudio-animated-box__front, .lastudio-animated-box__back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-flow: row nowrap;
+}
+.lastudio-animated-box__front {
+  background-color: #f53e6a;
+}
+.lastudio-animated-box__back {
+  background-color: #54595f;
+}
+.lastudio-animated-box__overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.lastudio-animated-box__inner {
+  min-width: 100%;
+  z-index: 2;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+.lastudio-animated-box__icon {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.lastudio-animated-box__icon .lastudio-animated-box-icon-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastudio-animated-box__content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+.lastudio-animated-box .lastudio-animated-box__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lastudio-animated-box .lastudio-animated-box__button--icon-before .lastudio-animated-box__button-text {
+  order: 2;
+}
+.lastudio-animated-box .lastudio-animated-box__button--icon-before .lastudio-animated-box__button-icon {
+  order: 1;
+}
+.lastudio-animated-box .lastudio-animated-box__button--icon-after .lastudio-animated-box__button-text {
+  order: 1;
+}
+.lastudio-animated-box .lastudio-animated-box__button--icon-after .lastudio-animated-box__button-icon {
+  order: 2;
+}
+.lastudio-animated-box.lastudio-box-effect-1 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-1 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-1 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+  z-index: 1;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-1.flipped .lastudio-animated-box__front {
+  transform: rotateY(180deg);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-1.flipped .lastudio-animated-box__back {
+  transform: rotateY(0deg);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-2 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-2 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg);
+  backface-visibility: hidden;
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-2 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateX(-180deg);
+  backface-visibility: hidden;
+  z-index: 1;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-2.flipped .lastudio-animated-box__front {
+  transform: rotateX(180deg);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-2.flipped .lastudio-animated-box__back {
+  transform: rotateX(0deg);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-3 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-3 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg) translateY(0) scale(1);
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-3 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateX(-90deg) translateY(150%) scale(0);
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.63, 0.07, 0.78, 0.55);
+}
+.lastudio-animated-box.lastudio-box-effect-3.flipped .lastudio-animated-box__front {
+  transform: rotateX(90deg) translateY(-150%) scale(0);
+  transition: all 0.5s cubic-bezier(0.63, 0.07, 0.78, 0.55);
+  z-index: 1;
+}
+.lastudio-animated-box.lastudio-box-effect-3.flipped .lastudio-animated-box__back {
+  transform: rotateX(0deg) translateY(0) scale(1);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+  z-index: 2;
+}
+.lastudio-animated-box.lastudio-box-effect-4 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-4 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg) translateX(0) scale(1);
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+}
+.lastudio-animated-box.lastudio-box-effect-4 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateY(-90deg) translateX(-150%) scale(0);
+  z-index: 1;
+  transition: all 0.5s cubic-bezier(0.63, 0.07, 0.78, 0.55);
+}
+.lastudio-animated-box.lastudio-box-effect-4.flipped .lastudio-animated-box__front {
+  transform: rotateY(90deg) translateX(150%) scale(0);
+  transition: all 0.5s cubic-bezier(0.63, 0.07, 0.78, 0.55);
+  z-index: 1;
+}
+.lastudio-animated-box.lastudio-box-effect-4.flipped .lastudio-animated-box__back {
+  transform: rotateY(0deg) translateX(0) scale(1);
+  transition: all 0.7s cubic-bezier(0.11, 0.6, 0.24, 0.89);
+  z-index: 2;
+}
+.lastudio-animated-box.lastudio-box-effect-5 {
+  overflow: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-5 .lastudio-animated-box__front {
+  transform: translateY(0%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-5 .lastudio-animated-box__back {
+  transform: translateY(-100%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-5.flipped .lastudio-animated-box__front {
+  transform: translateY(100%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-5.flipped .lastudio-animated-box__back {
+  transform: translateY(0%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-6 {
+  overflow: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-6 .lastudio-animated-box__front {
+  transform: translateX(0%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-6 .lastudio-animated-box__back {
+  transform: translateX(-100%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-6.flipped .lastudio-animated-box__front {
+  transform: translateX(100%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-6.flipped .lastudio-animated-box__back {
+  transform: translateX(0%);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-7 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-7 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateY(0deg);
+  backface-visibility: hidden;
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-7 .lastudio-animated-box__front .lastudio-animated-box__inner {
+  transform: translateZ(0px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88) 0.2s;
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-7 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateY(-180deg);
+  backface-visibility: hidden;
+  z-index: 1;
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-7 .lastudio-animated-box__back .lastudio-animated-box__inner {
+  transform: translateZ(125px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-7.flipped .lastudio-animated-box__front {
+  transform: rotateY(180deg);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-7.flipped .lastudio-animated-box__front .lastudio-animated-box__inner {
+  transform: translateZ(125px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-7.flipped .lastudio-animated-box__back {
+  transform: rotateY(0deg);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-7.flipped .lastudio-animated-box__back .lastudio-animated-box__inner {
+  transform: translateZ(0px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88) 0.2s;
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-8 {
+  perspective: 1000px;
+}
+.lastudio-animated-box.lastudio-box-effect-8 .lastudio-animated-box__front {
+  transform-style: preserve-3d;
+  transform: rotateX(0deg);
+  backface-visibility: hidden;
+  z-index: 2;
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-8 .lastudio-animated-box__front .lastudio-animated-box__inner {
+  transform: translateZ(0px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88) 0.2s;
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-8 .lastudio-animated-box__back {
+  transform-style: preserve-3d;
+  transform: rotateX(-180deg);
+  backface-visibility: hidden;
+  z-index: 1;
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-8 .lastudio-animated-box__back .lastudio-animated-box__inner {
+  transform: translateZ(125px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-8.flipped .lastudio-animated-box__front {
+  transform: rotateX(180deg);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-8.flipped .lastudio-animated-box__front .lastudio-animated-box__inner {
+  transform: translateZ(125px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+  backface-visibility: hidden;
+}
+.lastudio-animated-box.lastudio-box-effect-8.flipped .lastudio-animated-box__back {
+  transform: rotateX(0deg);
+  transition: all 0.7s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+}
+.lastudio-animated-box.lastudio-box-effect-8.flipped .lastudio-animated-box__back .lastudio-animated-box__inner {
+  transform: translateZ(0px);
+  transition: all 0.4s cubic-bezier(0.5, 0.12, 0.46, 0.88) 0.2s;
+  backface-visibility: hidden;
+}
+
+.lastudio-animated-box-icon-inner svg {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+}

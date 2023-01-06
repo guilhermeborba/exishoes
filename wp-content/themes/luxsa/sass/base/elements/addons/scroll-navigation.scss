@@ -1,0 +1,93 @@
+@import "../../../mixins";
+
+
+.lastudio-scroll-navigation {
+	position: fixed;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 999;
+
+	&--position-left {
+		left: 0;
+
+		.lastudio-scroll-navigation__item-hint {
+			left: calc(100% + 10px);
+		}
+	}
+
+	&--position-right {
+		right: 0;
+
+		.lastudio-scroll-navigation__item-hint {
+			right: calc(100% + 10px);
+		}
+	}
+
+	&__inner {
+		@include display;
+		@include flex-flow(column);
+		@include justify-content(center);
+		@include align-items(center);
+		position: relative;
+	}
+
+	&__item {
+		position: relative;
+		@include display;
+		@include justify-content(center);
+		@include align-items(center);
+		overflow: visible !important;
+		margin: 10px 0;
+		&.active,
+		&:hover {
+			.lastudio-scroll-navigation__item-hint {
+				opacity: 1;
+				pointer-events: auto;
+			}
+			.lastudio-scroll-navigation__dot{
+				opacity: 1;
+			}
+		}
+	}
+
+	&__dot {
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		@include display;
+		@include justify-content(center);
+		@include align-items(center);
+		border-radius: 50%;
+		font-size: 14px;
+		transition: all 0.3s cubic-bezier(0.5, 0.12, 0.46, 0.88);
+		background-color: #fff;
+		color: #494949;
+		opacity: .5;
+	}
+
+	&__item-hint {
+		position: absolute;
+		@include display;
+		@include justify-content(center);
+		@include align-items(center);
+		@include flex-flow(row nowrap);
+		opacity: 0;
+		pointer-events: none;
+		transition: all .3s cubic-bezier(.5,.12,.46,.88);
+		padding: 0 10px;
+		border-radius: 4px;
+		background-color: #fff;
+		color: #494949;
+		font-size: 14px;
+	}
+
+	&__icon {
+		@include display;
+		@include flex-flow(column);
+		@include justify-content(center);
+	}
+
+	&__label {
+		white-space: nowrap;
+	}
+}

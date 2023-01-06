@@ -1,0 +1,435 @@
+@charset "UTF-8";
+.lastudio-video {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #000;
+}
+.lastudio-video__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.lastudio-video__overlay:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.lastudio-video__overlay--custom-bg {
+  z-index: 3;
+}
+.lastudio-video__play-button {
+  z-index: 5;
+  font-size: 80px;
+  line-height: 1;
+  text-align: center;
+  color: #fff;
+  transition: 0.2s;
+}
+.lastudio-video__play-button-icon {
+  width: 1em;
+  vertical-align: top;
+}
+.lastudio-video__play-button-image {
+  width: 1em;
+  vertical-align: top;
+}
+.lastudio-video__play-button-image svg {
+  width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.lastudio-video__play-button--animation-grow {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-grow {
+  transform: scale(1.1);
+}
+.lastudio-video__play-button--animation-shrink {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-shrink {
+  transform: scale(0.9);
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-pulse {
+  animation-name: elementor-animation-pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-pulse-grow {
+  animation-name: elementor-animation-pulse-grow;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-pulse-shrink {
+  animation-name: elementor-animation-pulse-shrink;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-push {
+  animation-name: elementor-animation-push;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-pop {
+  animation-name: elementor-animation-pop;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.lastudio-video__play-button--animation-bounce-in {
+  transition-duration: 0.5s;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-bounce-in {
+  transform: scale(1.2);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.lastudio-video__play-button--animation-bounce-out {
+  transition-duration: 0.5s;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-bounce-out {
+  transform: scale(0.8);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+.lastudio-video__play-button--animation-rotate {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-rotate {
+  transform: rotate(4deg);
+}
+.lastudio-video__play-button--animation-grow-rotate {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-grow-rotate {
+  transform: scale(1.1) rotate(4deg);
+}
+.lastudio-video__play-button--animation-float {
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-float {
+  transform: translateY(-8px);
+}
+.lastudio-video__play-button--animation-sink {
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-sink {
+  transform: translateY(8px);
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-bob {
+  animation-name: elementor-animation-bob-float, elementor-animation-bob;
+  animation-duration: 0.3s, 1.5s;
+  animation-delay: 0s, 0.3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-hang {
+  animation-name: elementor-animation-hang-sink, elementor-animation-hang;
+  animation-duration: 0.3s, 1.5s;
+  animation-delay: 0s, 0.3s;
+  animation-timing-function: ease-out, ease-in-out;
+  animation-iteration-count: 1, infinite;
+  animation-fill-mode: forwards;
+  animation-direction: normal, alternate;
+}
+.lastudio-video__play-button--animation-skew {
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-skew {
+  transform: skew(-10deg);
+}
+.lastudio-video__play-button--animation-skew-forward {
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform-origin: 0 100%;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-skew-forward {
+  transform: skew(-10deg);
+}
+.lastudio-video__play-button--animation-skew-backward {
+  transition-duration: 0.3s;
+  transition-property: transform;
+  transform-origin: 0 100%;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-skew-backward {
+  transform: skew(10deg);
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-vertical {
+  animation-name: elementor-animation-wobble-vertical;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-horizontal {
+  animation-name: elementor-animation-wobble-horizontal;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-to-bottom-right {
+  animation-name: elementor-animation-wobble-to-bottom-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-to-top-right {
+  animation-name: elementor-animation-wobble-to-top-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__play-button--animation-wobble-top {
+  transform-origin: 0 100%;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-top {
+  animation-name: elementor-animation-wobble-top;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__play-button--animation-wobble-bottom {
+  transform-origin: 100% 0;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-bottom {
+  animation-name: elementor-animation-wobble-bottom;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-wobble-skew {
+  animation-name: elementor-animation-wobble-skew;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: 1;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-buzz {
+  animation-name: elementor-animation-buzz;
+  animation-duration: 0.15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.lastudio-video__overlay:hover .lastudio-video__play-button--animation-buzz-out {
+  animation-name: elementor-animation-buzz-out;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+.lastudio-video.lastudio-video-aspect-ratio--16-9 {
+  padding-bottom: 56.25%;
+}
+.lastudio-video.lastudio-video-aspect-ratio--21-9 {
+  padding-bottom: 42.8571%;
+}
+.lastudio-video.lastudio-video-aspect-ratio--4-3 {
+  padding-bottom: 75%;
+}
+.lastudio-video.lastudio-video-aspect-ratio--3-2 {
+  padding-bottom: 66.6666%;
+}
+.lastudio-video.lastudio-video-aspect-ratio--1-1 {
+  padding-bottom: 100%;
+}
+.lastudio-video.lastudio-video-aspect-ratio iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border: none;
+}
+.lastudio-video .lastudio-video-html5-player,
+.lastudio-video .mejs-mediaelement video.lastudio-video-mejs-player {
+  object-fit: cover;
+}
+.lastudio-video > video.lastudio-video-mejs-player {
+  opacity: 0;
+}
+.lastudio-video .lastudio-video-html5-player {
+  display: block;
+}
+.lastudio-video .lastudio-video-mejs-player.mejs-container {
+  font-family: inherit;
+  background: none;
+}
+.lastudio-video .lastudio-video-mejs-player.lastudio-video-custom-play-button .mejs-overlay-play .mejs-overlay-button {
+  display: none;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-overlay-loading {
+  display: none;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls {
+  height: auto;
+  padding: 10px;
+  align-items: center;
+  background: #fff;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-button,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail {
+  width: auto;
+  height: auto;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-button > button {
+  position: relative;
+  width: auto;
+  height: auto;
+  margin: 0;
+  letter-spacing: normal;
+  border: 1px none;
+  border-radius: 0;
+  background: none;
+  font: normal normal normal 12px/1 FontAwesome;
+  text-rendering: auto;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-button > button:before {
+  display: inline-block;
+  width: 1em;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-playpause-button > button {
+  padding: 14px;
+  color: #fff;
+  background-color: #00B4FF;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-volume-button,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-fullscreen-button {
+  margin-left: 10px;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-volume-button > button {
+  padding: 3px;
+  color: #00B4FF;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-fullscreen-button > button {
+  color: #00B4FF;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-fullscreen-button > button:before {
+  content: "";
+}
+@supports (mask-image: none) or (-webkit-mask-image: none) {
+  .lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-fullscreen-button > button:before {
+    content: "";
+    height: 1em;
+    vertical-align: top;
+    background-color: currentColor;
+    mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' viewBox='0 0 13 13'%3E%3Cpath d='M0 4.67188C0 4.78125 0.0273438 4.86328 0.0820312 4.91797C0.136719 4.97266 0.21875 5 0.328125 5H1.42188C1.50391 5 1.58594 4.97266 1.64062 4.91797C1.69531 4.86328 1.75 4.78125 1.75 4.67188V2.375H4.04688C4.12891 2.375 4.21094 2.34766 4.26562 2.29297C4.32031 2.23828 4.375 2.15625 4.375 2.04688V0.953125C4.375 0.871094 4.32031 0.789062 4.26562 0.734375C4.21094 0.679688 4.12891 0.625 4.04688 0.625H0.65625C0.464844 0.625 0.300781 0.707031 0.191406 0.816406C0.0546875 0.953125 0 1.11719 0 1.28125V4.67188ZM7.875 0.953125C7.875 0.871094 7.90234 0.789062 7.95703 0.734375C8.01172 0.679688 8.09375 0.625 8.20312 0.625H11.5938C11.7578 0.625 11.9219 0.707031 12.0586 0.816406C12.168 0.953125 12.25 1.11719 12.25 1.28125V4.67188C12.25 4.78125 12.1953 4.86328 12.1406 4.91797C12.0859 4.97266 12.0039 5 11.9219 5H10.8281C10.7188 5 10.6367 4.97266 10.582 4.91797C10.5273 4.86328 10.5 4.78125 10.5 4.67188V2.375H8.20312C8.09375 2.375 8.01172 2.34766 7.95703 2.29297C7.90234 2.23828 7.875 2.15625 7.875 2.04688V0.953125ZM11.9219 8.5C12.0039 8.5 12.0859 8.55469 12.1406 8.60938C12.1953 8.66406 12.25 8.74609 12.25 8.82812V12.2188C12.25 12.4102 12.168 12.5742 12.0586 12.6836C11.9219 12.8203 11.7578 12.875 11.5938 12.875H8.20312C8.09375 12.875 8.01172 12.8477 7.95703 12.793C7.90234 12.7383 7.875 12.6562 7.875 12.5469V11.4531C7.875 11.3711 7.90234 11.2891 7.95703 11.2344C8.01172 11.1797 8.09375 11.125 8.20312 11.125H10.5V8.82812C10.5 8.74609 10.5273 8.66406 10.582 8.60938C10.6367 8.55469 10.7188 8.5 10.8281 8.5H11.9219ZM4.375 12.5469C4.375 12.6562 4.32031 12.7383 4.26562 12.793C4.21094 12.8477 4.12891 12.875 4.04688 12.875H0.65625C0.464844 12.875 0.300781 12.8203 0.191406 12.6836C0.0546875 12.5742 0 12.4102 0 12.2188V8.82812C0 8.74609 0.0273438 8.66406 0.0820312 8.60938C0.136719 8.55469 0.21875 8.5 0.328125 8.5H1.42188C1.50391 8.5 1.58594 8.55469 1.64062 8.60938C1.69531 8.66406 1.75 8.74609 1.75 8.82812V11.125H4.04688C4.12891 11.125 4.21094 11.1797 4.26562 11.2344C4.32031 11.2891 4.375 11.3711 4.375 11.4531V12.5469Z'/%3E%3C/svg%3E");
+  }
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-playpause-button.mejs-play > button:before {
+  content: "";
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-playpause-button.mejs-pause > button:before {
+  content: "";
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-playpause-button.mejs-replay > button:before {
+  content: "";
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-volume-button.mejs-mute > button:before {
+  content: "";
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-volume-button.mejs-unmute > button:before {
+  content: "";
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time {
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: normal;
+  color: #303865;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-currenttime,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-duration {
+  margin-left: 10px;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-currenttime ~ .mejs-duration {
+  margin-left: 0;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail {
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-total {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  background: #EAEBF0;
+  border-radius: 5px;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-current {
+  width: 0;
+  transform: scaleX(1) !important;
+  background: #EA36A4;
+  border-radius: 0 5px 5px 0;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-buffering,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-current,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-hovered {
+  height: 100%;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-buffering,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-loaded {
+  border-radius: 0;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-handle,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-time-rail .mejs-time-hovered {
+  display: none;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-horizontal-volume-slider {
+  width: auto;
+  height: auto;
+  margin-left: 7px;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+  position: relative;
+  top: auto;
+  width: 60px;
+  height: 10px;
+  border-radius: 5px;
+  background: #EAEBF0;
+  overflow: hidden;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  border-radius: 0 5px 5px 0;
+  background: #00B4FF;
+}
+.lastudio-video .lastudio-video-mejs-player .mejs-controls .mejs-volume-slider .mejs-volume-total {
+  width: 4px;
+}
+.lastudio-video .ast-oembed-container {
+  position: static;
+  padding: 0;
+}

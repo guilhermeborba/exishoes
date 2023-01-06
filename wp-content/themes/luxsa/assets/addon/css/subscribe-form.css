@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.lastudio-subscribe-form {
+  max-width: 100%;
+  position: relative;
+}
+.lastudio-subscribe-form__fields {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.lastudio-subscribe-form__submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  position: relative;
+  max-width: 100%;
+}
+.lastudio-subscribe-form__submit span {
+  vertical-align: middle;
+  display: inline-block;
+}
+.lastudio-subscribe-form__submit:before {
+  box-sizing: border-box;
+  position: absolute;
+  visibility: hidden;
+  top: 50%;
+  left: 50%;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  border-top-color: #000;
+  content: "";
+  animation: lastudio-spinner 0.6s linear infinite;
+}
+.lastudio-subscribe-form__submit.loading i {
+  visibility: hidden;
+}
+.lastudio-subscribe-form__submit.loading span {
+  visibility: hidden;
+}
+.lastudio-subscribe-form__submit.loading:before {
+  visibility: visible;
+}
+.lastudio-subscribe-form__message {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  visibility: hidden;
+  color: #4ab866;
+  font-size: 14px;
+}
+.lastudio-subscribe-form__message .lastudio-subscribe-form__message-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.lastudio-subscribe-form .elementor-icon {
+  color: inherit;
+}
+
+.lastudio-subscribe-form--response-error .lastudio-subscribe-form__message {
+  color: #d94f4f;
+}
+
+.lastudio-subscribe-form--inline-layout .lastudio-subscribe-form__input-group {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.lastudio-subscribe-form--inline-layout .lastudio-subscribe-form__input-group .lastudio-subscribe-form__fields {
+  flex: 1 1 auto;
+  width: 100px;
+}
+.lastudio-subscribe-form--inline-layout .lastudio-subscribe-form__input-group .lastudio-subscribe-form__submit {
+  flex: 0 1 auto;
+  width: auto;
+}
+
+.lastudio-subscribe-form--block-layout .lastudio-subscribe-form__input-group {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.lastudio-subscribe-form--block-layout .lastudio-subscribe-form__input-group .lastudio-subscribe-form__fields {
+  width: 100%;
+}
+
+.custom-sf-shortcode .lastudio-subscribe-form__input-group {
+  border: 1px solid var(--theme-border-color);
+  line-height: 30px;
+}
+.custom-sf-shortcode .lastudio-subscribe-form__input-group input {
+  border: none;
+  padding: 15px;
+  line-height: 30px;
+}
+.custom-sf-shortcode .elementor-button.lastudio-subscribe-form__submit {
+  background: none;
+  color: var(--theme-secondary-color);
+  padding: 15px 20px;
+}
+.custom-sf-shortcode .elementor-button.lastudio-subscribe-form__submit:hover {
+  color: var(--theme-primary-color);
+}
+.custom-sf-shortcode .lastudio-subscribe-form__submit-text {
+  font-size: 0;
+}
+.custom-sf-shortcode .lastudio-subscribe-form__submit-text:before {
+  content: "";
+  font-family: "LaStudioIcons";
+  font-size: 16px;
+  line-height: 30px;
+  display: block;
+}
