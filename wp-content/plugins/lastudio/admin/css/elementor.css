@@ -1,0 +1,367 @@
+@font-face{
+  font-family: 'lastudioelements';
+  src: url('../../public/fonts/lastudioelements.eot?n7pshk');
+  src: url('../../public/fonts/lastudioelements.eot?n7pshk#iefix') format('embedded-opentype'),
+  url('../../public/fonts/lastudioelements.ttf?n7pshk') format('truetype'),
+  url('../../public/fonts/lastudioelements.woff?n7pshk') format('woff'),
+  url('../../public/fonts/lastudioelements.svg?n7pshk#lastudioelements') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="lastudioelements-icon-"], [class*=" lastudioelements-icon-"]{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'lastudioelements' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.elementor-panel [class^="lastudioelements-icon-"]:before,
+.elementor-panel [class*=" lastudioelements-icon-"]:before{
+  display: block;
+  font-size: 36px;
+  line-height: 29px;
+}
+.lastudioelements-icon-1:before{
+  content: "\e900";
+}
+.lastudioelements-icon-2:before{
+  content: "\e901";
+}
+.lastudioelements-icon-3:before{
+  content: "\e902";
+}
+.lastudioelements-icon-4:before{
+  content: "\e903";
+}
+.lastudioelements-icon-5:before{
+  content: "\e904";
+}
+.lastudioelements-icon-6:before{
+  content: "\e905";
+}
+.lastudioelements-icon-7:before{
+  content: "\e906";
+}
+.lastudioelements-icon-8:before{
+  content: "\e907";
+}
+.lastudioelements-icon-9:before{
+  content: "\e908";
+}
+.lastudioelements-icon-10:before{
+  content: "\e909";
+}
+.lastudioelements-icon-11:before{
+  content: "\e90a";
+}
+.lastudioelements-icon-12:before{
+  content: "\e90b";
+}
+.lastudioelements-icon-13:before{
+  content: "\e90c";
+}
+.lastudioelements-icon-14:before{
+  content: "\e90d";
+}
+.lastudioelements-icon-15:before{
+  content: "\e90e";
+}
+.lastudioelements-icon-16:before{
+  content: "\e90f";
+}
+.lastudioelements-icon-17:before{
+  content: "\e910";
+}
+.lastudioelements-icon-18:before{
+  content: "\e911";
+}
+.lastudioelements-icon-19:before{
+  content: "\e912";
+}
+.lastudioelements-icon-20:before{
+  content: "\e913";
+}
+.lastudioelements-icon-21:before{
+  content: "\e914";
+}
+.lastudioelements-icon-22:before{
+  content: "\e915";
+}
+.lastudioelements-icon-23:before{
+  content: "\e916";
+}
+.lastudioelements-icon-24:before{
+  content: "\e917";
+}
+.lastudioelements-icon-25:before{
+  content: "\e918";
+}
+.lastudioelements-icon-26:before{
+  content: "\e919";
+}
+.lastudioelements-icon-27:before{
+  content: "\e91a";
+}
+.lastudioelements-icon-28:before{
+  content: "\e91b";
+}
+.lastudioelements-icon-29:before{
+  content: "\e91c";
+}
+.lastudioelements-icon-30:before{
+  content: "\e91d";
+}
+.lastudioelements-icon-31:before{
+  content: "\e91e";
+}
+.lastudioelements-icon-32:before{
+  content: "\e91f";
+}
+.lastudioelements-icon-33:before{
+  content: "\e920";
+}
+.lastudioelements-icon-34:before{
+  content: "\e921";
+}
+.lastudioelements-icon-35:before{
+  content: "\e922";
+}
+.lastudioelements-icon-36:before{
+  content: "\e923";
+}
+.lastudioelements-icon-37:before{
+  content: "\e924";
+}
+.lastudioelements-icon-38:before{
+  content: "\e925";
+}
+.lastudioelements-icon-39:before{
+  content: "\e926";
+}
+.lastudioelements-icon-40:before{
+  content: "\e927";
+}
+.lastudioelements-icon-41:before{
+  content: "\e928";
+}
+.lastudioelements-icon-42:before{
+  content: "\e929";
+}
+.lastudioelements-icon-43:before{
+  content: "\e92a";
+}
+.lastudioelements-icon-44:before{
+  content: "\e92b";
+}
+.lastudioelements-icon-45:before{
+  content: "\e92c";
+}
+.lastudioelements-icon-46:before{
+  content: "\e92d";
+}
+#elementor-preview-responsive-wrapper{
+  transition: none !important;
+}
+.elementor-device-laptop1 #elementor-preview-responsive-wrapper{
+  width: 1680px;
+  height: 1050px;
+  padding: 40px 10px 70px
+}
+.elementor-device-laptop2 #elementor-preview-responsive-wrapper{
+  width: 1440px;
+  height: 900px;
+  padding: 40px 10px 70px
+}
+.elementor-device-laptop #elementor-preview-responsive-wrapper{
+  width: 1366px;
+  height: 800px;
+  padding: 40px 10px 70px
+}
+/*.is-localhost.elementor-device-laptop #elementor-preview-responsive-wrapper{*/
+/*  width: 1440px;*/
+/*  height: 900px;*/
+/*}*/
+.elementor-device-tablet #elementor-preview-responsive-wrapper{
+  width: 1024px;
+  height: 768px;
+  padding: 20px 55px;
+}
+.elementor-device-mobile_extra #elementor-preview-responsive-wrapper{
+  width: 768px;
+  height: 1025px;
+  padding: 40px 10px 70px;
+}
+/*Show only controls related to specific device and hide rest*/
+body:not(.elementor-device-laptop) .elementor-control.elementor-control-responsive-laptop,
+body:not(.elementor-device-mobile_extra) .elementor-control.elementor-control-responsive-mobile_extra{
+  display: none;
+}
+body.elementor-device-laptop .elementor-panel .elementor-panel-footer-sub-menu-item[data-device-mode="laptop"],
+body.elementor-device-tablet .elementor-panel .elementor-panel-footer-sub-menu-item[data-device-mode="tablet"],
+body.elementor-device-mobile_extra .elementor-panel .elementor-panel-footer-sub-menu-item[data-device-mode="mobile_extra"]{
+  background-color: rgba(0, 0, 0, .3);
+}
+/* Using Device Width instead of icon for convinence to specify type of device used */
+
+/* Styling Responsive Switchers as grid instead of Horizonal columns */
+/*.elementor-control-responsive-switchers {*/
+/*  flex-wrap: wrap !important;*/
+/*  width: 100% !important;*/
+/*  margin: 5px 0 !important;*/
+/*}*/
+/* indicating active responsive switcher */
+.elementor-device-laptop .elementor-responsive-switcher-laptop,
+.elementor-device-mobile_extra .elementor-responsive-switcher-mobile_extra{
+  opacity: 1;
+  transform: scale(1);
+  height: 100%;
+}
+.elementor-responsive-switcher-tablet .eicon-device-tablet{
+  left: -9px;
+  top: 9px;
+}
+div#elementor-panel.ui-resizable{
+  transition: none !important;
+  min-height: 90vh;
+}
+div#elementor-panel.ui-draggable-dragging ~ #elementor-preview{
+  pointer-events: none;
+}
+div#lastudio-elementor-collapse-vertical-panel{
+  position: relative;
+}
+div#lastudio-elementor-collapse-vertical-panel input#elementor-vertical-mode-switcher-preview-input{
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+div#elementor-panel.ui-resizable.active #lastudio-elementor-collapse-vertical-panel i:before{
+  content: "\eab0";
+}
+div#elementor-panel.ui-resizable.active #elementor-panel-footer,
+div#elementor-panel.ui-resizable.active #elementor-panel-content-wrapper{
+  display: none;
+}
+div#elementor-panel.ui-resizable.active{
+  max-height: 40px;
+  min-height: 40px;
+}
+#lastudio-tabs-template-edit-modal .dialog-widget-content{
+  width: 100%;
+  height: 90vh;
+  min-height: 700px;
+  background-color: #f1f3f5;
+}
+@media (min-width: 1440px){
+  #lastudio-tabs-template-edit-modal .dialog-widget-content{
+    max-width: 90vw;
+  }
+}
+#lastudio-tabs-template-edit-modal .dialog-close-button{
+  font-size: 40px;
+}
+#lastudio-tabs-template-edit-modal .dialog-header{
+  display: none;
+}
+#lastudio-tabs-template-edit-modal .dialog-message{
+  padding: 0;
+  height: 100%;
+}
+#lastudio-tabs-template-edit-modal .dialog-message iframe{
+  height: 100%;
+}
+#lastudio-tabs-template-edit-modal #lastudio-tabs-loading{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #f1f3f5;
+  z-index: 9999;
+  transform: translateZ(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#lastudio-tabs-template-edit-modal #lastudio-tabs-loading .elementor-loader-wrapper{
+  top: auto;
+  left: auto;
+  transform: none;
+}
+#elementor-widget-template-empty-templates{
+  margin-top: 15px;
+  text-align: center;
+}
+#elementor-widget-template-empty-templates .elementor-widget-template-empty-templates-title{
+  padding: 25px 0 25px;
+}
+#elementor-widget-template-empty-templates .elementor-widget-template-empty-templates-icon{
+  font-size: 96px;
+  color: #d5dadf;
+}
+#elementor-widget-template-empty-templates .elementor-widget-template-empty-templates-footer{
+  font-style: italic;
+  margin-bottom: 15px;
+}
+.elementor-label-inline > .elementor-control-content > .elementor-control-field > .elementor-control-input-wrapper{
+  min-width: 55px;
+}
+#lastudio-tabs-template-edit-modal i.dialog-close-button-icon:before{
+  content: "\e803";
+  display: inline-block;
+  font-family: eicons;
+  font-size: inherit;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.elementor-icons-manager__tab__item__content i[class*="lastudioicon-"],
+.elementor-icons-manager__tab__item__content .dlicon{
+  font-size: 25px;
+}
+.elementor-element-edit-mode[class*="elementor-widget-lastudio-"] i.elementor-widget-empty-icon{
+  display: none;
+}
+.elementor-element-edit-mode[class*="elementor-widget-lastudio-"]{
+  background: none;
+}
+@media(max-width: 1800px){
+  .fix-small-browser.elementor-device-desktop #elementor-preview-responsive-wrapper{
+    min-width: 1700px;
+    height: calc(100% - 10px);
+  }
+}
+
+.elementor-device-laptop #elementor-preview-responsive-wrapper[style*="preview-width:1280px"]{
+  width: 1366px !important;
+  height: 800px !important;
+  padding: 20px;
+}
+.elementor-device-tablet #elementor-preview-responsive-wrapper[style*="preview-width:992px"]{
+  width: 1024px !important;
+  height: 768px !important;
+  padding: 20px;
+}
+.elementor-device-mobile_extra #elementor-preview-responsive-wrapper[style*="preview-width:576px"]{
+  width: 768px !important;
+  height: 1024px !important;
+  padding: 20px;
+}
+.elementor-device-mobile #elementor-preview-responsive-wrapper[style*="preview-width:320px"]{
+  width: 360px !important;
+  height: 640px !important;
+  padding: 20px;
+}

@@ -1,0 +1,66 @@
+/*FONT-FACE*/
+@import url(http://fonts.googleapis.com/css?family=Alike);
+
+/*RESET*/
+*{
+	margin:0;
+	padding: 0;
+	border: none;
+	list-style:none;
+	outline:none;
+}
+
+html, body{
+	background-image: url('../images/bg-padrao-criacao-de-sites.jpg');
+	background-position: center top;
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 100%;
+	font: bold 25px 'Poppins', serif;
+	color: #2C2C2C;
+	text-shadow: 0px 1px 1px #F8F8F8;
+}
+
+a{outline:none;}
+a:hover{text-decoration:none;}
+	
+.none{display:none;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.auto{overflow:auto;}
+hr{
+	width:100%;
+	height:1px;
+	background-color:#B7B7B7;
+	border-bottom:1px solid #FFF ;
+	display:block;
+	margin:40px 0;
+}
+
+.conteudo{
+	width:960px;
+	margin:0 auto;
+	padding:115px 0;
+	height:auto;
+	text-align:center;
+}
+.logo{
+	background-image:url('https://exishoes.com.br/wp-content/uploads/2022/09/exi-store.svg');
+	background-repeat:no-repeat;
+	background-size:contain;
+	width:500px;
+	height:292px;
+	display:block;
+	margin:0 auto 30px;
+	padding:2px;
+}
+h1{font-size:2.2em;margin-top:50px;}
+h3{font-size:1em; margin-bottom:90px;}
+h2{font-size:1.2em;font-weight: 300;}
+.conteudo div{
+	margin:15px 0;
+	font-size:0.8em;
+}
+.conteudo div a{color:#2C2C2C;}
+p{margin-bottom:5px;}

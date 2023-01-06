@@ -1,0 +1,349 @@
+# Translation of Plugins - Payment Gateway for Cielo API on WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Payment Gateway for Cielo API on WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-15 16:38:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Payment Gateway for Cielo API on WooCommerce - Stable (latest release)\n"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:395
+msgid "Debit card is expired!"
+msgstr "Cartão de débito está expirado!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:303
+msgid "Credit card is expired!"
+msgstr "Cartão de crédito está expirado!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:252
+msgid "Installments"
+msgstr "Parcelas"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:186
+msgid "Enables installment payments for amounts greater than 10,00 R$"
+msgstr "Habilita pagamentos parcelados para valores maiores de 10,00 R$"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:184
+msgid "Installment payments"
+msgstr "Pagamentos parcelados"
+
+#: lkn-wc-gateway-cielo.php:246
+msgid "Settings"
+msgstr "Configurações"
+
+#: lkn-wc-gateway-cielo.php:149
+msgid "plugin installed and activated for the Cielo API 3.0 Payments for WooCommerce add-on to activate"
+msgstr "plugin instalado e ativo para o plugin Gateway de Pagamento com API Cielo para WooCommerce ativar"
+
+#: lkn-wc-gateway-cielo.php:130
+msgid "for the Cielo API 3.0 Payments for WooCommerce add-on to activate"
+msgstr "para o plugin Pagamentos com API 3.0 Cielo para WooCommerce ativar"
+
+#: lkn-wc-gateway-cielo.php:128
+msgid "version"
+msgstr "versão"
+
+#: lkn-wc-gateway-cielo.php:127 lkn-wc-gateway-cielo.php:148
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: lkn-wc-gateway-cielo.php:125 lkn-wc-gateway-cielo.php:146
+msgid "You must have"
+msgstr "Você precisa ter"
+
+#: lkn-wc-gateway-cielo.php:124 lkn-wc-gateway-cielo.php:145
+msgid "Activation Error:"
+msgstr "Erro de ativação:"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:659
+msgid "Order payment failed. Make sure your debit card is valid."
+msgstr "Pagamento de pedido falhou. Certifique-se que seu cartão de débito é válido."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:635
+msgid "Order payment failed. To make a successful payment using debit card, please review the gateway settings."
+msgstr "Pagamento de pedido falhou. Para realizar um pagamento utilizando cartão de débito, por favor revise as configurações do método de pagamento."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:377
+msgid "Debit Card number is invalid!"
+msgstr "Número de cartão de débito inválido!"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:369
+msgid "Debit Card number is required!"
+msgstr "Número de cartão de débito é obrigatório!"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:280
+msgid "Auth token generation failed."
+msgstr "Geração de token de atutenticação falhou."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:211
+msgid "Produção"
+msgstr "Produção"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:196
+msgid "Establishment category code for Cielo 3DS E-Commerce 3.0."
+msgstr "Código de categoria do estabelecimento para Cielo 3DS E-Commerce 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:194
+msgid "Establishment Category Code"
+msgstr "Código de categoria do estabelecimento"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:190
+msgid "Establishment name registered on Cielo 3DS E-Commerce 3.0."
+msgstr "O nome do estabelecimento registrado no Cielo 3DS E-Commerce 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:188
+msgid "Merchant Name"
+msgstr "Nome do mercador"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:184
+msgid "Establishment code for Cielo 3DS E-Commerce 3.0."
+msgstr "Código de estabelecimento para Cielo 3DS E-Commerce 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:182
+msgid "Establishment Code"
+msgstr "Código de estabelecimento"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:164
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:158
+msgid "Client Id"
+msgstr "Client Id"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:147
+msgid "Debit card"
+msgstr "Cartão de débito"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:140
+msgid "Enable Debit Card Payments"
+msgstr "Habilita pagamentos via cartão de débito"
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:45
+msgid "Allows debit card payment with Cielo API 3.0."
+msgstr "Permite pagamentos de cartão de débito com a Cielo API 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-debit.php:44
+msgid "Cielo - Debit card"
+msgstr "Cielo - Cartão de débito"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:560
+#: includes/class-lkn-wc-gateway-cielo-debit.php:698
+msgid "Order refunded, payment id:"
+msgstr "Pedido reembolsado, id do pagamento:"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:553
+#: includes/class-lkn-wc-gateway-cielo-credit.php:568
+#: includes/class-lkn-wc-gateway-cielo-debit.php:691
+#: includes/class-lkn-wc-gateway-cielo-debit.php:706
+msgid "Order refund failed, payment id:"
+msgstr "Reembolso do pedido falhou, id do pagamento:"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:521
+msgid "Order payment failed. Make sure your credit card is valid."
+msgstr "Pagamento de pedido falhou. Certifique-se que seu cartão de crédito é válido."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:509
+#: includes/class-lkn-wc-gateway-cielo-debit.php:647
+msgid "Payment completed successfully. Payment id:"
+msgstr "Pagamento de pedido realizado com sucesso. Id de pagamento:"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:497
+msgid "Order payment failed. To make a successful payment using credit card, please review the gateway settings."
+msgstr "Pagamento do pedido falhou. Para realizar um pagamento usando o cartão de crédito, por favor verifique as configurações do método de pagamento."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:323
+#: includes/class-lkn-wc-gateway-cielo-debit.php:415
+msgid "CVV is invalid!"
+msgstr "CVV inválido!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:315
+#: includes/class-lkn-wc-gateway-cielo-debit.php:407
+msgid "CVV is required!"
+msgstr "CVV é obrigatório!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:308
+#: includes/class-lkn-wc-gateway-cielo-debit.php:400
+msgid "Expiration date is invalid!"
+msgstr "Data de expiração é inválida!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:292
+#: includes/class-lkn-wc-gateway-cielo-debit.php:384
+msgid "Expiration date is required!"
+msgstr "Data de expiração é obrigatória!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:285
+msgid "Credit Card number is invalid!"
+msgstr "Número de cartão de crédito inválido!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:277
+msgid "Credit Card number is required!"
+msgstr "Número de cartão de crédito é obrigatório!"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:242
+#: includes/class-lkn-wc-gateway-cielo-debit.php:348
+msgid "Card Code"
+msgstr "Código de segurança"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:238
+#: includes/class-lkn-wc-gateway-cielo-debit.php:344
+msgid "Expiry Date"
+msgstr "Data de expiração"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:234
+#: includes/class-lkn-wc-gateway-cielo-debit.php:340
+msgid "Card Number"
+msgstr "Número do cartão"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:203
+#: includes/class-lkn-wc-gateway-cielo-debit.php:237
+msgid "License for Cielo API Pro plugin extensions."
+msgstr "Licença para extensão de plugin Cielo API Pro."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:201
+#: includes/class-lkn-wc-gateway-cielo-debit.php:235
+msgid "License"
+msgstr "Licença"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:197
+#: includes/class-lkn-wc-gateway-cielo-debit.php:231
+msgid "Enable automatic capture for payments"
+msgstr "Habilita a captura automática para pagamentos"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:195
+#: includes/class-lkn-wc-gateway-cielo-debit.php:229
+msgid "Capture"
+msgstr "Captura"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:180
+#: includes/class-lkn-wc-gateway-cielo-debit.php:220
+msgid "Enable log capture for payments"
+msgstr "Habilita a captura de logs para pagamentos"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:178
+#: includes/class-lkn-wc-gateway-cielo-debit.php:218
+msgid "Debug"
+msgstr "Depuração"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:172
+#: includes/class-lkn-wc-gateway-cielo-debit.php:212
+msgid "Sandbox"
+msgstr "Teste"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:171
+msgid "Production"
+msgstr "Produção"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:168
+#: includes/class-lkn-wc-gateway-cielo-debit.php:208
+msgid "Cielo API 3.0 environment."
+msgstr "Ambiente da Cielo API 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:167
+#: includes/class-lkn-wc-gateway-cielo-debit.php:207
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:163
+#: includes/class-lkn-wc-gateway-cielo-debit.php:203
+msgid "Invoice description that the customer will see on your checkout."
+msgstr "Descrição da fatura que o cliente irá ver durante o pagamento."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:162
+#: includes/class-lkn-wc-gateway-cielo-debit.php:202
+msgid "order"
+msgstr "pedido"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:160
+#: includes/class-lkn-wc-gateway-cielo-debit.php:200
+msgid "Invoice Description"
+msgstr "Descrição da fatura"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:154
+#: includes/class-lkn-wc-gateway-cielo-debit.php:176
+msgid "Merchant Key"
+msgstr "Merchant Key"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:150
+#: includes/class-lkn-wc-gateway-cielo-credit.php:156
+#: includes/class-lkn-wc-gateway-cielo-debit.php:160
+#: includes/class-lkn-wc-gateway-cielo-debit.php:166
+#: includes/class-lkn-wc-gateway-cielo-debit.php:172
+#: includes/class-lkn-wc-gateway-cielo-debit.php:178
+msgid "Cielo API 3.0 credentials."
+msgstr "Credenciais Cielo API 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:148
+#: includes/class-lkn-wc-gateway-cielo-debit.php:170
+msgid "Merchant Id"
+msgstr "Merchant Id"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:144
+#: includes/class-lkn-wc-gateway-cielo-debit.php:154
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descrição do método de pagamento que o cliente irá ver durante o pagamento."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:143
+#: includes/class-lkn-wc-gateway-cielo-debit.php:153
+msgid "Payment processed by Cielo API 3.0"
+msgstr "Pagamento processado pela Cielo API 3.0"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:141
+#: includes/class-lkn-wc-gateway-cielo-debit.php:151
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:137
+msgid "Credit card"
+msgstr "Cartão de crédito"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:136
+#: includes/class-lkn-wc-gateway-cielo-debit.php:146
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isso controla o título que o usuário vê durante o pagamento."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:134
+#: includes/class-lkn-wc-gateway-cielo-debit.php:144
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:130
+msgid "Enable Credit Card Payments"
+msgstr "Habilita pagamentos via cartão de crédito"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:128
+#: includes/class-lkn-wc-gateway-cielo-debit.php:138
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:45
+msgid "Allows credit card payment with Cielo API 3.0."
+msgstr "Permite pagamentos com cartão de crédito através da Cielo API 3.0."
+
+#: includes/class-lkn-wc-gateway-cielo-credit.php:44
+msgid "Cielo - Credit card"
+msgstr "Cielo - Cartão de crédito"
+
+#. Author URI of the plugin
+msgid "https://linknacional.com.br"
+msgstr "https://linknacional.com.br"
+
+#. Author of the plugin
+msgid "Link Nacional"
+msgstr "Link Nacional"
+
+#. Description of the plugin
+msgid "Adds the Cielo API 3.0 Payments gateway to your WooCommerce website."
+msgstr "Adiciona o método de pagamento Cielo API 3.0 para seu site WooCommerce."
+
+#. Plugin URI of the plugin
+msgid "https://www.linknacional.com.br/wordpress/plugins/"
+msgstr "https://www.linknacional.com.br/wordpress/plugins/"
+
+#. Plugin Name of the plugin
+msgid "Payment Gateway for Cielo API on WooCommerce"
+msgstr "Gateway de Pagamento com API Cielo para WooCommerce"

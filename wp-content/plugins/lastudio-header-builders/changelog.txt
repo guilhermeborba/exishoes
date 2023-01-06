@@ -1,0 +1,14 @@
+ === LaStudio Header Builder ===
+Contributors: LA Studio
+Requires at least: WordPress 5.0
+Tested up to: WordPress 5.7, WooCommerce 5.2.0
+Version: 1.2.1
+
+== Changelog ==
+
+
+= 1.2.1 2021-09-24 =
+* Fix - Header vertical issue
+
+= 1.2.0 2021-04-14 =
+* Fix - MegaMenu doesn't work without child

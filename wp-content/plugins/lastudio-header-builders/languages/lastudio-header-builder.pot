@@ -1,0 +1,1717 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: LA-Studio Header Builder\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-02 15:35+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#: includes/class-enqueue.php:110
+#: includes/elements/components/backend/search-backend.php:323
+#: includes/elements/components/backend/hamburger-menu-backend.php:428
+#: includes/elements/components/backend/text-backend.php:149
+#: includes/elements/components/backend/vertical-area-backend.php:152
+#: includes/elements/components/backend/login-backend.php:216
+#: includes/elements/components/backend/header-area-backend.php:198
+#: includes/elements/components/backend/logo-backend.php:141
+#: includes/elements/components/backend/contact-backend.php:213
+#: includes/elements/components/backend/social-backend.php:530
+#: includes/elements/components/backend/map-backend.php:131
+#: includes/elements/components/backend/button-backend.php:186
+#: includes/elements/components/backend/menu-backend.php:374
+#: includes/elements/components/backend/profile-backend.php:285
+#: includes/elements/components/backend/language-backend.php:129
+#: includes/elements/components/backend/header-column-backend.php:108
+#: includes/elements/components/backend/icon-content-backend.php:157
+#: includes/elements/components/backend/cart-backend.php:161
+#: includes/elements/components/backend/icon-menu-backend.php:232
+msgid "Save Changes"
+msgstr ""
+
+#: includes/class-enqueue.php:111
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/class-enqueue.php:112
+msgid "Saved"
+msgstr ""
+
+#: includes/class-enqueue.php:113
+msgid "Horizontal Header"
+msgstr ""
+
+#: includes/class-enqueue.php:114 includes/templates/editor.tpl.php:112
+msgid "Vertical Header"
+msgstr ""
+
+#: includes/class-frontend-builder.php:60
+msgid "Header Builder"
+msgstr ""
+
+#: includes/elements/add-elements.php:5
+msgid "Add Element"
+msgstr ""
+
+#: includes/elements/add-elements.php:14
+#: includes/elements/components/backend/hamburger-menu-backend.php:94
+#: includes/elements/components/backend/vertical-area-backend.php:112
+#: includes/elements/components/backend/logo-backend.php:51
+#: includes/elements/components/backend/logo-backend.php:74
+msgid "Logo"
+msgstr ""
+
+#: includes/elements/add-elements.php:19
+msgid "Menu"
+msgstr ""
+
+#: includes/elements/add-elements.php:24
+#: includes/elements/components/frontend/search-frontend.php:63
+msgid "Search"
+msgstr ""
+
+#: includes/elements/add-elements.php:29 includes/functions/functions.php:75
+msgid "Login"
+msgstr ""
+
+#: includes/elements/add-elements.php:34
+#: includes/elements/components/backend/icon-content-backend.php:5
+msgid "Icon Content"
+msgstr ""
+
+#: includes/elements/add-elements.php:39
+msgid "Hamburger Menu"
+msgstr ""
+
+#: includes/elements/add-elements.php:44
+msgid "Social Network"
+msgstr ""
+
+#: includes/elements/add-elements.php:49
+#: includes/elements/components/backend/map-backend.php:5
+msgid "Google Map"
+msgstr ""
+
+#: includes/elements/add-elements.php:54
+msgid "Woocommerce cart"
+msgstr ""
+
+#: includes/elements/add-elements.php:59
+msgid "Contact"
+msgstr ""
+
+#: includes/elements/add-elements.php:64
+#: includes/elements/components/backend/button-backend.php:85
+msgid "Button"
+msgstr ""
+
+#: includes/elements/add-elements.php:69
+#: includes/elements/components/backend/text-backend.php:40
+#: includes/elements/components/backend/text-backend.php:68
+#: includes/elements/components/backend/login-backend.php:39
+#: includes/elements/components/backend/login-backend.php:115
+#: includes/elements/components/backend/logo-backend.php:40
+#: includes/elements/components/backend/logo-backend.php:100
+#: includes/elements/components/backend/contact-backend.php:45
+#: includes/elements/components/backend/contact-backend.php:112
+#: includes/elements/components/backend/social-backend.php:51
+#: includes/elements/components/backend/social-backend.php:131
+#: includes/elements/components/backend/map-backend.php:45
+#: includes/elements/components/backend/map-backend.php:59
+#: includes/elements/components/backend/button-backend.php:35
+#: includes/elements/components/backend/icon-content-backend.php:75
+#: includes/elements/components/backend/icon-menu-backend.php:96
+msgid "Text"
+msgstr ""
+
+#: includes/elements/add-elements.php:74
+msgid "Language Switcher"
+msgstr ""
+
+#: includes/elements/add-elements.php:79
+msgid "Icon Menu"
+msgstr ""
+
+#: includes/elements/add-elements.php:84 includes/functions/functions.php:48
+msgid "Profile"
+msgstr ""
+
+#: includes/functions/functions.php:45
+msgid "Hello"
+msgstr ""
+
+#: includes/functions/functions.php:49 includes/functions/functions.php:59
+msgid "Logout"
+msgstr ""
+
+#: includes/functions/functions.php:57
+msgid "Dashboard"
+msgstr ""
+
+#: includes/functions/functions.php:58
+msgid "My Profile"
+msgstr ""
+
+#: includes/functions/functions.php:71
+msgid "or"
+msgstr ""
+
+#: includes/functions/functions.php:121
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:83
+msgid "You are editing "
+msgstr ""
+
+#: includes/templates/editor.tpl.php:90
+msgid "Publish"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:99
+#: includes/elements/components/backend/search-backend.php:40
+#: includes/elements/components/backend/hamburger-menu-backend.php:48
+msgid "Toggle"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:100
+msgid "Backend editor"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:109
+msgid "Front-end Header Builder"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:113 includes/templates/editor.tpl.php:117
+msgid "Pre-defined Headers"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:123
+msgid "Clear Data"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:127
+msgid "Save as Header Template"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:128
+msgid "Export Header"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:130
+msgid "Import Header"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:145
+#: includes/fields/styling-tab/styling-tab.php:622
+msgid "Desktop"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:151
+#: includes/fields/styling-tab/styling-tab.php:628
+msgid "Tablets"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:157
+#: includes/fields/styling-tab/styling-tab.php:634
+msgid "Mobiles"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:177 includes/templates/editor.tpl.php:321
+#: includes/templates/editor.tpl.php:461
+msgid "Topbar Area"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:211 includes/templates/editor.tpl.php:355
+#: includes/templates/editor.tpl.php:495
+msgid "Header Area Row 1"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:212
+msgid "Header Vertical"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:246 includes/templates/editor.tpl.php:389
+#: includes/templates/editor.tpl.php:529
+msgid "Header Area Row 2"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:247
+msgid "Extra Toggle Bar"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:248
+msgid "This area will display if you enable the header toggle"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:282 includes/templates/editor.tpl.php:422
+#: includes/templates/editor.tpl.php:563
+msgid "Header Area Row 3"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:600
+msgid "Save as Pre-defined Headers"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:616
+msgid "Default"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:621
+msgid "Save Type"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:624
+msgid "Add New"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:625
+msgid "Update Existing"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:634
+msgid "Select Existing header"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:640
+msgid "Enter New Header Name"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:645
+msgid "Custom Image"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:653
+#: includes/elements/components/backend/search-backend.php:321
+#: includes/elements/components/backend/hamburger-menu-backend.php:426
+#: includes/elements/components/backend/text-backend.php:147
+#: includes/elements/components/backend/vertical-area-backend.php:150
+#: includes/elements/components/backend/login-backend.php:214
+#: includes/elements/components/backend/header-area-backend.php:196
+#: includes/elements/components/backend/logo-backend.php:139
+#: includes/elements/components/backend/contact-backend.php:211
+#: includes/elements/components/backend/social-backend.php:528
+#: includes/elements/components/backend/map-backend.php:129
+#: includes/elements/components/backend/button-backend.php:184
+#: includes/elements/components/backend/menu-backend.php:372
+#: includes/elements/components/backend/profile-backend.php:283
+#: includes/elements/components/backend/language-backend.php:127
+#: includes/elements/components/backend/header-column-backend.php:106
+#: includes/elements/components/backend/icon-content-backend.php:155
+#: includes/elements/components/backend/cart-backend.php:159
+#: includes/elements/components/backend/icon-menu-backend.php:230
+msgid "Close"
+msgstr ""
+
+#: includes/templates/editor.tpl.php:654
+msgid "Save"
+msgstr ""
+
+#: includes/fields/menu-field.php:35
+msgid "No items of this type were found."
+msgstr ""
+
+#: includes/fields/image-field.php:33
+msgid "Upload"
+msgstr ""
+
+#: includes/fields/image-field.php:34
+msgid "Remove"
+msgstr ""
+
+#: includes/fields/number-unit-field.php:36
+#: includes/fields/custom-select-field.php:35
+msgid "Empty"
+msgstr ""
+
+#: includes/fields/contact-field.php:49
+msgid "No Contact Form found."
+msgstr ""
+
+#: includes/fields/custom-select-field.php:45
+msgid "Custom"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:43
+#: includes/elements/components/backend/header-area-backend.php:20
+#: includes/elements/components/backend/header-area-backend.php:72
+msgid "Row Layout"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:47
+#: includes/fields/styling-tab/styling-tab.php:247
+msgid "Auto"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:48
+msgid "4/12 - 4/12 - 4/12"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:49
+msgid "3/12 - 6/12 - 3/12"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:50
+msgid "2/12 - 8/12 - 2/12"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:51
+msgid "5/12 - 2/12 - 5/12"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:52
+msgid "1/12 - 10/12 - 1/12"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:53
+msgid "20% - 60% - 20%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:54
+msgid "25% - 50% - 25%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:55
+msgid "30% - 40% - 30%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:56
+msgid "35% - 30% - 35%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:57
+msgid "40% - 20% - 40%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:58
+msgid "45% - 10% - 45%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:59
+msgid "10% - 80% - 10%"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:68
+#: includes/fields/styling-tab/styling-tab.php:84
+msgid "Color"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:76
+#: includes/fields/styling-tab/styling-tab.php:92
+msgid "Color Hover"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:100
+msgid "Font Size"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:114
+msgid "Font Weight"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:133
+msgid "Font Style"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:145
+msgid "Text Align"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:160
+msgid "Text Transform"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:174
+msgid "Text Decoration"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:187
+msgid "Width"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:201
+msgid "Height"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:215
+msgid "Line Height"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:229
+msgid "Letter Spacing"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:243
+msgid "Overflow"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:248
+msgid "Hidden"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:249
+#: includes/fields/styling-tab/styling-tab.php:266
+#: includes/fields/styling-tab/styling-tab.php:423
+msgid "Inherit"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:250
+#: includes/fields/styling-tab/styling-tab.php:267
+#: includes/fields/styling-tab/styling-tab.php:422
+msgid "Initial"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:251
+msgid "Overlay"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:252
+msgid "Visible"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:260
+msgid "Word Break"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:264
+msgid "Break All"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:265
+msgid "Break Word"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:268
+msgid "Normal"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:277
+msgid "Background Color"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:285
+msgid "Background Hover Color"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:293
+msgid "Background Image"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:301
+msgid "Background Position"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:304
+msgid "Left Top"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:305
+msgid "Left Center"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:306
+msgid "Left Bottom"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:307
+msgid "Center Top"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:308
+msgid "Center Center"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:309
+msgid "Center Bottom"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:310
+msgid "Right Top"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:311
+msgid "Right Center"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:312
+msgid "Right Bottom"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:321
+msgid "Background Repeat"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:324
+msgid "Repeat"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:325
+msgid "Repeat x"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:326
+msgid "Repeat y"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:327
+msgid "No Repeat"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:336
+msgid "Background Cover ?"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:345
+msgid "Margin"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:366
+msgid "Padding"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:387
+msgid "Border Radius"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:409
+msgid "Border Style"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:413
+msgid "None"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:414
+msgid "Solid"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:415
+msgid "Dotted"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:416
+msgid "Dashed"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:417
+msgid "Double"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:418
+msgid "Groove"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:419
+msgid "Ridge"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:420
+msgid "Inset"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:421
+msgid "Outset"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:428
+msgid "Border Color"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:432
+msgid "Border Width"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:454
+msgid "Floating"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:467
+#: includes/fields/styling-tab/styling-tab.php:480
+msgid "Position"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:500
+msgid "Help to use calc"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:515
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:517
+msgid "X offset"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:528
+msgid "Y offset"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:539
+msgid "Blur"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:550
+msgid "Spread"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:561
+msgid "Inset Shadow Status"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:567
+msgid "Shadow Color"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:575
+msgid "Gradient"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:577
+msgid "Color 1"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:582
+msgid "Color 2"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:587
+msgid "Color 3"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:592
+msgid "Color 4"
+msgstr ""
+
+#: includes/fields/styling-tab/styling-tab.php:597
+msgid "Direction"
+msgstr ""
+
+#: includes/elements/components/frontend/contact-frontend.php:103
+msgid "Please select a from in element setting."
+msgstr ""
+
+#: includes/elements/components/frontend/hamburger-menu-frontend.php:73
+#: includes/elements/components/frontend/menu-frontend.php:127
+msgid "Your menu is empty or not selected! "
+msgstr ""
+
+#: includes/elements/components/frontend/hamburger-menu-frontend.php:73
+#: includes/elements/components/frontend/menu-frontend.php:127
+msgid "How to config a menu"
+msgstr ""
+
+#: includes/elements/components/frontend/search-frontend.php:37
+msgid "All"
+msgstr ""
+
+#: includes/elements/components/frontend/profile-frontend.php:98
+msgid "SOCIALS"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:5
+msgid "Search Settings"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:15
+#: includes/elements/components/backend/hamburger-menu-backend.php:15
+#: includes/elements/components/backend/text-backend.php:15
+#: includes/elements/components/backend/vertical-area-backend.php:15
+#: includes/elements/components/backend/login-backend.php:15
+#: includes/elements/components/backend/header-area-backend.php:15
+#: includes/elements/components/backend/logo-backend.php:15
+#: includes/elements/components/backend/contact-backend.php:15
+#: includes/elements/components/backend/social-backend.php:15
+#: includes/elements/components/backend/map-backend.php:15
+#: includes/elements/components/backend/button-backend.php:15
+#: includes/elements/components/backend/menu-backend.php:15
+#: includes/elements/components/backend/profile-backend.php:15
+#: includes/elements/components/backend/language-backend.php:15
+#: includes/elements/components/backend/cart-backend.php:15
+#: includes/elements/components/backend/icon-menu-backend.php:15
+msgid "General"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:20
+#: includes/elements/components/backend/hamburger-menu-backend.php:25
+#: includes/elements/components/backend/text-backend.php:20
+#: includes/elements/components/backend/vertical-area-backend.php:20
+#: includes/elements/components/backend/login-backend.php:20
+#: includes/elements/components/backend/header-area-backend.php:25
+#: includes/elements/components/backend/logo-backend.php:20
+#: includes/elements/components/backend/contact-backend.php:20
+#: includes/elements/components/backend/social-backend.php:30
+#: includes/elements/components/backend/map-backend.php:20
+#: includes/elements/components/backend/button-backend.php:20
+#: includes/elements/components/backend/menu-backend.php:20
+#: includes/elements/components/backend/profile-backend.php:25
+#: includes/elements/components/backend/language-backend.php:20
+#: includes/elements/components/backend/header-column-backend.php:20
+#: includes/elements/components/backend/icon-content-backend.php:25
+#: includes/elements/components/backend/cart-backend.php:20
+#: includes/elements/components/backend/icon-menu-backend.php:20
+msgid "Styling"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:25
+#: includes/elements/components/backend/hamburger-menu-backend.php:30
+#: includes/elements/components/backend/login-backend.php:25
+#: includes/elements/components/backend/logo-backend.php:25
+#: includes/elements/components/backend/contact-backend.php:25
+#: includes/elements/components/backend/social-backend.php:35
+#: includes/elements/components/backend/button-backend.php:25
+#: includes/elements/components/backend/menu-backend.php:25
+#: includes/elements/components/backend/language-backend.php:25
+msgid "Extra Class"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:35
+#: includes/elements/components/backend/language-backend.php:47
+msgid "Select Type"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:39
+#: includes/elements/components/backend/social-backend.php:69
+msgid "Simple"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:41
+msgid "Slide (Vertical)"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:42
+#: includes/elements/components/backend/hamburger-menu-backend.php:49
+#: includes/elements/components/backend/social-backend.php:72
+msgid "Full"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:50
+msgid "Select custom search icon"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:54
+msgid "Is Product Search?"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:59
+msgid "Show Category Dropdown?"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:68
+msgid "Exclude categories by ID"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:70
+#: includes/elements/components/backend/search-backend.php:71
+msgid "Enter category id separated by commas"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:76
+msgid "Placeholder Text"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:82
+#: includes/elements/components/backend/login-backend.php:80
+#: includes/elements/components/backend/contact-backend.php:78
+#: includes/elements/components/backend/social-backend.php:87
+#: includes/elements/components/backend/button-backend.php:52
+#: includes/elements/components/backend/cart-backend.php:41
+#: includes/elements/components/backend/icon-menu-backend.php:53
+msgid "Show Tooltip Text ?"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:93
+#: includes/elements/components/backend/login-backend.php:91
+#: includes/elements/components/backend/contact-backend.php:89
+#: includes/elements/components/backend/social-backend.php:98
+#: includes/elements/components/backend/button-backend.php:63
+#: includes/elements/components/backend/cart-backend.php:52
+#: includes/elements/components/backend/icon-menu-backend.php:47
+#: includes/elements/components/backend/icon-menu-backend.php:64
+msgid "Tooltip Text"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:98
+#: includes/elements/components/backend/login-backend.php:96
+#: includes/elements/components/backend/contact-backend.php:94
+#: includes/elements/components/backend/social-backend.php:103
+#: includes/elements/components/backend/button-backend.php:68
+#: includes/elements/components/backend/cart-backend.php:57
+#: includes/elements/components/backend/icon-menu-backend.php:69
+msgid "Select Tooltip Position"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:102
+#: includes/elements/components/backend/login-backend.php:100
+#: includes/elements/components/backend/header-area-backend.php:58
+#: includes/elements/components/backend/contact-backend.php:98
+#: includes/elements/components/backend/social-backend.php:107
+#: includes/elements/components/backend/button-backend.php:72
+#: includes/elements/components/backend/cart-backend.php:61
+#: includes/elements/components/backend/icon-menu-backend.php:73
+msgid "Top"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:103
+#: includes/elements/components/backend/login-backend.php:101
+#: includes/elements/components/backend/header-area-backend.php:60
+#: includes/elements/components/backend/contact-backend.php:99
+#: includes/elements/components/backend/social-backend.php:108
+#: includes/elements/components/backend/button-backend.php:73
+#: includes/elements/components/backend/cart-backend.php:62
+#: includes/elements/components/backend/icon-menu-backend.php:74
+msgid "Bottom"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:107
+msgid "Hide top arrow?"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:112
+msgid "Hide Search box icon?"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:117
+msgid "Add custom text besides search icon"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:122
+msgid "Add custom text before search form"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:137
+#: includes/elements/components/backend/text-backend.php:90
+#: includes/elements/components/backend/login-backend.php:40
+#: includes/elements/components/backend/login-backend.php:133
+#: includes/elements/components/backend/contact-backend.php:46
+#: includes/elements/components/backend/contact-backend.php:130
+#: includes/elements/components/backend/social-backend.php:50
+#: includes/elements/components/backend/social-backend.php:130
+#: includes/elements/components/backend/map-backend.php:77
+#: includes/elements/components/backend/icon-content-backend.php:20
+#: includes/elements/components/backend/icon-content-backend.php:97
+#: includes/elements/components/backend/cart-backend.php:75
+#: includes/elements/components/backend/icon-menu-backend.php:87
+msgid "Icon"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:147
+msgid "Custom Text"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:160
+#: includes/elements/components/backend/text-backend.php:105
+#: includes/elements/components/backend/header-area-backend.php:145
+#: includes/elements/components/backend/map-backend.php:86
+#: includes/elements/components/backend/language-backend.php:84
+#: includes/elements/components/backend/header-column-backend.php:65
+#: includes/elements/components/backend/icon-content-backend.php:112
+msgid "Background"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:172
+#: includes/elements/components/backend/text-backend.php:117
+#: includes/elements/components/backend/vertical-area-backend.php:58
+#: includes/elements/components/backend/login-backend.php:143
+#: includes/elements/components/backend/header-area-backend.php:158
+#: includes/elements/components/backend/contact-backend.php:139
+#: includes/elements/components/backend/social-backend.php:351
+#: includes/elements/components/backend/map-backend.php:98
+#: includes/elements/components/backend/button-backend.php:149
+#: includes/elements/components/backend/menu-backend.php:334
+#: includes/elements/components/backend/profile-backend.php:245
+#: includes/elements/components/backend/language-backend.php:96
+#: includes/elements/components/backend/header-column-backend.php:83
+#: includes/elements/components/backend/icon-content-backend.php:124
+#: includes/elements/components/backend/cart-backend.php:106
+#: includes/elements/components/backend/icon-menu-backend.php:113
+msgid "Box"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:184
+msgid "Search Form"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:204
+msgid "Search Form DropDown"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:223
+msgid "Search Form Input"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:246
+msgid "Arrow"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:255
+msgid "Full Page Search"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:267
+msgid "Search Box Icon"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:285
+#: includes/elements/components/backend/login-backend.php:180
+#: includes/elements/components/backend/contact-backend.php:177
+#: includes/elements/components/backend/social-backend.php:492
+#: includes/elements/components/backend/button-backend.php:115
+#: includes/elements/components/backend/cart-backend.php:124
+#: includes/elements/components/backend/icon-menu-backend.php:193
+msgid "Tooltip"
+msgstr ""
+
+#: includes/elements/components/backend/search-backend.php:310
+#: includes/elements/components/backend/hamburger-menu-backend.php:411
+#: includes/elements/components/backend/text-backend.php:136
+#: includes/elements/components/backend/vertical-area-backend.php:135
+#: includes/elements/components/backend/login-backend.php:203
+#: includes/elements/components/backend/header-area-backend.php:181
+#: includes/elements/components/backend/logo-backend.php:128
+#: includes/elements/components/backend/contact-backend.php:200
+#: includes/elements/components/backend/social-backend.php:517
+#: includes/elements/components/backend/map-backend.php:118
+#: includes/elements/components/backend/button-backend.php:173
+#: includes/elements/components/backend/menu-backend.php:361
+#: includes/elements/components/backend/profile-backend.php:272
+#: includes/elements/components/backend/language-backend.php:116
+#: includes/elements/components/backend/header-column-backend.php:30
+#: includes/elements/components/backend/icon-content-backend.php:144
+#: includes/elements/components/backend/cart-backend.php:148
+#: includes/elements/components/backend/icon-menu-backend.php:219
+msgid "Extra class"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:5
+msgid "Hamburger Menu Settings"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:20
+msgid "Elements"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:40
+#: includes/elements/components/backend/menu-backend.php:35
+msgid "Select a Menu"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:44
+msgid "Hamburger Type"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:61
+msgid "Hamburger Menu Style"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:65
+msgid "Light"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:66
+msgid "Dark"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:70
+msgid "Open Toggle From"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:74
+msgid "Right"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:75
+msgid "Left"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:79
+msgid "Hamburger Text"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:83
+#: includes/elements/components/backend/menu-backend.php:67
+msgid "Hamburger Icon"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:98
+msgid "Display Socials?"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:103
+msgid "Display Search?"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:111
+msgid "Search Placeholder"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:116
+msgid "Display Content?"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:124
+#: includes/elements/components/backend/hamburger-menu-backend.php:351
+#: includes/elements/components/backend/icon-content-backend.php:15
+#: includes/elements/components/backend/icon-content-backend.php:40
+msgid "Content"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:128
+#: includes/elements/components/backend/hamburger-menu-backend.php:383
+msgid "Copyright"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:140
+msgid "Hamburger Icon Color"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:149
+msgid "Hamburger Icon Text"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:163
+msgid "Hamburger Icon Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:181
+msgid "Hamburger Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:195
+msgid "Logo Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:214
+msgid "Menu Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:226
+#: includes/elements/components/backend/menu-backend.php:114
+#: includes/elements/components/backend/icon-menu-backend.php:150
+msgid "Menu Item"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:249
+#: includes/elements/components/backend/menu-backend.php:138
+msgid "Current Menu Item"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:272
+#: includes/elements/components/backend/menu-backend.php:161
+msgid "Current Item Shape"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:285
+#: includes/elements/components/backend/menu-backend.php:253
+msgid "Submenu Item"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:308
+msgid "Search Input"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:324
+msgid "Search Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:336
+msgid "Elements Box"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:368
+#: includes/elements/components/backend/profile-backend.php:20
+#: includes/elements/components/backend/profile-backend.php:58
+msgid "Socials"
+msgstr ""
+
+#: includes/elements/components/backend/hamburger-menu-backend.php:415
+msgid "Extra class for panel"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:5
+msgid "Text Settings"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:25
+#: includes/elements/components/backend/vertical-area-backend.php:25
+#: includes/elements/components/backend/header-area-backend.php:35
+#: includes/elements/components/backend/map-backend.php:25
+#: includes/elements/components/backend/profile-backend.php:30
+#: includes/elements/components/backend/header-column-backend.php:15
+#: includes/elements/components/backend/icon-content-backend.php:30
+#: includes/elements/components/backend/cart-backend.php:25
+#: includes/elements/components/backend/icon-menu-backend.php:25
+msgid "Class & ID"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:35
+msgid "Your text is shortcode?"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:46
+msgid "Select Icon"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:50
+#: includes/elements/components/backend/icon-content-backend.php:45
+msgid "Link (optional)"
+msgstr ""
+
+#: includes/elements/components/backend/text-backend.php:54
+#: includes/elements/components/backend/button-backend.php:46
+#: includes/elements/components/backend/icon-content-backend.php:49
+msgid "Open link in a new tab"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:5
+msgid "Vertical Header Area"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:35
+msgid "Header Toggle"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:40
+msgid "Toggle Logo"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:44
+msgid "Select Toggle Icon"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:75
+msgid "Toggle Bar"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:89
+msgid "Toggle Icon Box"
+msgstr ""
+
+#: includes/elements/components/backend/vertical-area-backend.php:139
+#: includes/elements/components/backend/header-area-backend.php:185
+#: includes/elements/components/backend/header-column-backend.php:34
+msgid "Extra ID"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:5
+msgid "Login Modal Settings"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:35
+#: includes/elements/components/backend/logo-backend.php:35
+#: includes/elements/components/backend/contact-backend.php:41
+#: includes/elements/components/backend/social-backend.php:65
+msgid "Type"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:41
+msgid "Icon & Text"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:46
+msgid "Login Text"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:52
+msgid "Icon floating on the right"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:57
+msgid "Open Login Form"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:61
+#: includes/elements/components/backend/contact-backend.php:64
+msgid "Modal"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:62
+#: includes/elements/components/backend/contact-backend.php:65
+#: includes/elements/components/backend/social-backend.php:71
+msgid "Dropdown"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:69
+msgid "Showing Arrow"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:74
+msgid "Showing avatar instead of login icon after login"
+msgstr ""
+
+#: includes/elements/components/backend/login-backend.php:161
+#: includes/elements/components/backend/contact-backend.php:157
+msgid "Form"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:5
+msgid "Header Area"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:30
+msgid "Transparency Styling"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:45
+msgid "Full With Container"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:49
+msgid "Container Padding"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:54
+msgid "Content Position"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:59
+msgid "Middle"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:89
+msgid "Transparency Background"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:101
+msgid "Transparency Text Color"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:108
+msgid "Transparency Link Color"
+msgstr ""
+
+#: includes/elements/components/backend/header-area-backend.php:127
+#: includes/elements/components/backend/language-backend.php:66
+#: includes/elements/components/backend/header-column-backend.php:47
+msgid "Typography"
+msgstr ""
+
+#: includes/elements/components/backend/logo-backend.php:5
+msgid "Logo Settings"
+msgstr ""
+
+#: includes/elements/components/backend/logo-backend.php:39
+#: includes/elements/components/backend/profile-backend.php:40
+#: includes/elements/components/backend/profile-backend.php:174
+msgid "Image"
+msgstr ""
+
+#: includes/elements/components/backend/logo-backend.php:56
+#: includes/elements/components/backend/logo-backend.php:88
+msgid "Transparent Logo"
+msgstr ""
+
+#: includes/elements/components/backend/logo-backend.php:60
+msgid "Logo Text"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:5
+msgid "Contact Settings"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:36
+msgid "Select contact form"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:47
+msgid "Just Form"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:54
+msgid "Contact Text"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:60
+msgid "How to open the form?"
+msgstr ""
+
+#: includes/elements/components/backend/contact-backend.php:72
+msgid "Modal Contact Heading"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:5
+msgid "Socials Settings"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:20
+msgid "Display Format"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:25
+msgid "Social Icons"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:46
+msgid "Twitter Icon or Text?"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:59
+msgid "Text instead of Main Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:70
+msgid "Slide"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:80
+msgid "Toggle Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:113
+msgid "Replace Background image with defult icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:126
+msgid "Format"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:132
+msgid "Icon + Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:136
+msgid "Showing icons side to side as inline"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:141
+msgid "Showing \"-\" (dash) at the beginning of icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:182
+msgid "1st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:189
+#: includes/elements/components/backend/profile-backend.php:64
+msgid "1st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:195
+#: includes/elements/components/backend/profile-backend.php:70
+msgid "1st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:206
+msgid "2st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:213
+#: includes/elements/components/backend/profile-backend.php:81
+msgid "2st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:218
+#: includes/elements/components/backend/profile-backend.php:86
+msgid "2st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:228
+msgid "3st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:235
+#: includes/elements/components/backend/profile-backend.php:96
+msgid "3st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:240
+#: includes/elements/components/backend/profile-backend.php:101
+msgid "3st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:250
+msgid "4st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:257
+#: includes/elements/components/backend/profile-backend.php:111
+msgid "4st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:262
+#: includes/elements/components/backend/profile-backend.php:116
+msgid "4st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:272
+msgid "5st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:279
+#: includes/elements/components/backend/profile-backend.php:126
+msgid "5st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:284
+#: includes/elements/components/backend/profile-backend.php:131
+msgid "5st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:294
+msgid "6st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:301
+#: includes/elements/components/backend/profile-backend.php:141
+msgid "6st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:306
+#: includes/elements/components/backend/profile-backend.php:146
+msgid "6st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:316
+msgid "7st Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:323
+#: includes/elements/components/backend/profile-backend.php:156
+msgid "7st Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:328
+#: includes/elements/components/backend/profile-backend.php:161
+msgid "7st Social URL"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:342
+msgid "Menu Icon/Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:369
+msgid "Social Box"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:389
+msgid "Social Icon/Text Box"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:419
+msgid "Social Icon"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:450
+msgid "Social Text"
+msgstr ""
+
+#: includes/elements/components/backend/social-backend.php:480
+msgid "Full Page Social"
+msgstr ""
+
+#: includes/elements/components/backend/map-backend.php:35
+msgid "Address (example: 3175 Highland Ave, Selma, CA 93662)"
+msgstr ""
+
+#: includes/elements/components/backend/map-backend.php:40
+msgid "Show Icon"
+msgstr ""
+
+#: includes/elements/components/backend/button-backend.php:5
+msgid "Button Settings"
+msgstr ""
+
+#: includes/elements/components/backend/button-backend.php:41
+msgid "Link"
+msgstr ""
+
+#: includes/elements/components/backend/button-backend.php:140
+msgid "Tooltip Arrow"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:5
+msgid "Menu Settings"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:39
+msgid "Enable MegaMenu ?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:44
+msgid "is Vertical MegaMenu ?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:53
+msgid "Vertical Text"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:57
+msgid "Use tablet hamburger menu ?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:62
+msgid "Use mobile hamburger menu ?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:71
+msgid "Show parent menu arrow ?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:79
+msgid "Parent menu arrow direction"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:90
+msgid "Display \"Description\" under menu item?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:95
+msgid "Full Width?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:100
+msgid "100% Height?"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:174
+msgid "Parent Menu Arrow"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:195
+msgid "Menu Icon"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:206
+msgid "Submenu Menu Icon"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:217
+msgid "Menu Description"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:238
+msgid "Menu Badge"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:277
+msgid "Submenu Current Item"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:287
+msgid "Submenu Box"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:305
+msgid "Responsive Hamburger Icon"
+msgstr ""
+
+#: includes/elements/components/backend/menu-backend.php:316
+msgid "Responsive Menu Box"
+msgstr ""
+
+#: includes/elements/components/backend/profile-backend.php:5
+msgid "Profile Settings"
+msgstr ""
+
+#: includes/elements/components/backend/profile-backend.php:44
+#: includes/elements/components/backend/profile-backend.php:187
+msgid "Name"
+msgstr ""
+
+#: includes/elements/components/backend/profile-backend.php:209
+msgid "Socials Text"
+msgstr ""
+
+#: includes/elements/components/backend/profile-backend.php:231
+msgid "Socials Box"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:5
+msgid "language Settings"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:35
+msgid "Select your installed plugin"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:39
+msgid "WPML"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:40
+msgid "Polylang"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:51
+msgid "Dropdown without flag"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:52
+msgid "Inline with flag + name"
+msgstr ""
+
+#: includes/elements/components/backend/language-backend.php:53
+msgid "Inline just flag"
+msgstr ""
+
+#: includes/elements/components/backend/header-column-backend.php:5
+msgid "Column Area"
+msgstr ""
+
+#: includes/elements/components/backend/icon-content-backend.php:62
+msgid "Select your design icon"
+msgstr ""
+
+#: includes/elements/components/backend/cart-backend.php:5
+msgid "Woocommerce Cart"
+msgstr ""
+
+#: includes/elements/components/backend/cart-backend.php:35
+msgid "Select Cart Icon"
+msgstr ""
+
+#: includes/elements/components/backend/cart-backend.php:84
+msgid "Counter"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:5
+msgid "Icon Menu Settings"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:34
+msgid "Select Menu"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:39
+msgid "Select Menu Icon"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:43
+msgid "Select Menu Text"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:131
+msgid "Dropdown Box"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:166
+msgid "Menu Item Text"
+msgstr ""
+
+#: includes/elements/components/backend/icon-menu-backend.php:184
+msgid "Menu Item Icon"
+msgstr ""
+
+#. Name of the plugin
+msgid "LA-Studio Header Builder"
+msgstr ""
+
+#. Description of the plugin
+msgid "This plugin use only for LA-Studio theme"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://la-studioweb.com/"
+msgstr ""
+
+#. Author of the plugin
+msgid "LA-Studio"
+msgstr ""

@@ -1,0 +1,46 @@
+/* #whatsAppButton {
+	display: none;
+}
+
+svg {
+	border: 5px solid currentColor;
+	fill: currentColor;
+}
+
+@media only screen and (max-width: 600px) {
+	.wab-cont {
+		position: fixed;
+		right: 0;
+		bottom: 10%;
+		z-index: 99999;
+  }
+  
+	#whatsAppButton {
+		display: block;
+		position: relative;
+		z-index: 9999;
+		margin-top: -25px;
+		cursor: pointer;
+		min-width: 50px;
+		max-width: 150px;
+		color: #fff;
+		text-align: center;
+		padding: 10px;
+		margin: 0 auto 0 auto;
+		background: #20B038;
+		-webkit-transition: All 0.5s ease;
+		-moz-transition: All 0.5s ease;
+		-o-transition: All 0.5s ease;
+		-ms-transition: All 0.5s ease;
+		transition: All 0.5s ease;
+	}
+	
+	#whatsAppButton:before {
+		margin-left: 5px;
+    	margin-right: 5px;
+		content: url(/wp-content/themes/html5blanknew/img/whatsapp-logo2.svg);
+		max-width: 20px;
+		max-height: 20px;
+		fill: currentColor;
+	}
+} */

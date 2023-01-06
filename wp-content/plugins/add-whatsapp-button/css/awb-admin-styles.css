@@ -1,0 +1,206 @@
+h2 {
+  font-size: 1.5em;
+}
+
+@media screen and (min-width: 783px) {
+  h2.awb-button-design-title {
+    margin: 0;
+  }
+}
+
+#awb_breakpoint {
+  margin-top: 16px;
+}
+
+.awb-hours {
+  display: inline-block;
+  width: 80px;
+}
+
+.awb-hide {
+	display: none;
+}
+
+#awb_hide_button {
+  margin-top: 16px;
+}
+
+#awb_hide_button .description.radio-description {
+  margin-bottom: 14px;
+  margin-left: 25px;
+}
+
+.wp-admin.rtl .awb-mu-select {
+  float: right;
+}
+
+.wp-color-result-text {
+  line-height: 23px;
+}
+
+.wp-admin .awb-tab-content-wrapper {
+  display: none;
+}
+
+.wp-admin .awb-tab-content-wrapper.awb-tab-active {
+  display: block;
+}
+
+#bdtab .form-table {
+  max-width: 549px;
+  margin-right: 20px;
+  float: left;
+}
+
+form p.submit {
+  clear: both;
+}
+
+form p.submit input.button.button-primary {
+  margin-right: 10px;
+}
+
+/*!
+ * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
+ * Copyright 2013 - 2017 pixelsign
+ * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
+ * Last Build: Tue Nov 14 2017 12:40:57
+ */
+/*!
+ * html5-device-mockups (https://github.com/pixelsign/html5-device-mockups)
+ * Copyright 2013 - 2017 pixelsign
+ * Licensed under MIT (https://github.com/pixelsign/html5-device-mockups/blob/master/LICENSE.txt)
+ * Last Build: Tue Nov 14 2017 12:39:20
+ */
+
+.device-wrapper {
+  width: 100%;
+  max-width: 300px;
+  float: left;
+  margin-top: .5em;
+  margin-bottom: 20px;
+}
+
+.device {
+  position: relative;
+  background-size: cover;
+}
+
+.device .screen {
+  position: absolute;
+  background-size: cover;
+  pointer-events: none;
+}
+
+.device-wrapper .screen .gray-logo, .device-wrapper .screen .gray-menu, .device-wrapper .screen .gray-row, .device-wrapper .screen .gray-row.gray-row-box {
+  background-color: #eeeeee;
+  background: linear-gradient(45deg, rgba(238,238,238,1) 0%,rgba(0,0,0,0.01) 100%)
+}
+
+.device-wrapper .screen .gray-logo {
+  height: 8%;
+  width: 20%;
+  margin: 6% 0px 12% 5%;
+  float: left;
+}
+
+.device-wrapper .screen .gray-menu {
+  height: 4%;
+  width: 48%;
+  margin: 9.5% 5% 10% 0px;
+  float: right;
+}
+
+.device-wrapper .screen .gray-row {
+  height: 5%;
+  width: 90%;
+  margin: 7% auto;
+  border-radius: 2px;
+  clear: both;
+}
+
+.device-wrapper .screen .gray-row.gray-row-box {
+  height: 24%;
+}
+
+.device-wrapper .screen .gray-row-cont {
+  width: 90%;
+  height: 30%;
+  margin: auto;
+  clear: both;
+  display: flex;
+  justify-content: space-between;
+}
+
+.device-wrapper .screen .gray-row-cont-inner {
+  width: 47%;
+  height: 100%;
+}
+
+.device-wrapper .screen .gray-row-cont .gray-row.gray-row-half {
+  width: 100%;
+  height: 16%;
+  margin-bottom: 15%;
+}
+
+.device-wrapper .screen .gray-row-cont .gray-row-half-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  background: -moz-linear-gradient(45deg, rgba(238,238,238,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(45deg, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(45deg, rgba(238,238,238,1) 0%,rgba(125,185,232,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.device .button {
+  position: absolute;
+  cursor: pointer;
+}
+
+.device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] {
+  padding-bottom: 203.10345%;
+  background-image: url(../img/portrait_black.png);
+}
+
+.device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] .screen {
+  background-color: white;
+  top: 11.99774%;
+  left: 6.2069%;
+  width: 87.35632%;
+  height: 76.06112%;
+}
+
+.device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] .screen .awb-preview {
+  padding: 10px;
+}
+    
+.device[data-device="iPhone7"][data-orientation="portrait"][data-color="black"] .button {
+  top: 89.53028%;
+  left: 42.29885%;
+  width: 15.74713%;
+  height: 7.75325%;
+  border-radius: 16px;
+  opacity: 0;
+}
+
+.device[data-device="iPhone7"][data-orientation="landscape"][data-color="black"] {
+  padding-bottom: 49.23599%;
+  background-image: url(../img/landscape_black.png);
+}
+
+.device[data-device="iPhone7"][data-orientation="landscape"][data-color="black"] .screen {
+  top: 6.43678%;
+  left: 11.99774%;
+  width: 76.06112%;
+  height: 87.35632%;
+}
+
+.device[data-device="iPhone7"][data-orientation="landscape"][data-color="black"] .button {
+  top: 41.95402%;
+  left: 89.53028%;
+  width: 7.75325%;
+  height: 15.74713%;
+  border-radius: 16px;
+  opacity: 0;
+}
